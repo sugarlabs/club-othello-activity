@@ -123,7 +123,7 @@ class PygameActivity(activity.Activity):
         toolbar = activity.ActivityToolbar(self)
         #toolbar.show()
         try:
-            self.set_toolbar_box(toolbar)
+            self.set_toolbar_box(toolbar)            
         except:
             self.set_toolbox(toolbar)
         def shared_cb(*args, **kwargs):

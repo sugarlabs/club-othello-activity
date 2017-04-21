@@ -1,7 +1,7 @@
 [Activity]
 name = ClubOthello 
-activity_version = 1
-host_version = 1
+activity_version = 2
+host_version = 2
 service_name = org.laptop.community.ClubOthello
 icon = activity
 exec = sugar-activity ClubOthelloActivity.ClubOthelloActivity

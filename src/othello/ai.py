@@ -1,6 +1,7 @@
 from referee import Referee
 from utils import Coordinate
 from board import *
+import logging
 
 MAS_INFI = 100000
 MEN_INFI = -100000
@@ -9,6 +10,9 @@ MIN = -1
 ESTADO_GANADOR = 50000
 ESTADO_PERDEDOR = -50000
 ESTADO_EMPATE = 0
+
+log = logging.getLogger( 'src.othello.ai' )
+log.setLevel( logging.DEBUG )
 
 class State:
     def __init__(self, tablero, turno=NEGRO, etiqueta=MAX, profundidad=0, cantidad_hnos=0):
@@ -39,13 +43,13 @@ class Ai:
             self.__profundidad_maxima = 2
             self.__frontera_peso = 1      #Cuanto mas fichas tengas en la frontera es peor
             self.__movilidad_peso = 0     #Cuantas jugadas posible se tiene
-            self.__estabilidad_peso = 7   #Cuantas mas fichas logres estabilizar en la jugada mejor
+            self.__estabilidad_peso = 3   #Cuantas mas fichas logres estabilizar en la jugada mejor
             self.__diferencia_cantidad_fichas_peso = 1
         elif nivel == Ai.DIFICIL:
             self.__profundidad_maxima = 3
             self.__frontera_peso = 2      #Cuanto mas fichas tengas en la frontera es peor
             self.__movilidad_peso = 1     #Cuantas jugadas posible se tiene
-            self.__estabilidad_peso = 10  #Cuantas mas fichas logres estabilizar en la jugada mejor
+            self.__estabilidad_peso = 5  #Cuantas mas fichas logres estabilizar en la jugada mejor
             self.__diferencia_cantidad_fichas_peso = 4
         else:
             raise Exception("Nivel desconocido (Ai Class)")
@@ -73,6 +77,7 @@ class Ai:
             l = self.__value(estado)
             return l
         else:
+            e = MEN_INFI
             n_estados = self.__childrens(estado)
             for nuevo_estado in n_estados:
                 e = -1 * self.__negamax(nuevo_estado, -1*beta, -1*alpha)
@@ -81,7 +86,7 @@ class Ai:
                 if alpha < e:
                     alpha = e
                     estado.mejor_sucesor = nuevo_estado.iniciador
-            return alpha
+            return e
 
     def __is_goal_state(self,estado):
         #Si no existen mas jugadas para ninguno de los colores con el tablero actual entonces el juego termino y estamos en una hoja
@@ -116,7 +121,10 @@ class Ai:
         if estado.profundidad >= self.__profundidad_maxima:
             return True
         else:
-            return False
+            if len(Referee.possibles_moves(estado.turno,estado.tablero)) == 0:
+                return True
+            else:
+                return False
 
     def __childrens(self,estado):
         n_etiqueta = estado.etiqueta * -1
