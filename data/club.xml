@@ -1,0 +1,67 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> //-->
+
+<club>
+	<configuration>
+		<characters>
+			<character id = "ch1" name = "pablo gris" room = "r2"></character>
+			<character id = "ch2" name = "don cano" room = "r5"></character>
+			<character id = "ch3" name = "pedro madera" room = "r8"></character>
+			<character id = "ch4" name = "sofia dulce" room = "r9"></character>
+			<character id = "ch5" name = "protasio" room = "r11"></character>
+		</characters>
+		<rooms>
+			<room id = "r0" name = "entrada" floor = "no" owner = ""></room>
+			<room id = "r1" name = "primer piso" floor = "yes" owner = ""></room>
+			<room id = "r2" name = "salon de clases" floor = "no" owner = "ch1"></room>
+			<room id = "r3" name = "secretaria" floor = "no" owner = ""></room>
+			<room id = "r4" name = "segundo piso" floor = "yes" owner = ""></room>
+			<room id = "r5" name = "salon de desafios" floor = "no" owner = "ch2"></room>
+			<room id = "r6" name = "salon de encuentros" floor = "no" owner = ""></room>
+			<room id = "r7" name = "tercer piso" floor = "yes" owner = ""></room>
+			<room id = "r8" name = "habitacion pedro madera" floor = "no" owner = "ch3"></room>
+			<room id = "r9" name = "habitacion sofia dulce" floor = "no" owner = "ch4"></room>
+			<room id = "r10" name = "cuarto piso" floor = "yes" owner = ""></room>
+			<room id = "r11" name = "habitacion presidente" floor = "no" owner = "ch5"></room>
+		</rooms>
+		<alone_initial_room id = "r0"></alone_initial_room>
+		<shared_initial_room id = "r6"></shared_initial_room>
+	</configuration>
+	<navigation>
+		<room id = "r0">
+			<connection up="r1" down="" left="" right=""></connection>
+		</room>
+		<room id = "r1">
+			<connection up="r4" down="r0" left="r2" right="r3"></connection>
+		</room>
+		<room id = "r2">
+			<connection up="" down="" left="" right="r1"></connection>
+		</room>
+		<room id = "r3">
+			<connection up="" down="" left="r1" right=""></connection>
+		</room>
+		<room id = "r4">
+			<connection up="r7" down="r1" left="r5" right="r6"></connection>
+		</room>
+		<room id = "r5">
+			<connection up="" down="" left="" right="r4"></connection>
+		</room>
+		<room id = "r6">
+			<connection up="" down="" left="r4" right=""></connection>
+		</room>
+		<room id = "r7">
+			<connection up="r10" down="r4" left="r8" right="r9"></connection>
+		</room>
+		<room id = "r8">
+			<connection up="" down="" left="" right="r7"></connection>
+		</room>
+		<room id = "r9">
+			<connection up="" down="" left="r7" right=""></connection>
+		</room>
+		<room id = "r10">
+			<connection up="" down="r7" left="" right="r11"></connection>
+		</room>
+		<room id = "r11">
+			<connection up="" down="" left="r10" right=""></connection>
+		</room>
+	</navigation>
+</club>

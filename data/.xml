@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+
+<user_data>
+	<state name="state0"></state>
+	<skill_level constant="500"></skill_level>
+	<character_relation name="pablo gris" relation_constant="500"></character_relation>
+	<character_relation name="pedro madera" relation_constant="500"></character_relation>
+	<character_relations name="don cano" relation_constant="500"></character_relations>
+	<character_relations name="sofia dulce" relation_constant="500"></character_relations>
+	<character_relations name="protasio" relation_constant="500"></character_relations>
+	<medals></medals>
+	<trophies></trophies>
+</user_data>

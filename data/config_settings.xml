@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<configuration_settings>
+	<initial_state name = "state0"></initial_state>
+	<initial_context constant = "704"></initial_context>
+	<dialogues interrupt = "yes"></dialogues>
+	<sounds interrupt = "yes"></sounds>
+	<shorcuts games="yes" tutorials="yes"></shorcuts>
+</configuration_settings>

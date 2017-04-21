@@ -1,0 +1,629 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> //-->
+
+<hyperhistory>
+<states>
+	<state0>Bienvenida y recorrida por el club
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "no"></room>
+				<room id = "r3" enable = "no"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "no"></room>
+				<room id = "r6" enable = "no"></room>
+				<room id = "r7" enable = "no"></room>
+				<room id = "r8" enable = "no"></room>
+				<room id = "r9" enable = "no"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "no"></character>
+				<character id ="ch2" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch3" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch4" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name = "usuario_nuevo"></precondition>
+		<actions></actions>
+		<events>
+			<event name="bienvenida" type="dialogue" consequences = "change_state" new_state="state1">Bienvenida y recorrido por el club</event>
+		</events>
+	</state0>
+	<state1>Luego de pasar la introduccion al club y antes de tomar el tutorial de aprendizaje de Othello
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+			    <room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "no"></room>
+				<room id = "r7" enable = "no"></room>
+				<room id = "r8" enable = "no"></room>
+				<room id = "r9" enable = "no"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "no"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "no"></character>
+				<character id ="ch4" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name = "state0">Dialogo de bienvenida</precondition>
+		<actions>
+			<action name="navegacion" consequences = "keep_state" new_state="">Navegacion por el club</action>
+			<action name="tutorial1_i" consequences = "keep_state" new_state="">Tutorial Othello incompleto</action>
+			<action name="tutorial1" consequences = "change_state" new_state="state2">Tutorial Othello completo</action>
+		</actions>
+		<events>
+		</events>
+	</state1>
+	<state2>Habiendo completado el Tutorial de aprendizaje de Othello y antes de tomar el primer desafio
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "no"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "no"></character>
+				<character id ="ch4" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state1">Haber completado el tutorial de othello</precondition>
+		<actions>
+			<action name="VPM" consequences = "keep_state" new_state="">Visita a Pedro Madera</action>
+			<action name="TO" consequences = "keep_state" new_state="">Tutorial Othello</action>
+			<action name="incomplete_chal_1" consequences = "keep_state" new_state="">Primer par de desafios incompletos</action>
+			<action name="complete_chal_1" consequences = "change_state" new_state="state3">Primer par de desafios completos</action>
+		</actions>
+		<events>
+		</events>
+	</state2>
+	<state3>Habiendo pasado el primer par de desafios
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "no"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state2">Haber pasado el primer par de desafios</precondition>
+		<actions>
+			<action name="1D" consequences = "keep_state" new_state = "">Tomar desafios</action>
+			<action name="TO" consequences = "keep_state" new_state = "">Tutorial Othello</action>
+			<action name="PPPPM" consequences = "keep_state" new_state = "">Perder primera partida contra Pedro Madera</action>
+			<action name="won_game" consequences = "change_state" new_state = "state4">Ganar primera partida contra Pedro Madera</action>
+		</actions>
+		<events>
+		</events>
+	</state3>
+	<state4>Habiendo ganado la primera partida contra Pedro Madera
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "no"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state3">Haber ganado la primera partida contra Pedro Madera</precondition>
+		<actions>
+			<action name="1D" consequences = "keep_state" new_state = "">Tomar desafios</action>
+			<action name="TO" consequences = "keep_state" new_state = "">Tutorial Othello</action>
+			<action name="PSPPM" consequences = "keep_state" new_state = "">Perder segunda partida contra Pedro Madera</action>
+			<action name="won_game" consequences = "change_state" new_state = "state5">Ganar segunda partida contra Pedro Madera</action>
+		</actions>
+		<events>
+		</events>
+	</state4>
+	<state5>Habiendo ganado la segunda partida contra Pedro Madera
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "no"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state4">Haber ganado la segunda partida contra Pedro Madera</precondition>
+		<actions>
+			<action name="1D" consequences = "keep_state" new_state = "">Segundo par de desafios incompletos</action>
+			<action name="TO" consequences = "keep_state" new_state = "">Tutorial Othello</action>
+			<action name="complete_chal_2" consequences = "change_state" new_state="state6">Segundo par de desafios completos</action>
+		</actions>
+		<events>
+		</events>
+	</state5>
+	<state6>Habiendo completado el segundo par de desafios con Don Cano
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "no"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "no" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state5">Haber pasado el segundo par de desafios</precondition>
+		<actions>
+			<action name="1D" consequences = "keep_state" new_state = "">Primer par de desafios</action>
+			<action name="2D" consequences = "keep_state" new_state = "">Segundo par de desafios</action>
+			<action name="TO" consequences = "keep_state" new_state = "">Tutorial Othello</action>
+			<action name="won_game" consequences = "change_state" new_state="state7">Ganar tercera partida contra Pedro Madera</action>
+		</actions>
+		<events>
+		</events>
+	</state6>
+	<state7>Habiendo ganado la tercera partida contra pedro madera
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "no"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state6">Haber ganado la tercera partida contra Pedro Madera</precondition>
+		<actions>
+		</actions>
+		<events>
+			<event name="presentacion" type="dialogue" consequences = "change_state" new_state="state8">Sofia Dulce se presenta</event>
+		</events>
+	</state7>
+	<state8>Habiendo pasado la presentacion de Sofia Dulce
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state7">Haber pasado la presentacion de Sofia Dulce</precondition>
+		<actions>
+			<action name="1D" consequences = "keep_state" new_state = "">Primer par de desafios</action>
+			<action name="2D" consequences = "keep_state" new_state = "">Segundo par de desafios</action>
+			<action name="PPM" consequences = "keep_state" new_state = "">Tomar partidas contra Pedro Madera</action>
+			<action name="tutorial2" consequences = "change_state" new_state="state9">Ganar tercera partida contra Pedro Madera</action>
+		</actions>
+		<events>
+		</events>
+	</state8>
+	<state9>Habiendo pasado el segundo Tutorial con Pablo Gris
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "no"></room>
+				<room id = "r11" enable = "no"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "no"></character>
+				<character id ="ch5" enable_dialogue = "no" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state8">Habiendo pasado el segundo Tutorial con Pablo Gris</precondition>
+		<actions>
+			<action name="1D" consequences = "keep_state" new_state = "">Primer par de desafios</action>
+			<action name="2D" consequences = "keep_state" new_state = "">Segundo par de desafios</action>
+			<action name="PPM" consequences = "keep_state" new_state = "">Tomar partidas contra Pedro Madera</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="complete_chal_3" consequences = "change_state" new_state="state10">Desafios por medallas de bronce</action>
+		</actions>
+		<events>
+		</events>
+	</state9>
+	<state10>Habiendo pasado el desafio que da como premio 5 medallas de bronce
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "yes"></room>
+				<room id = "r11" enable = "yes"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch5" enable_dialogue = "yes" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state9">Habiendo pasado el desafio por 5 medallas de bronce</precondition>
+		<actions>
+			<action name="1D" consequences = "keep_state" new_state = "">Primer par de desafios</action>
+			<action name="2D" consequences = "keep_state" new_state = "">Segundo par de desafios</action>
+			<action name="PPM" consequences = "keep_state" new_state = "">Jugar partidas contra Pedro Madera</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="infection_club" consequences = "change_state" new_state="state11">Protasio infecto con un virus las computadoras del club</action>
+			<action name="won_game" consequences = "change_state" new_state="state11">Gano primera partida contra Sofia Dulce</action>
+		</actions>
+		<events>
+		</events>
+	</state10>
+	<state11>Habiendo ganado la primera partida contra Sofia Dulce o conociendo al presidente y que este haya infectado el club
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "yes"></room>
+				<room id = "r11" enable = "yes"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch5" enable_dialogue = "yes" enable_play = "no"></character>
+			</characters>
+		</situation>
+		<precondition name= "state10">Habiendo ganado la primera partida contra Sofia Dulce o conociendo al presidente y que este haya infectado el club</precondition>
+		<actions>
+			<action name="PPM" consequences = "keep_state" new_state = "">Jugar partidas contra Pedro Madera</action>
+			<action name="PSD" consequences = "keep_state" new_state = "">Jugar partidas contra Sofia Dulce</action>
+			<action name="1T" consequences = "keep_state" new_state="">Tomar primer tutorial con Pablo Gris</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="VPT" consequences = "keep_state" new_state="">Visitar a protasio</action>
+			<action name="complete_chal_4" consequences = "change_state" new_state="state12">Habiendo completado el desafio c1</action>
+		</actions>
+		<events>
+		</events>
+	</state11>
+	<state12>Habiendo pasado el desafio de realizar jugadas sin jugadas posibles marcadas
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "yes"></room>
+				<room id = "r11" enable = "yes"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch5" enable_dialogue = "yes" enable_play = "yes"></character>
+			</characters>
+		</situation>
+		<precondition name= "state11">Habiendo ganado la primera partida contra Sofia Dulce o conociendo al presidente y que este haya infectado el club</precondition>
+		<actions>
+			<action name="PPM" consequences = "keep_state" new_state = "">Jugar partidas contra Pedro Madera</action>
+			<action name="PSD" consequences = "keep_state" new_state = "">Jugar partidas contra Sofia Dulce</action>
+			<action name="1T" consequences = "keep_state" new_state="">Tomar primer tutorial con Pablo Gris</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="TDDC" consequences = "keep_state" new_state="">Tomar desafios con Don Cano</action>
+			<action name="won_game" consequences = "change_state" new_state="state13">Gano primera partida contra Protasio</action>
+		</actions>
+		<events>
+		</events>
+	</state12>
+	<state13>Habiendo ganado la primera partida contra Protasio
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "yes"></room>
+				<room id = "r11" enable = "yes"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch5" enable_dialogue = "yes" enable_play = "yes"></character>
+			</characters>
+		</situation>
+		<precondition name= "state12">Habiendo ganado la pasado el desafio de realizar jugadas sin jugadas posibles marcadas</precondition>
+		<actions>
+			<action name="PPM" consequences = "keep_state" new_state = "">Jugar partidas contra Pedro Madera</action>
+			<action name="PSD" consequences = "keep_state" new_state = "">Jugar partidas contra Sofia Dulce</action>
+			<action name="1T" consequences = "keep_state" new_state="">Tomar primer tutorial con Pablo Gris</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="TDDC" consequences = "keep_state" new_state="">Tomar desafios con Don Cano</action>
+			<action name="won_game" consequences = "change_state" new_state="state14">Gano segunda partida contra Protasio</action>
+		</actions>
+		<events>
+		</events>
+	</state13>
+	<state14>Habiendo ganado la segunda partida contra Protasio
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "yes"></room>
+				<room id = "r11" enable = "yes"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch5" enable_dialogue = "yes" enable_play = "yes"></character>
+			</characters>
+		</situation>
+		<precondition name= "state13">Habiendo ganado la primera partida contra Protasio</precondition>
+		<actions>
+			<action name="PPM" consequences = "keep_state" new_state = "">Jugar partidas contra Pedro Madera</action>
+			<action name="PSD" consequences = "keep_state" new_state = "">Jugar partidas contra Sofia Dulce</action>
+			<action name="1T" consequences = "keep_state" new_state="">Tomar primer tutorial con Pablo Gris</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="TDDC" consequences = "keep_state" new_state="">Tomar desafios con Don Cano</action>
+			<action name="won_game" consequences = "change_state" new_state="state15">Gano tercera partida contra Protasio</action>
+			<action name="won_game_and_challenges_completed" consequences = "change_state" new_state="state16">Gano tercera partida contra Protasio y completo todos los desafios</action>
+		</actions>
+		<events>
+		</events>
+	</state14>
+	<state15>Habiendo ganado la tercera partida contra Protasio
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "yes"></room>
+				<room id = "r11" enable = "yes"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch5" enable_dialogue = "yes" enable_play = "yes"></character>
+			</characters>
+		</situation>
+		<precondition name= "state14">Habiendo ganado la segunda partida contra Protasio</precondition>
+		<actions>
+			<action name="PPM" consequences = "keep_state" new_state = "">Jugar partidas contra Pedro Madera</action>
+			<action name="PSD" consequences = "keep_state" new_state = "">Jugar partidas contra Sofia Dulce</action>
+			<action name="1T" consequences = "keep_state" new_state="">Tomar primer tutorial con Pablo Gris</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="TDDC" consequences = "keep_state" new_state="">Tomar desafios con Don Cano</action>
+			<action name="challenges_completed" consequences = "change_state" new_state="state16">Ganar las medallas de oro de todos los desafios</action>
+		</actions>
+		<events>
+		</events>
+	</state15>
+	<state16>Habiendo ganado la tercera partida contra Protasio y ganado todas las medallas de oro de los desafios
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "yes"></room>
+				<room id = "r11" enable = "yes"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch5" enable_dialogue = "yes" enable_play = "yes"></character>
+			</characters>
+		</situation>
+		<precondition name= "state15">Habiendo ganado la tercera partida contra Protasio</precondition>
+		<actions>
+			<action name="PPM" consequences = "keep_state" new_state = "">Jugar partidas contra Pedro Madera</action>
+			<action name="PSD" consequences = "keep_state" new_state = "">Jugar partidas contra Sofia Dulce</action>
+			<action name="PPT" consequences = "keep_state" new_state = "">Jugar partidas contra Protasio</action>
+			<action name="1T" consequences = "keep_state" new_state="">Tomar primer tutorial con Pablo Gris</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="TDDC" consequences = "keep_state" new_state="">Tomar desafios con Don Cano</action>
+			<action name="after_end" consequences = "change_state" new_state="state17">Pasar final del juego</action>
+		</actions>
+		<events>
+			<event name="end_game" type="dialogue" consequences = "keep_state" new_state="">Final del Juego</event>
+		</events>
+	</state16>
+	<state17>Habiendo pasado el final del juego
+		<situation>
+			<rooms>
+				<room id = "r0" enable = "yes"></room>
+				<room id = "r1" enable = "yes"></room>
+				<room id = "r2" enable = "yes"></room>
+				<room id = "r3" enable = "yes"></room>
+				<room id = "r4" enable = "yes"></room>
+				<room id = "r5" enable = "yes"></room>
+				<room id = "r6" enable = "yes"></room>
+				<room id = "r7" enable = "yes"></room>
+				<room id = "r8" enable = "yes"></room>
+				<room id = "r9" enable = "yes"></room>
+				<room id = "r10" enable = "yes"></room>
+				<room id = "r11" enable = "yes"></room>
+			</rooms>
+			<characters>
+				<character id ="ch1" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch2" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch3" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch4" enable_dialogue = "yes" enable_play = "yes"></character>
+				<character id ="ch5" enable_dialogue = "yes" enable_play = "yes"></character>
+			</characters>
+		</situation>
+		<precondition name= "state16">Habiendo pasado el final de juego</precondition>
+		<actions>
+			<action name="PPM" consequences = "keep_state" new_state = "">Jugar partidas contra Pedro Madera</action>
+			<action name="PSD" consequences = "keep_state" new_state = "">Jugar partidas contra Sofia Dulce</action>
+			<action name="PPT" consequences = "keep_state" new_state = "">Jugar partidas contra Protasio</action>
+			<action name="1T" consequences = "keep_state" new_state="">Tomar primer tutorial con Pablo Gris</action>
+			<action name="2T" consequences = "keep_state" new_state="">Tomar segundo tutorial con Pablo Gris</action>
+			<action name="TDDC" consequences = "keep_state" new_state="">Tomar desafios con Don Cano</action>
+		</actions>
+		<events>
+		</events>
+	</state17>
+</states>
+</hyperhistory>

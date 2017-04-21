@@ -1,0 +1,787 @@
+<!-- <?xml version="1.0"?> //-->
+
+<resources>
+	<sounds>
+		<club type="voz" name="voz_inicio">/resources/sounds/club/voz/club_de_othello.ogg</club>
+		<club type="voz" name="primer piso">/resources/sounds/club/voz/room_floor0_name.ogg</club>
+		<club type="voz" name="salon de clases">/resources/sounds/club/voz/room_class_name.ogg</club>
+		<club type="voz" name="secretaria">/resources/sounds/club/voz/room_office_name.ogg</club>
+       <club type="voz" name="segundo piso">/resources/sounds/club/voz/room_floor1_name.ogg</club>
+       <club type="voz" name="salon de desafios">/resources/sounds/club/voz/room_challenge_name.ogg</club>
+       <club type="voz" name="salon de encuentros">/resources/sounds/club/voz/room_versus_name.ogg</club>
+       <club type="voz" name="tercer piso">/resources/sounds/club/voz/room_floor2_name.ogg</club>
+       <club type="voz" name="habitacion pedro madera">/resources/sounds/club/voz/room_pm_name.ogg</club>
+       <club type="voz" name="habitacion sofia dulce">/resources/sounds/club/voz/room_sd_name.ogg</club>
+		<club type="voz" name="cuarto piso">/resources/sounds/club/voz/room_floor3_name.ogg</club>
+       <club type="voz" name="habitacion presidente">/resources/sounds/club/voz/room_pt_name.ogg</club>
+		<club type="voz" name="entrada sel">/resources/sounds/club/voz/door_exit_selected.ogg</club>
+		<club type="voz" name="primer piso sel">/resources/sounds/club/voz/door_floor0_selected.ogg</club>
+		<club type="voz" name="salon de clases sel">/resources/sounds/club/voz/door_class_selected.ogg</club>
+		<club type="voz" name="secretaria sel">/resources/sounds/club/voz/door_office_selected.ogg</club>
+		<club type="voz" name="segundo piso sel">/resources/sounds/club/voz/door_floor1_selected.ogg</club>
+		<club type="voz" name="salon de desafios sel">/resources/sounds/club/voz/door_challenge_selected.ogg</club>
+		<club type="voz" name="salon de encuentros sel">/resources/sounds/club/voz/door_versus_selected.ogg</club>
+		<club type="voz" name="tercer piso sel">/resources/sounds/club/voz/door_floor2_selected.ogg</club>
+		<club type="voz" name="habitacion pedro madera sel">/resources/sounds/club/voz/door_pm_selected.ogg</club>
+		<club type="voz" name="habitacion sofia dulce sel">/resources/sounds/club/voz/door_sd_selected.ogg</club>
+		<club type="voz" name="habitacion presidente sel">/resources/sounds/club/voz/door_pt_selected.ogg</club>
+		<club type="voz" name="cuarto piso sel">/resources/sounds/club/voz/door_floor3_selected.ogg</club>
+		<club type="voz" name="no habitacion sel">/resources/sounds/club/voz/door_none_selected.ogg</club>
+		<club type="voz" name="entrada sel info">/resources/sounds/club/voz/door_exit_desc.ogg</club>
+		<club type="voz" name="primer piso sel info">/resources/sounds/club/voz/door_floor0_desc.ogg</club>
+		<club type="voz" name="salon de clases sel info">/resources/sounds/club/voz/door_class_desc.ogg</club>
+        <club type="voz" name="secretaria sel info">/resources/sounds/club/voz/door_office_desc.ogg</club>
+		<club type="voz" name="segundo piso sel info">/resources/sounds/club/voz/door_floor1_desc.ogg</club>
+		<club type="voz" name="salon de desafios sel info">/resources/sounds/club/voz/door_challenge_desc.ogg</club>
+		<club type="voz" name="salon de encuentros sel info">/resources/sounds/club/voz/door_versus_desc.ogg</club>
+		<club type="voz" name="tercer piso sel info">/resources/sounds/club/voz/door_floor2_desc.ogg</club>
+		<club type="voz" name="habitacion pedro madera sel info">/resources/sounds/club/voz/door_pm_desc.ogg</club>
+		<club type="voz" name="habitacion sofia dulce sel info">/resources/sounds/club/voz/door_sd_desc.ogg</club>
+		<club type="voz" name="cuarto piso sel info">/resources/sounds/club/voz/door_floor3_desc.ogg</club>
+		<club type="voz" name="habitacion presidente sel info">/resources/sounds/door_pm_desc.ogg</club>
+		<club type="voz" name="primer piso info">/resources/sounds/club/voz/room_floor0_desc.ogg</club>
+		<club type="voz" name="segundo piso info">/resources/sounds/club/voz/room_floor1_desc.ogg</club>
+		<club type="voz" name="tercer piso info">/resources/sounds/club/voz/room_floor2_desc.ogg</club>
+		<club type="voz" name="bloqueo_acceso_piso_4">/resources/sounds/club/voz/door_no_pt_desc.ogg</club>
+		<club type="voz" name="bloqueo_acceso_pieza_vocal">/resources/sounds/club/voz/door_no_sd_desc.ogg</club>
+		<club type="voz" name="bloqueo_acceso_salon_encuentros">/resources/sounds/club/voz/door_no_versus_desc.ogg</club>
+		<club type="voz" name="bloqueo_acceso_pieza_gral">/resources/sounds/club/voz/este_cuarto_esta_cerrado.ogg</club>
+		<club type="voz" name="cuarto piso info">/resources/sounds/room_floor3_desc.ogg</club>
+		<club type="fx" name="puerta">/resources/sounds/club/fx/fx_door.ogg</club>
+		<club type="fx" name="ascensor_arriba">/resources/sounds/club/fx/fx_elev_up.ogg</club>
+		<club type="fx" name="ascensor_abajo">/resources/sounds/club/fx/fx_elev_down.ogg</club>
+		<club type="fx" name="pasos">/resources/sounds/club/fx/fx_steps.ogg</club>
+		<club type="fx" name="infeccion">/resources/sounds/club/fx/fx_infection.ogg</club>
+		<club type="voz" name="secretaria desc">/resources/sounds/club/secretaria/office_room_desc.ogg</club>
+		<club type="voz" name="secretaria intro">/resources/sounds/club/secretaria/office_room_title.ogg</club>
+		<club type="voz" name="secretaria info">/resources/sounds/club/secretaria/office_room_help.ogg</club>
+		<club type="voz" name="ingresando a la red">/resources/sounds/club/salon_encuentros/ingresando_red.ogg</club>
+		<club type="voz" name="espere">/resources/sounds/club/salon_encuentros/ingresando_a_la_red_help.ogg</club>
+		<club type="voz" name="conexion exitosa">/resources/sounds/club/salon_encuentros/conexion_exitosa.ogg</club>
+		<club type="voz" name="esperando oponente">/resources/sounds/club/salon_encuentros/esperando_oponente.ogg</club>
+		<club type="voz" name="error de conexion">/resources/sounds/club/salon_encuentros/error_conexion.ogg</club>
+		<club type="voz" name="saliendo salon desafios">/resources/sounds/club/salon_encuentros/saliendo_salon_encuentros.ogg</club>
+		<club type="voz" name="buscando oponentes">/resources/sounds/club/salon_encuentros/buscando_oponentes.ogg</club>
+		<club type="voz" name="seleccione oponente">/resources/sounds/club/salon_encuentros/seleccione_oponente.ogg</club>
+		<club type="voz" name="comenzando partida">/resources/sounds/club/salon_encuentros/comenzando_partida.ogg</club>
+		<club type="voz" name="no se encontraron oponentes">/resources/sounds/club/salon_encuentros/no_hay_oponentes.ogg</club>
+		<club type="voz" name="oponente abandono la partida">/resources/sounds/club/salon_encuentros/oponente_abandono_partida.ogg</club>
+		<club type="voz" name="seleccione opcion">/resources/sounds/club/salon_encuentros/seleccione_opcion.ogg</club>
+		<!-- TABLERO -->
+		<board type="voz" name="fila">/resources/sounds/tablero/voz/row.ogg</board>
+		<board type="voz" name="columna">/resources/sounds/tablero/voz/column.ogg</board>
+		<board type="voz" name="uno">/resources/sounds/tablero/numeros/1.ogg</board>
+		<board type="voz" name="dos">/resources/sounds/tablero/numeros/2.ogg</board>
+		<board type="voz" name="tres">/resources/sounds/tablero/numeros/3.ogg</board>
+		<board type="voz" name="cuatro">/resources/sounds/tablero/numeros/4.ogg</board>
+		<board type="voz" name="vacio">/resources/sounds/tablero/voz/vacio.ogg</board>
+		<board type="voz" name="blanco">/resources/sounds/tablero/voz/blanca.ogg</board>
+		<board type="voz" name="negro">/resources/sounds/tablero/voz/negra.ogg</board>
+		<board type="voz" name="jugada_posible">/resources/sounds/tablero/voz/jugada_posible.ogg</board>
+		<board type="voz" name="no_hay_jugadas_posibles">/resources/sounds/tablero/voz/no_hay_jugadas_posibles.ogg</board>
+		<board type="voz" name="tablero4x4">/resources/sounds/tablero/voz/board4.ogg</board>
+		<board type="voz" name="tablero6x6">/resources/sounds/tablero/voz/board6.ogg</board>
+		<board type="voz" name="tablero8x8">/resources/sounds/tablero/voz/board8.ogg</board>
+		<board type="voz" name="linea_entre">/resources/sounds/tablero/voz/linea_entre.ogg</board>
+		<board type="voz" name="jugada_en">/resources/sounds/tablero/voz/jugada_en.ogg</board>
+		<board type="voz" name="tablero_tiene">/resources/sounds/tablero/voz/tablero_tiene.ogg</board>
+		<board type="voz" name="fichas_blancas">/resources/sounds/tablero/voz/fichas_blancas.ogg</board>
+		<board type="voz" name="ficha_blanca">/resources/sounds/tablero/voz/ficha_blanca.ogg</board>
+		<board type="voz" name="ficha_negra">/resources/sounds/tablero/voz/ficha_negra.ogg</board>
+		<board type="voz" name="fichas_negras">/resources/sounds/tablero/voz/fichas_negras.ogg</board>
+		<board type="voz" name="jugadas_posibles">/resources/sounds/tablero/voz/jugadas_posibles.ogg</board>
+		<board type="fx" name="vacio">/resources/sounds/tablero/fx/fx_empty.ogg</board>
+		<board type="fx" name="blanco">/resources/sounds/tablero/fx/fx_token0.ogg</board>
+		<board type="fx" name="negro">/resources/sounds/tablero/fx/fx_token1.ogg</board>
+		<board type="fx" name="jugada_posible">/resources/sounds/tablero/fx/fx_jugada_posible.ogg</board>
+		<board type="fx" name="mal_mov">/resources/sounds/tablero/fx/fx_out_board.ogg</board>
+		<board type="fx" name="voltear_blanco">/resources/sounds/tablero/fx/fx_change0.ogg</board>
+		<board type="fx" name="voltear_negro">/resources/sounds/tablero/fx/fx_change1.ogg</board>
+		<!-- PARTIDA -->
+		<game type="voz" name="inicio">/resources/sounds/tablero/voz/match_start_0.ogg</game>
+		<game type="voz" name="inicio_leccion">/resources/sounds/tablero/voz/tut_start.ogg</game>
+		<game type="voz" name="turno_numero">/resources/sounds/tablero/voz/turno_numero.ogg</game>
+		<game type="voz" name="no_es_su_turno">/resources/sounds/tablero/voz/no_es_su_turno.ogg</game>
+		<game type="voz" name="es_su_turno">/resources/sounds/tablero/voz/es_su_turno.ogg</game>
+		<game type="voz" name="examine_tablero">/resources/sounds/tablero/voz/board_review.ogg</game>
+		<game type="voz" name="jugador_blanco">/resources/sounds/tablero/voz/jugador_blanco.ogg</game>
+		<game type="voz" name="jugador_negro">/resources/sounds/tablero/voz/jugador_negro.ogg</game>
+		<game type="voz" name="seleccione_jugada">/resources/sounds/tablero/voz/seleccione_una_jugada.ogg</game>
+		<game type="voz" name="no_hay_jugadas_posbiles">/resources/sounds/tablero/voz/no_hay_jugadas_posibles.ogg</game>
+		<game type="voz" name="pasa_el_turno">/resources/sounds/tablero/voz/pasa_el_turno.ogg</game>
+		<game type="voz" name="negro">/resources/sounds/tablero/voz/player_color_black.ogg</game>
+		<game type="voz" name="blanco">/resources/sounds/tablero/voz/player_color_white.ogg</game>
+		<game type="voz" name="fin_partida">/resources/sounds/tablero/voz/match_end0.ogg</game>
+		<game type="voz" name="el_jugador">/resources/sounds/tablero/voz/match_end1.ogg</game>
+		<game type="voz" name="gana_la_partida">/resources/sounds/tablero/voz/match_end2.ogg</game>
+		<game type="voz" name="es_un_empate">/resources/sounds/tablero/voz/match_end3.ogg</game>
+		<game type="voz" name="espere jugada oponente">/resources/sounds/tablero/voz/espere_jugada_oponente.ogg</game>
+		<!-- DESAFIOS -->
+		<game type="voz" name="inicio_desafio">/resources/sounds/tablero/voz/chal_start.ogg</game>
+		<game type="voz" name="desafio">/resources/sounds/tablero/voz/desafio.ogg</game>
+		<game type="voz" name="a1">/resources/sounds/tablero/voz/a1.ogg</game>
+		<game type="voz" name="exp_chal_a1">/resources/sounds/tablero/voz/chal_a1_q.ogg</game>
+		<game type="voz" name="ok_chal_a1">/resources/sounds/tablero/voz/chal_a1_a.ogg</game>
+		<game type="voz" name="a2">/resources/sounds/tablero/voz/a2.ogg</game>
+		<game type="voz" name="exp_chal_a2">/resources/sounds/tablero/voz/chal_a2_q.ogg</game>
+		<game type="voz" name="ok_chal_a2">/resources/sounds/tablero/voz/chal_a2_a.ogg</game>
+		<game type="voz" name="a3">/resources/sounds/tablero/voz/a3.ogg</game>
+		<game type="voz" name="exp_chal_a3">/resources/sounds/tablero/voz/chal_a3_q.ogg</game>
+		<game type="voz" name="ok_chal_a3">/resources/sounds/tablero/voz/chal_a3_a.ogg</game>
+		<game type="voz" name="a4">/resources/sounds/tablero/voz/a4.ogg</game>
+		<game type="voz" name="exp_chal_a4">/resources/sounds/tablero/voz/chal_a4_q.ogg</game>
+		<game type="voz" name="ok_chal_a4">/resources/sounds/tablero/voz/chal_a4_a.ogg</game>
+		<game type="voz" name="a5">/resources/sounds/tablero/voz/a5.ogg</game>
+		<game type="voz" name="exp_chal_a5">/resources/sounds/tablero/voz/chal_a5_q.ogg</game>
+		<game type="voz" name="ok_chal_a5">/resources/sounds/tablero/voz/chal_a5_a.ogg</game>
+		<game type="voz" name="b1">/resources/sounds/tablero/voz/b1.ogg</game>
+		<game type="voz" name="exp_chal_b1">/resources/sounds/tablero/voz/chal_b1_q.ogg</game>
+		<game type="voz" name="ok_chal_b1">/resources/sounds/tablero/voz/chal_b1_a.ogg</game>
+		<game type="voz" name="b2">/resources/sounds/tablero/voz/b2.ogg</game>
+		<game type="voz" name="exp_chal_b2">/resources/sounds/tablero/voz/chal_b2_q.ogg</game>
+		<game type="voz" name="ok_chal_b2">/resources/sounds/tablero/voz/chal_b2_a.ogg</game>
+		<game type="voz" name="b3">/resources/sounds/tablero/voz/b3.ogg</game>
+		<game type="voz" name="exp_chal_b3">/resources/sounds/tablero/voz/chal_b3_q.ogg</game>
+		<game type="voz" name="ok_chal_b3">/resources/sounds/tablero/voz/chal_b3_a.ogg</game>
+		<game type="voz" name="b4">/resources/sounds/tablero/voz/b4.ogg</game>
+		<game type="voz" name="exp_chal_b4">/resources/sounds/tablero/voz/chal_b4_q.ogg</game>
+		<game type="voz" name="ok_chal_b4">/resources/sounds/tablero/voz/chal_b4_a.ogg</game>
+		<game type="voz" name="b5">/resources/sounds/tablero/voz/b5.ogg</game>
+		<game type="voz" name="exp_chal_b5">/resources/sounds/tablero/voz/chal_b5_q.ogg</game>
+		<game type="voz" name="ok_chal_b5">/resources/sounds/tablero/voz/chal_b5_a.ogg</game>
+		<game type="voz" name="c1">/resources/sounds/tablero/voz/c1.ogg</game>
+		<game type="voz" name="exp_chal_c1">/resources/sounds/tablero/voz/chal_c1_q.ogg</game>
+		<game type="voz" name="ok_chal_c1">/resources/sounds/tablero/voz/chal_c1_a.ogg</game>
+		<game type="voz" name="c2">/resources/sounds/tablero/voz/c2.ogg</game>
+		<game type="voz" name="exp_chal_c2">/resources/sounds/tablero/voz/chal_c2_q.ogg</game>
+		<game type="voz" name="ok_chal_c2">/resources/sounds/tablero/voz/chal_c2_a.ogg</game>
+		<game type="voz" name="c3">/resources/sounds/tablero/voz/c3.ogg</game>
+		<game type="voz" name="exp_chal_c3">/resources/sounds/tablero/voz/chal_c3_q.ogg</game>
+		<game type="voz" name="ok_chal_c3">/resources/sounds/tablero/voz/chal_c3_a.ogg</game>
+		<game type="voz" name="c4">/resources/sounds/tablero/voz/c4.ogg</game>
+		<game type="voz" name="exp_chal_c4">/resources/sounds/tablero/voz/chal_c4_q.ogg</game>
+		<game type="voz" name="ok_chal_c4">/resources/sounds/tablero/voz/chal_c4_a.ogg</game>
+		<game type="voz" name="c5">/resources/sounds/tablero/voz/c5.ogg</game>
+		<game type="voz" name="exp_chal_c5">/resources/sounds/tablero/voz/chal_c5_q.ogg</game>
+		<game type="voz" name="ok_chal_c5">/resources/sounds/tablero/voz/chal_c5_a.ogg</game>
+		<!-- PERSONAJES -->
+		<!-- PABLO GRIS -->
+		<!-- Introduccion -->
+		<personaje type="pablo gris" name="bienvenida">/resources/sounds/club/personajes/pablo_gris/ini00_2.ogg</personaje>
+		<personaje type="pablo gris" name="intro00_0">/resources/sounds/club/personajes/pablo_gris/introduction/ini00_0.ogg</personaje>
+		<personaje type="pablo gris" name="intro00_1">/resources/sounds/club/personajes/pablo_gris/introduction/ini00_1.ogg</personaje>
+		<personaje type="pablo gris" name="intro00_2">/resources/sounds/club/personajes/pablo_gris/introduction/ini00_2.ogg</personaje>
+		<personaje type="pablo gris" name="intro00_3">/resources/sounds/club/personajes/pablo_gris/introduction/ini00_3.ogg</personaje>
+		<personaje type="pablo gris" name="intro00_4">/resources/sounds/club/personajes/pablo_gris/introduction/ini00_4.ogg</personaje>
+		<personaje type="pablo gris" name="intro00_5">/resources/sounds/club/personajes/pablo_gris/introduction/ini00_5.ogg</personaje>
+		<personaje type="pablo gris" name="intro00_6">/resources/sounds/club/personajes/pablo_gris/introduction/ini00_6.ogg</personaje>
+		<personaje type="pablo gris" name="intro01_0">/resources/sounds/club/personajes/pablo_gris/introduction/ini01_0.ogg</personaje>
+		<personaje type="pablo gris" name="intro01_1">/resources/sounds/club/personajes/pablo_gris/introduction/ini01_1.ogg</personaje>
+		<personaje type="pablo gris" name="intro01_2">/resources/sounds/club/personajes/pablo_gris/introduction/ini01_2.ogg</personaje>
+		<personaje type="pablo gris" name="intro01_2">/resources/sounds/club/personajes/pablo_gris/introduction/ini01_2.ogg</personaje>
+		<personaje type="pablo gris" name="intro01_a_0">/resources/sounds/club/personajes/pablo_gris/introduction/ini01_a_0.ogg</personaje>
+		<personaje type="pablo gris" name="intro02_0">/resources/sounds/club/personajes/pablo_gris/introduction/ini02_0.ogg</personaje>
+		<personaje type="pablo gris" name="intro02_1">/resources/sounds/club/personajes/pablo_gris/introduction/ini02_1.ogg</personaje>
+		<personaje type="pablo gris" name="intro02_2">/resources/sounds/club/personajes/pablo_gris/introduction/ini02_2.ogg</personaje>
+		<personaje type="pablo gris" name="intro03_0">/resources/sounds/club/personajes/pablo_gris/introduction/ini03_0.ogg</personaje>
+		<personaje type="pablo gris" name="intro03_1">/resources/sounds/club/personajes/pablo_gris/introduction/ini03_1.ogg</personaje>
+		<personaje type="pablo gris" name="intro04_0">/resources/sounds/club/personajes/pablo_gris/introduction/ini04_0.ogg</personaje>
+		<personaje type="pablo gris" name="intro05_0">/resources/sounds/club/personajes/pablo_gris/introduction/ini05_0.ogg</personaje>
+		<personaje type="pablo gris" name="intro05_1">/resources/sounds/club/personajes/pablo_gris/introduction/ini05_1.ogg</personaje>
+		<personaje type="pablo gris" name="intro05_2">/resources/sounds/club/personajes/pablo_gris/introduction/ini05_2.ogg</personaje>
+		<personaje type="pablo gris" name="intro05_3">/resources/sounds/club/personajes/pablo_gris/introduction/ini05_3.ogg</personaje>
+		<personaje type="pablo gris" name="intro05_4">/resources/sounds/club/personajes/pablo_gris/introduction/ini05_4.ogg</personaje>
+		<personaje type="pablo gris" name="again">/resources/sounds/club/personajes/pablo_gris/pg_again_0.ogg</personaje>
+		<!-- Teclas -->
+		<personaje type="pablo gris" name="key_mas_info_0">/resources/sounds/club/personajes/pablo_gris/keys/pg_mas_info_boton_0.ogg</personaje>
+		<personaje type="pablo gris" name="key_mas_info_1">/resources/sounds/club/personajes/pablo_gris/keys/pg_mas_info_boton_1.ogg</personaje>
+		<personaje type="pablo gris" name="key_mas_info_2">/resources/sounds/club/personajes/pablo_gris/introduction/ini04_1.ogg</personaje>
+		<personaje type="pablo gris" name="key_continuar">/resources/sounds/club/personajes/pablo_gris/keys/pg_conti_boton_0.ogg</personaje>
+		<personaje type="pablo gris" name="key_arriba">/resources/sounds/club/personajes/pablo_gris/keys/pg_arr_boton_0.ogg</personaje>
+		<personaje type="pablo gris" name="key_arriba2">/resources/sounds/club/personajes/pablo_gris/keys/pg_8_key_1.ogg</personaje>
+		<personaje type="pablo gris" name="key_izquierda">/resources/sounds/club/personajes/pablo_gris/keys/pg_izq_boton_0.ogg</personaje>
+		<personaje type="pablo gris" name="key_izquierda2">/resources/sounds/club/personajes/pablo_gris/keys/pg_4_key_1.ogg</personaje>
+		<personaje type="pablo gris" name="key_seleccion">/resources/sounds/club/personajes/pablo_gris/keys/pg_sel_boton_0.ogg</personaje>
+		<personaje type="pablo gris" name="key_seleccion2">/resources/sounds/club/personajes/pablo_gris/keys/pg_5_key_1.ogg</personaje>
+		<personaje type="pablo gris" name="key_seleccion3">/resources/sounds/club/personajes/pablo_gris/keys/pg_5_key_2.ogg</personaje>
+		<personaje type="pablo gris" name="key_contar">/resources/sounds/club/personajes/pablo_gris/keys/pg_contar_key_0.ogg</personaje>
+		<!-- Tutorial 1 -->
+		<personaje type="pablo gris" name="tut100_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut100_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut101_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut101_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut101_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut101_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut101_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut101_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut101_3">/resources/sounds/club/personajes/pablo_gris/tutorial/tut101_3.ogg</personaje>
+		<personaje type="pablo gris" name="tut102_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut102_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut102_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut102_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut102_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut102_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut103_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut103_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut103_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut103_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut103_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut103_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut103_3">/resources/sounds/club/personajes/pablo_gris/tutorial/tut103_3.ogg</personaje>
+		<personaje type="pablo gris" name="tut104_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut104_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut104_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut104_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut105_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut105_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut105_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut105_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut105_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut105_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut106_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut106_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut107_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut107_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut107_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut107_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut108_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut108_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut109_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut109_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut109_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut109_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut109_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut109_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut110_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut111_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut110_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut111_3.ogg</personaje>
+		<personaje type="pablo gris" name="tut111_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut112_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut111_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut112_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut112_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut112_a_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut112_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut112_a_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut114_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut112_b_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut115_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut112_c_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut116_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut112_d_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut117_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut112_e_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut118_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut113_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut118_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut113_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut118_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut113_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut118_3">/resources/sounds/club/personajes/pablo_gris/tutorial/tut113_3.ogg</personaje>
+		<personaje type="pablo gris" name="tut119_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut114_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut120_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut114_a_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut121_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut115_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut121_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut115_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut121_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut115_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut121_3">/resources/sounds/club/personajes/pablo_gris/tutorial/tut115_3.ogg</personaje>
+		<personaje type="pablo gris" name="tut121_4">/resources/sounds/club/personajes/pablo_gris/tutorial/tut115_4.ogg</personaje>
+		<personaje type="pablo gris" name="tut121_5">/resources/sounds/club/personajes/pablo_gris/tutorial/tut115_5.ogg</personaje>
+		<personaje type="pablo gris" name="tut122_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut115_a_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut122_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut115_a_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut123_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut116_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut123_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut116_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut124_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut117_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut124_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut117_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut124_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut117_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut125_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut118_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut125_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut118_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut125_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut118_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut126_0">/resources/sounds/club/personajes/pablo_gris/tutorial/tut119_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut126_1">/resources/sounds/club/personajes/pablo_gris/tutorial/tut119_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut126_2">/resources/sounds/club/personajes/pablo_gris/tutorial/tut119_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut_jug_2_1">/resources/sounds/club/personajes/pablo_gris/tutorial/pg_jug_pos_2_1_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut_jug_4_3">/resources/sounds/club/personajes/pablo_gris/tutorial/pg_jug_pos_4_3_0.ogg</personaje>
+		<!-- Tutorial 2 -->
+		<personaje type="pablo gris" name="tut2_00_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_first_tut2_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_01_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_00_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_01_1">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_00_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_01_2">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_00_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_02_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_01_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_03_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_01a_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_04_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_02_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_05_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_03_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_06_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_04_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_07_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_05_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_07_1">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_05_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_08_0">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_06_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_08_1">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_06_1.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_08_2">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_06_2.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_08_3">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_06_3.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_08_4">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_06_4.ogg</personaje>
+		<personaje type="pablo gris" name="tut2_08_5">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_tut2_06_5.ogg</personaje>
+		<personaje type="pablo gris" name="suggest_check">/resources/sounds/club/personajes/pablo_gris/pg_suggest_check_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut_jug_1_6">/resources/sounds/club/personajes/pablo_gris/tutorial2/pg_jug_pos_1_6_0.ogg</personaje>
+		<!-- Go to PM -->
+		<personaje type="pablo gris" name="go_pm1_0">/resources/sounds/club/personajes/pablo_gris/go_pm/pg_go_pm1_0.ogg</personaje>
+		<personaje type="pablo gris" name="go_pm1_1">/resources/sounds/club/personajes/pablo_gris/go_pm/pg_go_pm1_1.ogg</personaje>
+		<personaje type="pablo gris" name="go_pm2_0">/resources/sounds/club/personajes/pablo_gris/go_pm/pg_go_pm2_0.ogg</personaje>
+		<personaje type="pablo gris" name="go_pm3_0">/resources/sounds/club/personajes/pablo_gris/go_pm/pg_go_pm3_0.ogg</personaje>
+		<!-- Go to 	CHAL1 -->
+		<personaje type="pablo gris" name="go_chal1_0">/resources/sounds/club/personajes/pablo_gris/go_chal1/pg_go_chal1_0.ogg</personaje>
+		<!-- Go to 	CHAL2 -->
+		<personaje type="pablo gris" name="go_chal2_0">/resources/sounds/club/personajes/pablo_gris/go_chal2/pg_go_chal2_0.ogg</personaje>
+		<!-- Go to 	CHAL3 -->
+		<personaje type="pablo gris" name="go_chal3_0">/resources/sounds/club/personajes/pablo_gris/go_chal3/pg_go_chal3_0.ogg</personaje>
+		<!-- Go to 	CHAL4 -->
+		<personaje type="pablo gris" name="go_chal4_0">/resources/sounds/club/personajes/pablo_gris/go_chal4/pg_go_chal4_0.ogg</personaje>
+		<!-- Retake -->
+		<personaje type="pablo gris" name="tut_retake_0">/resources/sounds/club/personajes/pablo_gris/tutorial_retake/tut_retake_0.ogg</personaje>
+		<personaje type="pablo gris" name="tut_retake1_0">/resources/sounds/club/personajes/pablo_gris/tutorial_retake/tut_retake1_0.ogg</personaje>
+		<!-- Go to SD -->
+		<personaje type="pablo gris" name="go_sd_0">/resources/sounds/club/personajes/pablo_gris/go_sd/pg_go_sd_0.ogg</personaje>
+		<!-- Go to PT -->
+		<personaje type="pablo gris" name="go_pt_0">/resources/sounds/club/personajes/pablo_gris/go_pt/pg_go_pt_0.ogg</personaje>
+		<personaje type="pablo gris" name="go_pt2_0">/resources/sounds/club/personajes/pablo_gris/go_pt/pg_go_pt2_0.ogg</personaje>
+		<personaje type="pablo gris" name="go_pt2_1">/resources/sounds/club/personajes/pablo_gris/go_pt/pg_go_pt2_1.ogg</personaje>
+		<!-- Get Medals -->
+		<personaje type="pablo gris" name="get_medals">/resources/sounds/club/personajes/pablo_gris/get_medals/pg_get_medals_0.ogg</personaje>
+		<!-- PT Defeated -->
+		<personaje type="pablo gris" name="pt_defeated">/resources/sounds/club/personajes/pablo_gris/pt_defeated/pg_pt_defeated_0.ogg</personaje>
+		<!-- All Clear -->
+		<personaje type="pablo gris" name="all_clear">/resources/sounds/club/personajes/pablo_gris/all_clear/pg_all_clear_0.ogg</personaje>
+		<!-- End -->
+		<personaje type="pablo gris" name="end1">/resources/sounds/club/personajes/pablo_gris/end/pg_end1_0.ogg</personaje>
+		<personaje type="pablo gris" name="end2">/resources/sounds/club/personajes/pablo_gris/end/pg_end2_0.ogg</personaje>
+		<!-- Demo End -->
+		<personaje type="pablo gris" name="demo_end_0">/resources/sounds/voz/demo_end_0.ogg</personaje>
+		<personaje type="pablo gris" name="demo_end_1">/resources/sounds/voz/demo_end_1.ogg</personaje>
+		<!-- Don Cano -->
+		<personaje type="don cano" name="bienvenida">/resources/sounds/club/personajes/don_cano/dc_meet_1.ogg</personaje>
+		<personaje type="don cano" name="wellcome_0">/resources/sounds/club/personajes/don_cano/wellcome/dc_meet_0.ogg</personaje>
+		<personaje type="don cano" name="wellcome_1">/resources/sounds/club/personajes/don_cano/wellcome/dc_meet_1.ogg</personaje>
+		<personaje type="don cano" name="wellcome_2">/resources/sounds/club/personajes/don_cano/wellcome/dc_meet_2.ogg</personaje>
+		<personaje type="don cano" name="wellcome_3">/resources/sounds/club/personajes/don_cano/wellcome/dc_meet_3.ogg</personaje>
+		<personaje type="don cano" name="wellcome_4">/resources/sounds/club/personajes/don_cano/wellcome/dc_meet_4.ogg</personaje>
+		<personaje type="don cano" name="wellcome_5">/resources/sounds/club/personajes/don_cano/wellcome/dc_meet_5.ogg</personaje>
+		<personaje type="don cano" name="go_tut1_0">/resources/sounds/club/personajes/don_cano/go_tut1/dc_go_tut1_0.ogg</personaje>
+		<personaje type="don cano" name="go_tut1_1">/resources/sounds/club/personajes/don_cano/go_tut1/dc_go_tut1_1.ogg</personaje>
+		<personaje type="don cano" name="go_tut1_again">/resources/sounds/club/personajes/don_cano/go_tut1/dc_go_tut1_again_0.ogg</personaje>
+		<personaje type="don cano" name="hi">/resources/sounds/club/personajes/don_cano/hi/dc_hi_0.ogg</personaje>
+		<personaje type="don cano" name="bye">/resources/sounds/club/personajes/don_cano/dc_bye_0.ogg</personaje>
+		<!-- Desafio 1 -->
+		<personaje type="don cano" name="start_chal1_0">/resources/sounds/club/personajes/don_cano/challenge1/dc_start_chal1_0.ogg</personaje>
+		<personaje type="don cano" name="start_chal1_1">/resources/sounds/club/personajes/don_cano/challenge1/dc_start_chal1_1.ogg</personaje>
+		<personaje type="don cano" name="chal1_explain_goal_0">/resources/sounds/club/personajes/don_cano/challenge1/dc_chal1_explain_goal_0.ogg</personaje>
+		<personaje type="don cano" name="chal1_explain_goal_1">/resources/sounds/club/personajes/don_cano/challenge1/dc_chal1_explain_goal_1.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_a1">/resources/sounds/club/personajes/don_cano/challenge1/dc_a1_tip_0.ogg</personaje>
+		<personaje type="don cano" name="wrong_answer_chal_a1">/resources/sounds/club/personajes/don_cano/challenge1/dc_wrong_answer_maximize_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_a2">/resources/sounds/club/personajes/don_cano/challenge1/dc_a2_tip_0.ogg</personaje>
+		<personaje type="don cano" name="continue_chal1">/resources/sounds/club/personajes/don_cano/challenge1/dc_continue_chal1_0.ogg</personaje>
+		<personaje type="don cano" name="finalize_chal1_0">/resources/sounds/club/personajes/don_cano/challenge1/dc_finalize_chal1_0.ogg</personaje>
+		<personaje type="don cano" name="finalize_chal1_1">/resources/sounds/club/personajes/don_cano/challenge1/dc_finalize_chal1_1.ogg</personaje>
+		<personaje type="don cano" name="finalize_chal1_2">/resources/sounds/club/personajes/don_cano/challenge1/dc_finalize_chal1_2.ogg</personaje>
+		<personaje type="don cano" name="wrong_answer_not_playable">/resources/sounds/club/personajes/don_cano/dc_wrong_answer_not_playable_0.ogg</personaje>
+		<personaje type="don cano" name="check_answer">/resources/sounds/club/personajes/don_cano/dc_check_answer_0.ogg</personaje>
+		<personaje type="don cano" name="ask_retry">/resources/sounds/club/personajes/don_cano/dc_ask_for_retry_0.ogg</personaje>
+		<!-- Desafio 2 -->
+		<personaje type="don cano" name="start_chal2_0">/resources/sounds/club/personajes/don_cano/challenge2/dc_start_chal2_0.ogg</personaje>
+		<personaje type="don cano" name="start_chal2_1">/resources/sounds/club/personajes/don_cano/challenge2/dc_start_chal2_1.ogg</personaje>
+		<personaje type="don cano" name="start_chal2_2">/resources/sounds/club/personajes/don_cano/challenge2/dc_start_chal2_2.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_a3">/resources/sounds/club/personajes/don_cano/challenge2/dc_a3_tip_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_a4">/resources/sounds/club/personajes/don_cano/challenge2/dc_a4_tip_0.ogg</personaje>
+		<personaje type="don cano" name="continue_chal2">/resources/sounds/club/personajes/don_cano/challenge2/dc_continue_chal2_0.ogg</personaje>
+		<personaje type="don cano" name="finalize_chal2_0">/resources/sounds/club/personajes/don_cano/challenge2/dc_finalize_chal2_0.ogg</personaje>
+		<!-- Desafio 3 -->
+		<personaje type="don cano" name="start_chal3_0">/resources/sounds/club/personajes/don_cano/challenge3/dc_start_chal3_0.ogg</personaje>
+		<personaje type="don cano" name="start_chal3_1">/resources/sounds/club/personajes/don_cano/challenge3/dc_start_chal3_1.ogg</personaje>
+		<personaje type="don cano" name="start_chal3_2">/resources/sounds/club/personajes/don_cano/challenge3/dc_start_chal3_2.ogg</personaje>
+		<personaje type="don cano" name="start_chal3_3">/resources/sounds/club/personajes/don_cano/challenge3/dc_start_chal3_3.ogg</personaje>
+		<personaje type="don cano" name="start_chal3_4">/resources/sounds/club/personajes/don_cano/challenge3/dc_start_chal3_4.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_b1">/resources/sounds/club/personajes/don_cano/challenge3/dc_b1_tip_0.ogg</personaje>
+		<personaje type="don cano" name="wrong_answer_border">/resources/sounds/club/personajes/don_cano/dc_wrong_answer_border_0.ogg</personaje>
+		<personaje type="don cano" name="give_retro_medals_0">/resources/sounds/club/personajes/don_cano/challenge3/dc_give_retro_medals_0.ogg</personaje>
+		<personaje type="don cano" name="give_retro_medals_1">/resources/sounds/club/personajes/don_cano/challenge3/dc_give_retro_medals_1.ogg</personaje>
+		<personaje type="don cano" name="explain_medals_0">/resources/sounds/club/personajes/don_cano/challenge3/dc_explain_medals_0.ogg</personaje>
+		<personaje type="don cano" name="explain_medals_1">/resources/sounds/club/personajes/don_cano/challenge3/dc_explain_medals_1.ogg</personaje>
+		<personaje type="don cano" name="explain_medals_2">/resources/sounds/club/personajes/don_cano/challenge3/dc_explain_medals_2.ogg</personaje>
+		<personaje type="don cano" name="explain_medals_3">/resources/sounds/club/personajes/don_cano/challenge3/dc_explain_medals_3.ogg</personaje>
+		<!-- Desafios -->
+		<personaje type="don cano" name="tip_chal_a5">/resources/sounds/club/personajes/don_cano/challenge2/dc_a5_tip_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_b2">/resources/sounds/club/personajes/don_cano/challenge3/dc_b2_tip_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_b3">/resources/sounds/club/personajes/don_cano/challenge3/dc_b3_tip_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_b4">/resources/sounds/club/personajes/don_cano/challenge3/dc_b4_tip_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_b5">/resources/sounds/club/personajes/don_cano/challenge3/dc_b5_tip_0.ogg</personaje>
+		<!-- Desafio 4 -->
+		<personaje type="don cano" name="start_chal4_0">/resources/sounds/club/personajes/don_cano/challenge4/dc_start_chal4_0.ogg</personaje>
+		<personaje type="don cano" name="start_chal4_1">/resources/sounds/club/personajes/don_cano/challenge4/dc_start_chal4_1.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_c1">/resources/sounds/club/personajes/don_cano/challenge4/dc_c1_tip_0.ogg</personaje>
+		<personaje type="don cano" name="finalize_chal4_0">/resources/sounds/club/personajes/don_cano/challenge4/dc_finalize_chal4_0.ogg</personaje>
+		<personaje type="don cano" name="finalize_chal4_1">/resources/sounds/club/personajes/don_cano/challenge4/dc_finalize_chal4_1.ogg</personaje>
+		<personaje type="don cano" name="challenge_c_not_playable_0">/resources/sounds/club/personajes/don_cano/challenge4/dc_challenge_c_not_playable_0.ogg</personaje>
+		<personaje type="don cano" name="challenge_c_not_playable_1">/resources/sounds/club/personajes/don_cano/challenge4/dc_challenge_c_not_playable_1.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_c2">/resources/sounds/club/personajes/don_cano/challenge4/dc_c2_tip_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_c3">/resources/sounds/club/personajes/don_cano/challenge4/dc_c3_tip_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_c4">/resources/sounds/club/personajes/don_cano/challenge4/dc_c4_tip_0.ogg</personaje>
+		<personaje type="don cano" name="tip_chal_c5">/resources/sounds/club/personajes/don_cano/challenge4/dc_c5_tip_0.ogg</personaje>
+		<!-- Go to PM -->
+		<personaje type="don cano" name="go_pm1">/resources/sounds/club/personajes/don_cano/go_pm/dc_go_pm1_0.ogg</personaje>
+		<personaje type="don cano" name="go_pm2_0">/resources/sounds/club/personajes/don_cano/go_pm/dc_go_pm2_0.ogg</personaje>
+		<personaje type="don cano" name="go_pm2_1">/resources/sounds/club/personajes/don_cano/go_pm/dc_go_pm2_1.ogg</personaje>
+		<personaje type="don cano" name="go_pm3_0">/resources/sounds/club/personajes/don_cano/go_pm/dc_go_pm3_0.ogg</personaje>
+		<!-- Chal Retake -->
+		<personaje type="don cano" name="chal_retake">/resources/sounds/club/personajes/don_cano/dc_chal_retake_0.ogg</personaje>
+		<!-- Go Tutorial 2 -->
+		<personaje type="don cano" name="go_tut2_0">/resources/sounds/club/personajes/don_cano/go_tut2/dc_go_tut2_0.ogg</personaje>
+		<!-- Go to SD -->
+		<personaje type="don cano" name="go_sd">/resources/sounds/club/personajes/don_cano/go_sd/dc_go_sd_0.ogg</personaje>
+		<!-- Go to PT -->
+		<personaje type="don cano" name="go_pt">/resources/sounds/club/personajes/don_cano/go_pt/dc_go_pt_0.ogg</personaje>
+		<personaje type="don cano" name="go_pt2">/resources/sounds/club/personajes/don_cano/go_pt/dc_go_pt2_0.ogg</personaje>
+		<!-- Give Medals -->
+		<personaje type="don cano" name="give_bronze">/resources/sounds/club/personajes/don_cano/dc_give_bronze_0.ogg</personaje>
+		<personaje type="don cano" name="give_silver">/resources/sounds/club/personajes/don_cano/dc_give_silver_0.ogg</personaje>
+		<personaje type="don cano" name="give_gold">/resources/sounds/club/personajes/don_cano/dc_give_gold_0.ogg</personaje>
+		<!-- Challenges Clear -->
+		<personaje type="don cano" name="chals_clear_0">/resources/sounds/club/personajes/don_cano/challenges_clear/dc_chals_clear_0.ogg</personaje>
+		<personaje type="don cano" name="chals_clear_1">/resources/sounds/club/personajes/don_cano/challenges_clear/dc_chals_clear_1.ogg</personaje>
+		<!-- Challenges Completed -->
+		<personaje type="don cano" name="chals_clear_0">/resources/sounds/club/personajes/don_cano/challenges_completed/dc_chals_completed_0.ogg</personaje>
+		<personaje type="don cano" name="chals_clear_1">/resources/sounds/club/personajes/don_cano/challenges_completed/dc_chals_completed_1.ogg</personaje>
+		<!-- Get Medals -->
+		<personaje type="don cano" name="get_medals">/resources/sounds/club/personajes/don_cano/dc_get_medals_0.ogg</personaje>
+		<!-- PT Defeated -->
+		<personaje type="don cano" name="pt_defeated">/resources/sounds/club/personajes/don_cano/dc_pt_defeated_0.ogg</personaje>
+		<!-- All Clear -->
+		<personaje type="don cano" name="all_clear">/resources/sounds/club/personajes/don_cano/dc_all_clear_0.ogg</personaje>
+		<!-- End -->
+		<personaje type="don cano" name="end1_0">/resources/sounds/club/personajes/don_cano/end/dc_end1_0.ogg</personaje>
+		<personaje type="don cano" name="end1_1">/resources/sounds/club/personajes/don_cano/end/dc_end1_1.ogg</personaje>
+		<personaje type="don cano" name="end2">/resources/sounds/club/personajes/don_cano/end/dc_end2_0.ogg</personaje>
+		<!-- Pedro Madera -->
+    	<personaje type="pedro madera" name="block_vocals_meet_0">/resources/sounds/club/personajes/pedro_madera/block_vocals/pm_block_vocals_meet_0.ogg</personaje>
+    	<personaje type="pedro madera" name="block_vocals_meet_1">/resources/sounds/club/personajes/pedro_madera/block_vocals/pm_block_vocals_meet_1.ogg</personaje>
+    	<personaje type="pedro madera" name="block_vocals_again">/resources/sounds/club/personajes/pedro_madera/block_vocals/pm_block_vocals_again_0.ogg</personaje>
+    	<personaje type="pedro madera" name="intro_vocals_0">/resources/sounds/club/personajes/pedro_madera/intro_vocals/pm_intro_vocals_0.ogg</personaje>
+    	<personaje type="pedro madera" name="intro_vocals_1">/resources/sounds/club/personajes/pedro_madera/intro_vocals/pm_intro_vocals_1.ogg</personaje>
+		<personaje type="pedro madera" name="intro_vocals_2">/resources/sounds/club/personajes/pedro_madera/intro_vocals/pm_intro_vocals_2.ogg</personaje>
+    	<!-- Go Tutorial 1 -->
+		<personaje type="pedro madera" name="go_tut1_0">/resources/sounds/club/personajes/pedro_madera/go_tut1/pm_block_vocals_go_tut1_0.ogg</personaje>
+    	<personaje type="pedro madera" name="go_tut1_1">/resources/sounds/club/personajes/pedro_madera/go_tut1/pm_block_vocals_go_tut1_1.ogg</personaje>
+    	<personaje type="pedro madera" name="go_tut1_2">/resources/sounds/club/personajes/pedro_madera/go_tut1/pm_block_vocals_go_tut1_2.ogg</personaje>
+    	<!-- Go Tutorial 2 -->
+    	<personaje type="pedro madera" name="go_tut2_0">/resources/sounds/club/personajes/pedro_madera/go_tut2/pm_go_tut2_0.ogg</personaje>
+    	<personaje type="pedro madera" name="go_tut2_1">/resources/sounds/club/personajes/pedro_madera/go_tut2/pm_go_tut2_1.ogg</personaje>
+    	<personaje type="pedro madera" name="go_tut2_2">/resources/sounds/club/personajes/pedro_madera/go_tut2/pm_go_tut2_2.ogg</personaje>
+    	<!-- Go challenge 1 -->
+    	<personaje type="pedro madera" name="go_chal1_0">/resources/sounds/club/personajes/pedro_madera/go_chal1/pm_go_chal1_0.ogg</personaje>
+    	<personaje type="pedro madera" name="go_chal1_1">/resources/sounds/club/personajes/pedro_madera/go_chal1/pm_go_chal1_1.ogg</personaje>
+    	<personaje type="pedro madera" name="go_chal1_again_0">/resources/sounds/club/personajes/pedro_madera/go_chal1/pm_go_chal1_again_0.ogg</personaje>
+    	<personaje type="pedro madera" name="go_chal1_again_1">/resources/sounds/club/personajes/pedro_madera/go_chal1/pm_go_chal1_again_1.ogg</personaje>
+    	<personaje type="pedro madera" name="hi">/resources/sounds/club/personajes/pedro_madera/welcome/pm_hi_0.ogg</personaje>
+    	<personaje type="pedro madera" name="meet_show_room">/resources/sounds/club/personajes/pedro_madera/welcome/pm_meet_show_room_0.ogg</personaje>
+		<personaje type="pedro madera" name="show_room">/resources/sounds/club/personajes/pedro_madera/welcome/pm_show_room_0.ogg</personaje>
+    	<personaje type="pedro madera" name="match_draw">/resources/sounds/club/personajes/pedro_madera/games/pm_match_draw_0.ogg</personaje>
+    	<personaje type="pedro madera" name="match_win">/resources/sounds/club/personajes/pedro_madera/games/pm_match_win_0.ogg</personaje>
+    	<personaje type="pedro madera" name="prematch_phrase">/resources/sounds/club/personajes/pedro_madera/games/pm_prematch_phrase_0.ogg</personaje>
+    	<!-- Go challenge 2 -->
+		<personaje type="pedro madera" name="go_chal2_0">/resources/sounds/club/personajes/pedro_madera/go_chal2/pm_go_chal2_0.ogg</personaje>
+		<!-- Go challenge 3 -->
+		<personaje type="pedro madera" name="go_chal3_0">/resources/sounds/club/personajes/pedro_madera/go_chal3/pm_go_chal3_0.ogg</personaje>
+		<personaje type="pedro madera" name="go_chal3_1">/resources/sounds/club/personajes/pedro_madera/go_chal3/pm_go_chal3_1.ogg</personaje>
+		<!-- Go challenge 4 -->
+		<personaje type="pedro madera" name="go_chal4_0">/resources/sounds/club/personajes/pedro_madera/go_chal4/pm_go_chal4_0.ogg</personaje>
+		<personaje type="pedro madera" name="go_chal4_1">/resources/sounds/club/personajes/pedro_madera/go_chal4/pm_go_chal4_1.ogg</personaje>
+    	<!-- Primer Juego -->
+    	<personaje type="pedro madera" name="match1_0">/resources/sounds/club/personajes/pedro_madera/games/game1/pm_match1_0.ogg</personaje>
+    	<personaje type="pedro madera" name="match1_1">/resources/sounds/club/personajes/pedro_madera/games/game1/pm_match1_1.ogg</personaje>
+    	<personaje type="pedro madera" name="match1_lose_0">/resources/sounds/club/personajes/pedro_madera/games/game1/pm_match1_lose_0.ogg</personaje>
+    	<personaje type="pedro madera" name="match1_lose_1">/resources/sounds/club/personajes/pedro_madera/games/game1/pm_match1_lose_1.ogg</personaje>
+		<personaje type="pedro madera" name="match1_lose_2">/resources/sounds/club/personajes/pedro_madera/games/game1/pm_match1_lose_2.ogg</personaje>
+    	<personaje type="pedro madera" name="match1_meet">/resources/sounds/club/personajes/pedro_madera/games/game1/pm_match1_met_0.ogg</personaje>
+		<personaje type="pedro madera" name="match1_nmeet">/resources/sounds/club/personajes/pedro_madera/games/game1/pm_match1_nmet_0.ogg</personaje>
+    	<!-- Segundo Juego -->
+    	<personaje type="pedro madera" name="match2_meet">/resources/sounds/club/personajes/pedro_madera/games/game2/pm_match2_0.ogg</personaje>
+    	<personaje type="pedro madera" name="match2_lose_0">/resources/sounds/club/personajes/pedro_madera/games/game2/pm_match2_lose_0.ogg</personaje>
+    	<personaje type="pedro madera" name="match2_lose_1">/resources/sounds/club/personajes/pedro_madera/games/game2/pm_match2_lose_1.ogg</personaje>
+		<personaje type="pedro madera" name="match2_lose_2">/resources/sounds/club/personajes/pedro_madera/games/game2/pm_match2_lose_2.ogg</personaje>
+    	<personaje type="pedro madera" name="match2_silver_medal">/resources/sounds/club/personajes/pedro_madera/games/game2/pm_match2_give_medal_0.ogg</personaje>
+    	<!-- Tercer Juego -->
+    	<personaje type="pedro madera" name="match3_meet">/resources/sounds/club/personajes/pedro_madera/games/game3/pm_match3_0.ogg</personaje>
+    	<personaje type="pedro madera" name="match3_lose_0">/resources/sounds/club/personajes/pedro_madera/games/game3/pm_match3_lose_0.ogg</personaje>
+    	<personaje type="pedro madera" name="match3_lose_1">/resources/sounds/club/personajes/pedro_madera/games/game3/pm_match3_lose_1.ogg</personaje>
+    	<personaje type="pedro madera" name="match3_gold_medal">/resources/sounds/club/personajes/pedro_madera/games/game3/pm_match3_give_medal_0.ogg</personaje>
+		<!-- Rematch -->
+		<personaje type="pedro madera" name="rematch_0">/resources/sounds/club/personajes/pedro_madera/rematch/pm_rematch_0.ogg</personaje>
+    	<personaje type="pedro madera" name="rematch_1">/resources/sounds/club/personajes/pedro_madera/rematch/pm_rematch_1.ogg</personaje>
+    	<personaje type="pedro madera" name="rematch_lose_0">/resources/sounds/club/personajes/pedro_madera/rematch/pm_rematch_lose_0.ogg</personaje>
+    	<personaje type="pedro madera" name="rematch_win_0">/resources/sounds/club/personajes/pedro_madera/rematch/pm_rematch_win_0.ogg</personaje>
+    	<!-- Go SD -->
+		<personaje type="pedro madera" name="go_sd_0">/resources/sounds/club/personajes/pedro_madera/go_sd/pm_go_sd_0.ogg</personaje>
+		<!-- Go PT -->
+		<personaje type="pedro madera" name="go_pt1_0">/resources/sounds/club/personajes/pedro_madera/go_pt/pm_go_pt_0.ogg</personaje>
+		<personaje type="pedro madera" name="go_pt1_1">/resources/sounds/club/personajes/pedro_madera/go_pt/pm_go_pt_1.ogg</personaje>
+		<personaje type="pedro madera" name="go_pt2_0">/resources/sounds/club/personajes/pedro_madera/go_pt/pm_go_pt2_0.ogg</personaje>
+		<personaje type="pedro madera" name="go_pt2_1">/resources/sounds/club/personajes/pedro_madera/go_pt/pm_go_pt2_1.ogg</personaje>
+		<!-- Go Get Medals -->
+		<personaje type="pedro madera" name="get_medals_0">/resources/sounds/club/personajes/pedro_madera/get_medals/pm_get_medals_0.ogg</personaje>
+		<personaje type="pedro madera" name="get_medals_1">/resources/sounds/club/personajes/pedro_madera/get_medals/pm_get_medals_1.ogg</personaje>
+		<!-- PT Defeated -->
+		<personaje type="pedro madera" name="pt_defeated_0">/resources/sounds/club/personajes/pedro_madera/pt_defeated/pm_pt_defeated_0.ogg</personaje>
+		<personaje type="pedro madera" name="pt_defeated_1">/resources/sounds/club/personajes/pedro_madera/pt_defeated/pm_pt_defeated_1.ogg</personaje>
+    	<!-- All Clear -->
+    	<personaje type="pedro madera" name="all_clear">/resources/sounds/club/personajes/pedro_madera/all_clear/pm_all_clear_0.ogg</personaje>
+    	<!-- End -->
+    	<personaje type="pedro madera" name="end1">/resources/sounds/club/personajes/pedro_madera/end/pm_end1_0.ogg</personaje>
+    	<personaje type="pedro madera" name="end2">/resources/sounds/club/personajes/pedro_madera/end/pm_end2_0.ogg</personaje>
+		<!-- Sofia Dulce -->
+    	<personaje type="sofia dulce" name="intro_0">/resources/sounds/club/personajes/sofia_dulce/intro/sd_intro_0.ogg</personaje>
+    	<personaje type="sofia dulce" name="intro_1">/resources/sounds/club/personajes/sofia_dulce/intro/sd_intro_1.ogg</personaje>
+    	<personaje type="sofia dulce" name="intro_2">/resources/sounds/club/personajes/sofia_dulce/intro/sd_intro_2.ogg</personaje>
+    	<personaje type="sofia dulce" name="intro_3">/resources/sounds/club/personajes/sofia_dulce/intro/sd_intro_3.ogg</personaje>
+    	<!-- Go Tutorial 2 -->
+    	<personaje type="sofia dulce" name="go_tut2">/resources/sounds/club/personajes/sofia_dulce/go_tut2/sd_go_tut2_0.ogg</personaje>
+    	<!-- Go challenge 3 -->
+		<personaje type="sofia dulce" name="go_chal3_0">/resources/sounds/club/personajes/sofia_dulce/go_chal3/sd_go_chal3_0.ogg</personaje>
+		<personaje type="sofia dulce" name="go_chal3_1">/resources/sounds/club/personajes/sofia_dulce/go_chal3/sd_go_chal3_1.ogg</personaje>
+		<!-- Go challenge 4 -->
+		<personaje type="sofia dulce" name="go_chal4_0">/resources/sounds/club/personajes/sofia_dulce/go_chal4/sd_go_chal4_0.ogg</personaje>
+		<!-- Go Protasio 2 -->
+		<personaje type="sofia dulce" name="go_pt2_0">/resources/sounds/club/personajes/sofia_dulce/go_pt2/sd_go_pt2_0.ogg</personaje>
+		<personaje type="sofia dulce" name="go_pt2_1">/resources/sounds/club/personajes/sofia_dulce/go_pt2/sd_go_pt2_1.ogg</personaje>
+		<!-- Primer Juego -->
+		<personaje type="sofia dulce" name="match1_0">/resources/sounds/club/personajes/sofia_dulce/games/game1/sd_match1_0.ogg</personaje>
+		<personaje type="sofia dulce" name="match1_lose_0">/resources/sounds/club/personajes/sofia_dulce/games/game1/sd_match1_lose_0.ogg</personaje>
+		<personaje type="sofia dulce" name="match1_give_medal_0">/resources/sounds/club/personajes/sofia_dulce/games/game1/sd_match1_give_medal_0.ogg</personaje>
+		<personaje type="sofia dulce" name="match1_give_medal_1">/resources/sounds/club/personajes/sofia_dulce/games/game1/sd_match1_give_medal_1.ogg</personaje>
+		<personaje type="sofia dulce" name="match_draw_0">/resources/sounds/club/personajes/sofia_dulce/games/sd_match_draw_0.ogg</personaje>
+		<personaje type="sofia dulce" name="match_win_0">/resources/sounds/club/personajes/sofia_dulce/games/sd_match_win_0.ogg</personaje>
+		<personaje type="sofia dulce" name="match_win_1">/resources/sounds/club/personajes/sofia_dulce/games/sd_match_win_1.ogg</personaje>
+		<personaje type="sofia dulce" name="match_prematch_phrase">/resources/sounds/club/personajes/sofia_dulce/games/sd_prematch_phrase_0.ogg</personaje>
+    	<!-- Segundo Juego -->
+    	<personaje type="sofia dulce" name="match2_0">/resources/sounds/club/personajes/sofia_dulce/games/game2/sd_match2_0.ogg</personaje>
+    	<personaje type="sofia dulce" name="match2_lose_0">/resources/sounds/club/personajes/sofia_dulce/games/game2/sd_match2_lose_0.ogg</personaje>
+    	<personaje type="sofia dulce" name="match2_give_medal_0">/resources/sounds/club/personajes/sofia_dulce/games/game2/sd_match2_give_medal_0.ogg</personaje>
+    	<!-- Tercer Juego -->
+    	<personaje type="sofia dulce" name="match3_0">/resources/sounds/club/personajes/sofia_dulce/games/game3/sd_match3_0.ogg</personaje>
+    	<personaje type="sofia dulce" name="match3_lose_0">/resources/sounds/club/personajes/sofia_dulce/games/game3/sd_match3_lose_0.ogg</personaje>
+    	<personaje type="sofia dulce" name="match3_give_medal_0">/resources/sounds/club/personajes/sofia_dulce/games/game3/sd_match3_give_medal_0.ogg</personaje>
+    	<!-- Juego Revancha -->
+    	<personaje type="sofia dulce" name="rematch_0">/resources/sounds/club/personajes/sofia_dulce/rematch/sd_rematch_0.ogg</personaje>
+    	<personaje type="sofia dulce" name="rematch_1">/resources/sounds/club/personajes/sofia_dulce/rematch/sd_rematch_1.ogg</personaje>
+    	<personaje type="sofia dulce" name="rematch_lose_0">/resources/sounds/club/personajes/sofia_dulce/rematch/sd_rematch_lose_0.ogg</personaje>
+    	<!-- Get Medals -->
+		<personaje type="sofia dulce" name="get_medals_0">/resources/sounds/club/personajes/sofia_dulce/get_medals/sd_get_medals_0.ogg</personaje>
+		<!-- Protasio Defeated -->
+		<personaje type="sofia dulce" name="pt_defeated_0">/resources/sounds/club/personajes/sofia_dulce/pt_defeated/sd_pt_defeated_0.ogg</personaje>
+		<!-- All Clear -->
+		<personaje type="sofia dulce" name="all_clear">/resources/sounds/club/personajes/sofia_dulce/all_clear/sd_all_clear_0.ogg</personaje>
+		<!-- End-->
+		<personaje type="sofia dulce" name="end1">/resources/sounds/club/personajes/sofia_dulce/end/sd_end1_0.ogg</personaje>
+		<personaje type="sofia dulce" name="end2">/resources/sounds/club/personajes/sofia_dulce/end/sd_end2_0.ogg</personaje>
+		<!-- Protasio -->
+    	<personaje type="protasio" name="intro_0">/resources/sounds/club/personajes/protasio/intro/pt_intro_0.ogg</personaje>
+    	<personaje type="protasio" name="intro_1">/resources/sounds/club/personajes/protasio/intro/pt_intro_1.ogg</personaje>
+    	<personaje type="protasio" name="infection">/resources/sounds/club/personajes/protasio/infection/pt_infection_0.ogg</personaje>
+    	<personaje type="protasio" name="infection2_0">/resources/sounds/club/personajes/protasio/infection/pt_infection2_0.ogg</personaje>
+    	<personaje type="protasio" name="infection2_1">/resources/sounds/club/personajes/protasio/infection/pt_infection2_1.ogg</personaje>
+    	<personaje type="protasio" name="infection2_2">/resources/sounds/club/personajes/protasio/infection/pt_infection2_2.ogg</personaje>
+    	<personaje type="protasio" name="infection2_3">/resources/sounds/club/personajes/protasio/infection/pt_infection2_3.ogg</personaje>
+    	<personaje type="protasio" name="go_sd_0">/resources/sounds/club/personajes/protasio/go_sd/pt_go_sd_0.ogg</personaje>
+    	<personaje type="protasio" name="go_sd_1">/resources/sounds/club/personajes/protasio/go_sd/pt_go_sd_1.ogg</personaje>
+    	<!-- Go challenge 4 -->
+    	<personaje type="protasio" name="go_chal4_0">/resources/sounds/club/personajes/protasio/go_chal4/pt_go_chal4_0.ogg</personaje>
+    	<!-- Games -->
+    	<personaje type="protasio" name="match_draw">/resources/sounds/club/personajes/protasio/games/pt_match_draw_0.ogg</personaje>
+    	<personaje type="protasio" name="match_win">/resources/sounds/club/personajes/protasio/games/pt_match_win_0.ogg</personaje>
+    	<personaje type="protasio" name="prematch_phrase">/resources/sounds/club/personajes/protasio/games/pt_prematch_phrase_0.ogg</personaje>
+    	<!-- Primer Juego -->
+    	<personaje type="protasio" name="match1">/resources/sounds/club/personajes/protasio/games/game1/pt_match1_0.ogg</personaje>
+    	<personaje type="protasio" name="match1_lose_0">/resources/sounds/club/personajes/protasio/games/game1/pt_match1_lose_0.ogg</personaje>
+    	<personaje type="protasio" name="match1_lose_1">/resources/sounds/club/personajes/protasio/games/game1/pt_match1_lose_1.ogg</personaje>
+    	<!-- Segundo Juego -->
+    	<personaje type="protasio" name="match2">/resources/sounds/club/personajes/protasio/games/game2/pt_match2_0.ogg</personaje>
+    	<personaje type="protasio" name="match2_lose_0">/resources/sounds/club/personajes/protasio/games/game2/pt_match2_lose_0.ogg</personaje>
+    	<personaje type="protasio" name="match2_lose_1">/resources/sounds/club/personajes/protasio/games/game2/pt_match2_lose_1.ogg</personaje>
+    	<personaje type="protasio" name="match2_lose_2">/resources/sounds/club/personajes/protasio/games/game2/pt_match2_lose_2.ogg</personaje>
+    	<personaje type="protasio" name="match2_more_medals_0">/resources/sounds/club/personajes/protasio/games/game2/pt_match2_more_medals_0.ogg</personaje>
+    	<personaje type="protasio" name="match2_more_medals_1">/resources/sounds/club/personajes/protasio/games/game2/pt_match2_more_medals_1.ogg</personaje>
+    	<!-- Tercer Juego -->
+    	<personaje type="protasio" name="match3">/resources/sounds/club/personajes/protasio/games/game3/pt_match3_0.ogg</personaje>
+    	<personaje type="protasio" name="give_trophy">/resources/sounds/club/personajes/protasio/games/game3/pt_match3_give_trophy_0.ogg</personaje>
+    	<personaje type="protasio" name="match3_lose">/resources/sounds/club/personajes/protasio/games/game3/pt_match3_lose_0.ogg</personaje>
+    	<personaje type="protasio" name="match3_lose_cont_0">/resources/sounds/club/personajes/protasio/games/game3/pt_match3_lose_cont_0.ogg</personaje>
+    	<personaje type="protasio" name="match3_lose_cont_1">/resources/sounds/club/personajes/protasio/games/game3/pt_match3_lose_cont_1.ogg</personaje>
+    	<personaje type="protasio" name="match3_more_medals_0">/resources/sounds/club/personajes/protasio/games/game3/pt_match3_more_medals_0.ogg</personaje>
+    	<personaje type="protasio" name="match3_more_medals_1">/resources/sounds/club/personajes/protasio/games/game3/pt_match3_more_medals_1.ogg</personaje>
+    	<personaje type="protasio" name="match3_go_sd">/resources/sounds/club/personajes/protasio/games/game3/pt_match3_go_sd_0.ogg</personaje>
+    	<!-- Rematch -->
+    	<personaje type="protasio" name="rematch_0">/resources/sounds/club/personajes/protasio/games/rematch/pt_rematch_0.ogg</personaje>
+    	<personaje type="protasio" name="rematch_1">/resources/sounds/club/personajes/protasio/games/rematch/pt_rematch_1.ogg</personaje>
+    	<personaje type="protasio" name="rematch_lose">/resources/sounds/club/personajes/protasio/games/rematch/pt_rematch_lose_0.ogg</personaje>
+    	<!-- PT Defeated -->
+    	<personaje type="protasio" name="pt_defeated">/resources/sounds/club/personajes/protasio/pt_pt_defeated_0.ogg</personaje>
+    	<!-- All Clear -->
+    	<personaje type="protasio" name="all_clear">/resources/sounds/club/personajes/protasio/pt_all_clear_0.ogg</personaje>
+    	<!-- End -->
+		<personaje type="protasio" name="end1_0">/resources/sounds/club/personajes/protasio/end/pt_end1_0.ogg</personaje>
+		<personaje type="protasio" name="end1_1">/resources/sounds/club/personajes/protasio/end/pt_end1_1.ogg</personaje>
+		<personaje type="protasio" name="end2_0">/resources/sounds/club/personajes/protasio/end/pt_end2_0.ogg</personaje>
+		<personaje type="protasio" name="end2_1">/resources/sounds/club/personajes/protasio/end/pt_end2_1.ogg</personaje>
+    	<!-- OTROS -->
+    	<otros type="fx" name="select">/resources/sounds/fx/fx_select.ogg</otros>
+    	<otros type="fx" name="wait_input">/resources/sounds/fx/fx_wait_input.ogg</otros>
+    	<otros type="fx" name="disabled_key">/resources/sounds/fx/fx_disabled.ogg</otros>
+    	<otros type="fx" name="more_text">/resources/sounds/fx/fx_more_text.ogg</otros>
+    	<otros type="fx" name="atras">/resources/sounds/fx/fx_redisplay.ogg</otros>
+    	<otros type="fx" name="medalla_bronce">/resources/sounds/fx/fx_medal_bronze.ogg</otros>
+    	<otros type="fx" name="medalla_oro">/resources/sounds/fx/fx_medal_gold.ogg</otros>
+    	<otros type="fx" name="medalla_plata">/resources/sounds/fx/fx_medal_silver.ogg</otros>
+    	<otros type="fx" name="trofeo_oro">/resources/sounds/fx/fx_trophy_gold.ogg</otros>
+    	<otros type="fx" name="trofeo_marfil">/resources/sounds/fx/fx_trophy_ivory.ogg</otros>
+    	<otros type="fx" name="trofeo_madera">/resources/sounds/fx/fx_trophy_wood.ogg</otros>
+    	<otros type="voz" name="arriba">/resources/sounds/voz/arriba.ogg</otros>
+    	<otros type="voz" name="abajo">/resources/sounds/voz/abajo.ogg</otros>
+		<otros type="voz" name="izquierda">/resources/sounds/voz/izquierda.ogg</otros>
+		<otros type="voz" name="derecha">/resources/sounds/voz/derecha.ogg</otros>
+		<otros type="voz" name="mas_info">/resources/sounds/voz/mas_info.ogg</otros>
+		<otros type="voz" name="seleccion">/resources/sounds/voz/seleccion.ogg</otros>
+		<otros type="voz" name="contar_fichas">/resources/sounds/voz/contar_fichas.ogg</otros>
+		<otros type="voz" name="atras">/resources/sounds/voz/atras.ogg</otros>
+		<otros type="voz" name="y">/resources/sounds/voz/y.ogg</otros>
+		<otros type="voz" name="en">/resources/sounds/voz/en.ogg</otros>
+		<otros type="voz" name="y_en">/resources/sounds/voz/y_en.ogg</otros>
+		<otros type="voz" name="silencio">/resources/sounds/period.ogg</otros>
+		<otros type="voz" name="salida_club">/resources/sounds/club/voz/emergency_exit.ogg</otros>
+		<!-- SELECTORS -->
+		<selector type="voz" name="salir">/resources/sounds/club/selectors/salir.ogg</selector>
+		<selector type="voz" name="salir_desc">/resources/sounds/club/selectors/salir_desc.ogg</selector>
+		<selector type="voz" name="salir_pasillo">/resources/sounds/club/selectors/salir_al_pasillo.ogg</selector>
+		<selector type="voz" name="salir_pasillo_desc">/resources/sounds/club/selectors/salir_al_pasillo_desc.ogg</selector>
+		<selector type="voz" name="jugar">/resources/sounds/club/selectors/jugar.ogg</selector>
+		<selector type="voz" name="jugar_desc">/resources/sounds/club/selectors/jugar_desc.ogg</selector>
+		<selector type="voz" name="jugar_sin_jugadas_posibles">/resources/sounds/club/selectors/jugar_sin_marcar_jugadas_posibles.ogg</selector>
+		<selector type="voz" name="jugar_sin_jugadas_posibles_desc">/resources/sounds/club/selectors/jugar_sin_marcar_jugadas_posibles_desc.ogg</selector>
+		<selector type="voz" name="jugar_desc">/resources/sounds/club/selectors/jugar_desc.ogg</selector>
+		<selector type="voz" name="tutorial1">/resources/sounds/club/selectors/tut1_name.ogg</selector>
+		<selector type="voz" name="tutorial1_desc">/resources/sounds/club/selectors/tut1_desc.ogg</selector>
+		<selector type="voz" name="tutorial2">/resources/sounds/club/selectors/tut2_name.ogg</selector>
+		<selector type="voz" name="tutorial2_desc">/resources/sounds/club/selectors/tut2_desc.ogg</selector>
+		<selector type="voz" name="reintentar">/resources/sounds/club/selectors/reintentar.ogg</selector>
+		<selector type="voz" name="reintentar_desc">/resources/sounds/club/selectors/reintentar_desc.ogg</selector>
+		<selector type="voz" name="tomar">/resources/sounds/club/selectors/tomar.ogg</selector>
+		<selector type="voz" name="actualmente_tiene_la">/resources/sounds/club/selectors/actualmente_tiene_la.ogg</selector>
+		<selector type="voz" name="desafio">/resources/sounds/tablero/voz/desafio.ogg</selector>
+		<selector type="voz" name="a1">/resources/sounds/tablero/voz/a1.ogg</selector>
+		<selector type="voz" name="a2">/resources/sounds/tablero/voz/a2.ogg</selector>
+		<selector type="voz" name="a3">/resources/sounds/tablero/voz/a3.ogg</selector>
+		<selector type="voz" name="a4">/resources/sounds/tablero/voz/a4.ogg</selector>
+		<selector type="voz" name="a5">/resources/sounds/tablero/voz/a5.ogg</selector>
+		<selector type="voz" name="b1">/resources/sounds/tablero/voz/b1.ogg</selector>
+		<selector type="voz" name="b2">/resources/sounds/tablero/voz/b2.ogg</selector>
+		<selector type="voz" name="b3">/resources/sounds/tablero/voz/b3.ogg</selector>
+		<selector type="voz" name="b4">/resources/sounds/tablero/voz/b4.ogg</selector>
+		<selector type="voz" name="b5">/resources/sounds/tablero/voz/b5.ogg</selector>
+		<selector type="voz" name="c1">/resources/sounds/tablero/voz/c1.ogg</selector>
+		<selector type="voz" name="c2">/resources/sounds/tablero/voz/c2.ogg</selector>
+		<selector type="voz" name="c3">/resources/sounds/tablero/voz/c3.ogg</selector>
+		<selector type="voz" name="c4">/resources/sounds/tablero/voz/c4.ogg</selector>
+		<selector type="voz" name="c5">/resources/sounds/tablero/voz/c5.ogg</selector>
+		<selector type="voz" name="progreso_juego">/resources/sounds/club/secretaria/office_room_progress_report_title.ogg</selector>
+		<selector type="voz" name="progreso_juego_desc">/resources/sounds/club/secretaria/office_room_progress_report_desc.ogg</selector>
+		<selector type="voz" name="medallas_obtenidas">/resources/sounds/club/secretaria/office_room_medals_report_title.ogg</selector>
+		<selector type="voz" name="medallas_obtenidas_desc">/resources/sounds/club/secretaria/office_room_medals_report_desc.ogg</selector>
+		<selector type="voz" name="porciento">/resources/sounds/club/secretaria/porciento.ogg</selector>
+		<selector type="voz" name="medalla_bronze">/resources/sounds/club/secretaria/medalla_de_bronce.ogg</selector>
+		<selector type="voz" name="medallas_bronze">/resources/sounds/club/secretaria/medallas_de_bronce.ogg</selector>
+		<selector type="voz" name="medalla_plata">/resources/sounds/club/secretaria/medalla_de_plata.ogg</selector>
+		<selector type="voz" name="medallas_plata">/resources/sounds/club/secretaria/medallas_de_plata.ogg</selector>
+		<selector type="voz" name="medalla_oro">/resources/sounds/club/secretaria/medalla_de_oro.ogg</selector>
+		<selector type="voz" name="medallas_oro">/resources/sounds/club/secretaria/medallas_de_oro.ogg</selector>
+		<selector type="voz" name="medalla_total">/resources/sounds/club/secretaria/medalla_en_total.ogg</selector>
+		<selector type="voz" name="medallas_total">/resources/sounds/club/secretaria/medallas_en_total.ogg</selector>
+		<selector type="voz" name="reintentar_busqueda">/resources/sounds/club/salon_encuentros/reintentar_busqueda.ogg</selector>
+		<selector type="voz" name="reintentar_busqueda_desc">/resources/sounds/club/salon_encuentros/reintentar_busqueda_desc.ogg</selector>
+		<selector type="voz" name="volver_a_jugar">/resources/sounds/club/salon_encuentros/volver_a_jugar.ogg</selector>
+		<selector type="voz" name="volver_a_jugar_desc">/resources/sounds/club/salon_encuentros/volver_a_jugar_desc.ogg</selector>
+		<!-- NUMEROS -->
+		<numero type="voz" name="cero">/resources/sounds/numeros/0.ogg</numero>
+		<numero type="voz" name="uno">/resources/sounds/numeros/1.ogg</numero>
+		<numero type="voz" name="uno">/resources/sounds/numeros/1.ogg</numero>
+		<numero type="voz" name="una">/resources/sounds/numeros/1a.ogg</numero>
+		<numero type="voz" name="dos">/resources/sounds/numeros/2.ogg</numero>
+		<numero type="voz" name="tres">/resources/sounds/numeros/3.ogg</numero>
+		<numero type="voz" name="cuatro">/resources/sounds/numeros/4.ogg</numero>
+		<numero type="voz" name="cinco">/resources/sounds/numeros/5.ogg</numero>
+		<numero type="voz" name="seis">/resources/sounds/numeros/6.ogg</numero>
+		<numero type="voz" name="siete">/resources/sounds/numeros/7.ogg</numero>
+		<numero type="voz" name="ocho">/resources/sounds/numeros/8.ogg</numero>
+		<numero type="voz" name="nueve">/resources/sounds/numeros/9.ogg</numero>
+		<numero type="voz" name="diez">/resources/sounds/numeros/10.ogg</numero>
+		<numero type="voz" name="once">/resources/sounds/numeros/11.ogg</numero>
+		<numero type="voz" name="doce">/resources/sounds/numeros/12.ogg</numero>
+		<numero type="voz" name="trece">/resources/sounds/numeros/13.ogg</numero>
+		<numero type="voz" name="catorce">/resources/sounds/numeros/14.ogg</numero>
+		<numero type="voz" name="quince">/resources/sounds/numeros/15.ogg</numero>
+		<numero type="voz" name="dieciseis">/resources/sounds/numeros/16.ogg</numero>
+		<numero type="voz" name="diecisiete">/resources/sounds/numeros/17.ogg</numero>
+		<numero type="voz" name="dieciocho">/resources/sounds/numeros/18.ogg</numero>
+		<numero type="voz" name="diecinueve">/resources/sounds/numeros/19.ogg</numero>
+		<numero type="voz" name="veinte">/resources/sounds/numeros/20.ogg</numero>
+		<numero type="voz" name="veintiun">/resources/sounds/numeros/21.ogg</numero>
+		<numero type="voz" name="veintiuno">/resources/sounds/numeros/21o.ogg</numero>
+		<numero type="voz" name="veintidos">/resources/sounds/numeros/22.ogg</numero>
+		<numero type="voz" name="veintitres">/resources/sounds/numeros/23.ogg</numero>
+		<numero type="voz" name="veinticuatro">/resources/sounds/numeros/24.ogg</numero>
+		<numero type="voz" name="veinticinco">/resources/sounds/numeros/25.ogg</numero>
+		<numero type="voz" name="veintiseis">/resources/sounds/numeros/26.ogg</numero>
+		<numero type="voz" name="veintisiete">/resources/sounds/numeros/27.ogg</numero>
+		<numero type="voz" name="veintiocho">/resources/sounds/numeros/28.ogg</numero>
+		<numero type="voz" name="veintinueve">/resources/sounds/numeros/29.ogg</numero>
+		<numero type="voz" name="treinta">/resources/sounds/numeros/30.ogg</numero>
+		<numero type="voz" name="treintayun">/resources/sounds/numeros/31.ogg</numero>
+		<numero type="voz" name="treintayuno">/resources/sounds/numeros/31o.ogg</numero>
+		<numero type="voz" name="treintaydos">/resources/sounds/numeros/32.ogg</numero>
+		<numero type="voz" name="treintaytres">/resources/sounds/numeros/33.ogg</numero>
+		<numero type="voz" name="treintaycuatro">/resources/sounds/numeros/34.ogg</numero>
+		<numero type="voz" name="treintaycinco">/resources/sounds/numeros/35.ogg</numero>
+		<numero type="voz" name="treintayseis">/resources/sounds/numeros/36.ogg</numero>
+		<numero type="voz" name="treintaysiete">/resources/sounds/numeros/37.ogg</numero>
+		<numero type="voz" name="treintayocho">/resources/sounds/numeros/38.ogg</numero>
+		<numero type="voz" name="treintaynueve">/resources/sounds/numeros/39.ogg</numero>
+		<numero type="voz" name="cuarenta">/resources/sounds/numeros/40.ogg</numero>
+		<numero type="voz" name="cuarentayun">/resources/sounds/numeros/41.ogg</numero>
+		<numero type="voz" name="cuarentayuno">/resources/sounds/numeros/41o.ogg</numero>
+		<numero type="voz" name="cuarentaydos">/resources/sounds/numeros/42.ogg</numero>
+		<numero type="voz" name="cuarentaytres">/resources/sounds/numeros/43.ogg</numero>
+		<numero type="voz" name="cuarentaycuatro">/resources/sounds/numeros/44.ogg</numero>
+		<numero type="voz" name="cuarentaycinco">/resources/sounds/numeros/45.ogg</numero>
+		<numero type="voz" name="cuarentayseis">/resources/sounds/numeros/46.ogg</numero>
+		<numero type="voz" name="cuarentaysiete">/resources/sounds/numeros/47.ogg</numero>
+		<numero type="voz" name="cuarentayocho">/resources/sounds/numeros/41.ogg</numero>
+		<numero type="voz" name="cuarentaynueve">/resources/sounds/numeros/49.ogg</numero>
+		<numero type="voz" name="cinquenta">/resources/sounds/numeros/50.ogg</numero>
+		<numero type="voz" name="cinquentayun">/resources/sounds/numeros/51.ogg</numero>
+		<numero type="voz" name="cinquentayuno">/resources/sounds/numeros/51o.ogg</numero>
+		<numero type="voz" name="cinquentaydos">/resources/sounds/numeros/52.ogg</numero>
+		<numero type="voz" name="cinquentaytres">/resources/sounds/numeros/53.ogg</numero>
+		<numero type="voz" name="cinquentaycuatro">/resources/sounds/numeros/54.ogg</numero>
+		<numero type="voz" name="cinquentaycinco">/resources/sounds/numeros/55.ogg</numero>
+		<numero type="voz" name="cinquentayseis">/resources/sounds/numeros/56.ogg</numero>
+		<numero type="voz" name="cinquentaysiete">/resources/sounds/numeros/57.ogg</numero>
+		<numero type="voz" name="cinquentayocho">/resources/sounds/numeros/58.ogg</numero>
+		<numero type="voz" name="cinquentaynueve">/resources/sounds/numeros/59.ogg</numero>
+		<numero type="voz" name="sesenta">/resources/sounds/numeros/60.ogg</numero>
+		<numero type="voz" name="sesentayun">/resources/sounds/numeros/61.ogg</numero>
+		<numero type="voz" name="sesentayuno">/resources/sounds/numeros/61o.ogg</numero>
+		<numero type="voz" name="sesentaydos">/resources/sounds/numeros/62.ogg</numero>
+		<numero type="voz" name="sesentaytres">/resources/sounds/numeros/63.ogg</numero>
+		<numero type="voz" name="sesentaycuatro">/resources/sounds/numeros/64.ogg</numero>
+		<numero type="voz" name="sesentaycinco">/resources/sounds/numeros/65.ogg</numero>
+		<numero type="voz" name="sesentayseis">/resources/sounds/numeros/66.ogg</numero>
+		<numero type="voz" name="sesentaysiete">/resources/sounds/numeros/67.ogg</numero>
+		<numero type="voz" name="sesentayocho">/resources/sounds/numeros/68.ogg</numero>
+		<numero type="voz" name="sesentaynueve">/resources/sounds/numeros/69.ogg</numero>
+		<numero type="voz" name="setenta">/resources/sounds/numeros/70.ogg</numero>
+		<numero type="voz" name="setentayun">/resources/sounds/numeros/71.ogg</numero>
+		<numero type="voz" name="setentayuno">/resources/sounds/numeros/71o.ogg</numero>
+		<numero type="voz" name="setentaydos">/resources/sounds/numeros/72.ogg</numero>
+		<numero type="voz" name="setentaytres">/resources/sounds/numeros/73.ogg</numero>
+		<numero type="voz" name="setentaycuatro">/resources/sounds/numeros/74.ogg</numero>
+		<numero type="voz" name="setentaycinco">/resources/sounds/numeros/75.ogg</numero>
+		<numero type="voz" name="setentayseis">/resources/sounds/numeros/76.ogg</numero>
+		<numero type="voz" name="setentaysiete">/resources/sounds/numeros/77.ogg</numero>
+		<numero type="voz" name="setentayocho">/resources/sounds/numeros/78.ogg</numero>
+		<numero type="voz" name="setentaynueve">/resources/sounds/numeros/79.ogg</numero>
+		<numero type="voz" name="ochenta">/resources/sounds/numeros/80.ogg</numero>
+		<numero type="voz" name="ochentayun">/resources/sounds/numeros/81.ogg</numero>
+		<numero type="voz" name="ochentayuno">/resources/sounds/numeros/81o.ogg</numero>
+		<numero type="voz" name="ochentaydos">/resources/sounds/numeros/82.ogg</numero>
+		<numero type="voz" name="ochentaytres">/resources/sounds/numeros/83.ogg</numero>
+		<numero type="voz" name="ochentaycuatro">/resources/sounds/numeros/84.ogg</numero>
+		<numero type="voz" name="ochentaycinco">/resources/sounds/numeros/85.ogg</numero>
+		<numero type="voz" name="ochentayseis">/resources/sounds/numeros/86.ogg</numero>
+		<numero type="voz" name="ochentaysiete">/resources/sounds/numeros/87.ogg</numero>
+		<numero type="voz" name="ochentayocho">/resources/sounds/numeros/88.ogg</numero>
+		<numero type="voz" name="ochentaynueve">/resources/sounds/numeros/89.ogg</numero>
+		<numero type="voz" name="noventa">/resources/sounds/numeros/90.ogg</numero>
+		<numero type="voz" name="noventayun">/resources/sounds/numeros/91.ogg</numero>
+		<numero type="voz" name="noventayuno">/resources/sounds/numeros/91o.ogg</numero>
+		<numero type="voz" name="noventaydos">/resources/sounds/numeros/92.ogg</numero>
+		<numero type="voz" name="noventaytres">/resources/sounds/numeros/93.ogg</numero>
+		<numero type="voz" name="noventaycuatro">/resources/sounds/numeros/94.ogg</numero>
+		<numero type="voz" name="noventaycinco">/resources/sounds/numeros/95.ogg</numero>
+		<numero type="voz" name="noventayseis">/resources/sounds/numeros/96.ogg</numero>
+		<numero type="voz" name="noventaysiete">/resources/sounds/numeros/97.ogg</numero>
+		<numero type="voz" name="noventayocho">/resources/sounds/numeros/98.ogg</numero>
+		<numero type="voz" name="noventaynueve">/resources/sounds/numeros/99.ogg</numero>
+		<numero type="voz" name="cien">/resources/sounds/numeros/100.ogg</numero>
+	</sounds>
+	<fonts>
+	</fonts>
+</resources>

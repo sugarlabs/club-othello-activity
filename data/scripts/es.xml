@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<dialog_data>
+	<!-- DIALOGOS MULTI ESTADO -->
+	<PG_AGAIN>
+		<text type="OGG" join="YES" character="pablo gris" sound="again">Inténtalo otra vez.</text>
+	</PG_AGAIN>
+	<PG_MAS_INFO_KEY>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_mas_info_0" constant_key="805">Presiona el botón 'Más información' que está exactamente debajo del botón 'Continuar'.</text>
+	</PG_MAS_INFO_KEY>
+	<PG_MAS_INFO2_KEY>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_mas_info_1" constant_key="805">Presiona el botón 'Más información' que está sobre tu mano derecha exactamente debajo del botón 'Continuar' que usas para hablar conmigo.</text>
+	</PG_MAS_INFO2_KEY>
+	<PG_MAS_INFO3_KEY>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_mas_info_2" constant_key="805">Presiona de nuevo el botón 'Más información' exactamente debajo del botón 'Continuar', para que la computadora te las explique.</text>
+	</PG_MAS_INFO3_KEY>
+	<PG_CONTINUAR_KEY>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_continuar" constant_key="804">Presiona el botón 'Continuar' que usas para hablar conmigo.</text>
+	</PG_CONTINUAR_KEY>
+	<PG_ARRIBA_KEY>
+   		<text type="OGG" input="YES" character="pablo gris" sound="key_arriba" constant_key="802">Presiona 'Arriba' en el botón que se encuentra sobre tu mano izquierda.</text>
+	</PG_ARRIBA_KEY>
+	<PG_ARRIBA2_KEY>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_arriba2" constant_key="802">Ahora, presiona el botón 'Arriba' para seguir explorando el tablero.</text>
+	</PG_ARRIBA2_KEY>
+	<PG_SELECCION_KEY>
+   		<text type="OGG" input="YES" character="pablo gris" sound="key_seleccion" constant_key="807">Presiona el botón 'Selección' que está a la derecha del botón 'Continuar'.</text>
+	</PG_SELECCION_KEY>
+	<!-- Teclas Nuevas -->
+	<PG_SELECCION2_KEY>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_seleccion2" constant_key="807">Presiona el botón 'Centro' para saber qué ocurrió.</text>
+	</PG_SELECCION2_KEY>
+	<PG_SELECCION3_KEY>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_seleccion3" constant_key="807">Presiona el botón 'Centro' para volver a escucharlo.</text>
+	</PG_SELECCION3_KEY>
+	<PG_IZQUIERDA_KEY>
+   		<text type="OGG" input="YES" character="pablo gris" sound="key_izquierda" constant_key="800">Presiona 'Izquierda' en el botón que se encuentra sobre tu mano izquierda.</text>
+	</PG_IZQUIERDA_KEY>
+	<PG_IZQUIERDA2_KEY>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_izquierda2" constant_key="800">Mueve la selección a la izquierda para comprobarlo.</text>
+	</PG_IZQUIERDA2_KEY>
+	<!-- Cambiar! -->
+	<PG_CONTAR_KEY>
+   		<text type="OGG" input="YES" character="pablo gris" sound="key_contar" constant_key="809">Prueba presionar al mismo tiempo los botones 'Más Información' y 'Selección'.</text>
+	</PG_CONTAR_KEY>
+	<PG_JUG_POS_4_3>
+   		<text type="OGG" special_input="YES" character="pablo gris" sound="tut_jug_4_3" constant_key="804" id="jugada_4_3">Selecciona la jugada posible de la columna 4 fila 3 y presiona el botón 'Continuar'.</text>
+	</PG_JUG_POS_4_3>
+	<PG_JUG_POS_2_1>
+   		<text type="OGG" special_input="YES" character="pablo gris" sound="tut_jug_2_1" constant_key="804" id="jugada_2_1">Elige la jugada posible de la columna 2 fila 1 y presiona el botón 'Continuar'.</text>
+	</PG_JUG_POS_2_1>
+	<PG_JUG_POS_1_6>
+		<text type="OGG" special_input="YES" character="pablo gris" sound="tut_jug_1_6" constant_key="804" id="jugada_1_6" video_action="init_tut2">Selecciona la jugada posible de la columna 1 fila 6 y presiona la tecla 'Continuar'.</text>
+	</PG_JUG_POS_1_6>
+	<PG_JUG_POS_1_6_R>
+		<text type="OGG" special_input="YES" character="pablo gris" sound="tut_jug_1_6" constant_key="804" id="jugada_1_6">Selecciona la jugada posible de la columna 1 fila 6 y presiona la tecla 'Continuar'.</text>
+	</PG_JUG_POS_1_6_R>
+	<PG_MOV_POS_4_1>
+   		<text type="OGG" special_input="YES" character="pablo gris" sound="tut110_1" constant_key="804" id="movimiento_4_1">Usa el botón 'Selección' y el botón que se encuentra sobre tu mano izquierda para moverte a la esquina en la columna 4 fila 1 del tablero y presiona el botón 'Continuar' cuando llegues ahí.</text>
+	</PG_MOV_POS_4_1>
+	<!-- MULTIUSO DON CANO //-->
+	<DC_WRONG_ANSWER_NOT_PLAYABLE>
+   		<text type="OGG" character="don cano" sound="wrong_answer_not_playable">El espacio que elegiste no es una Jugada Posible. Recuerda que sólo se pueden hacer jugadas en los espacios marcados como jugadas posibles.</text>
+	</DC_WRONG_ANSWER_NOT_PLAYABLE>
+	<DC_CHECK_ANSWER>
+   		<text type="OGG" character="don cano" sound="check_answer" special_input="YES" constant_key="804" id="recorrer_tablero">Recorre el tablero para averiguar qué sucedió, y cuando estés listo presiona 'Continuar'.</text>
+	</DC_CHECK_ANSWER>
+	<DC_ASK_FOR_RETRY>
+   		<text type="OGG" character="don cano" sound="ask_retry" video_action="dc_show_selection_list">Selecciona en esta lista lo que deseas hacer ahora y presiona 'Continuar' para confirmar.</text>
+	</DC_ASK_FOR_RETRY>
+	<DC_CHAL_RETAKE>
+   		<text type="NULL" character="don cano" sound="chal_retake" video_action="dc_show_retake_list">Puedes elegir el desafío que quieras tomar usando las teclas Arriba y Abajo; y si quieres volver afuera elige la opción 'Salir'. Presiona luego la tecla 'Continuar' para confirmar.</text>
+	</DC_CHAL_RETAKE>
+
+	<!-- E S T A D O   0 //-->
+	<WELLCOME>
+		<INI00>
+	    	<text type="OGG" character="pablo gris" sound="intro00_0">¡Hola! Bienvenido al Club de Othello.</text>
+	    	<text type="OGG" character="pablo gris" sound="intro00_1">Veo que eres nuevo por aquí, así que déjame ayudarte para que pronto conozcas todo lo que el Club tiene para darte.</text>
+	    	<text type="OGG" character="pablo gris" sound="intro00_2">Antes que nada, yo me llamo Pablo, Pablo Gris, y como tú, soy uno de los miembros del club.</text>
+	   		<text type="OGG" character="pablo gris" sound="intro00_3">En este club puedes conocer a mucha gente interesante, tomar parte de una serie de partidas y otras actividades relacionadas con el juego de mesa Othello.</text>
+	   		<text type="OGG" character="pablo gris" sound="intro00_4">Ahora mismo nos encontramos en el primer piso. Hagamos un pequeño recorrido por el edificio del club.</text>
+	   		<text type="OGG" character="pablo gris" sound="intro00_5">Para que ninguno de nosotros se pierda, el club tiene instalado un moderno computador que nos ayuda a ubicarnos.</text>
+	   		<text type="OGG" character="pablo gris" sound="intro00_6">Puedes usar este computador con ayuda de los botones que se encuentran sobre tu mano derecha y el botón que se encuentra sobre tu mano izquierda. ¡Vamos a hacer una prueba!</text>
+	   		<exec_ref>PG_MAS_INFO2_KEY</exec_ref>
+		</INI00>
+		<INI01_NO>
+			<exec_ref>PG_AGAIN</exec_ref>
+			<exec_ref>PG_MAS_INFO_KEY</exec_ref>
+		</INI01_NO>
+		<INI01>
+		   <text type="OGG" character="pablo gris" sound="intro01_0" video_action="floor_more_info">¡Bien! Puedes usar ese botón para obtener más información de donde te encuentras y de los lugares a los que quieres ir.</text>
+		   <text type="OGG" character="pablo gris" sound="intro01_1">Ahora, como el computador dijo, este es el primer piso del Club y desde aquí podemos ir a otros 3 lugares.</text>
+		   <text type="OGG" character="pablo gris" sound="intro01_2">Elegiré el Salón de Clases por ejemplo...</text>
+		   <exec_ref>INI01_A</exec_ref>
+		</INI01>
+		<INI01_A>
+		   <text type="OGG" character="pablo gris" sound="intro01_a_0" video_action="select_class_room">Para elegir o pedir información sobre una puerta, puedes usar el botón que se encuentra a la derecha del botón 'Más información', por ejemplo:</text>
+		   <exec_ref>PG_SELECCION_KEY</exec_ref>
+		</INI01_A>
+		<INI02_NO>
+		   <exec_ref>PG_AGAIN</exec_ref>
+		   <exec_ref>PG_SELECCION_KEY</exec_ref>
+		</INI02_NO>
+		<INI02>
+		   <text type="OGG" character="pablo gris" sound="intro02_0" video_action="class_room_more_info">¡Bien! El botón 'Selección' te dirá más información sobre la puerta que está seleccionada, en este caso el 'Salón de Clases'.</text>
+		   <text type="OGG" character="pablo gris" sound="intro02_1">La puerta seleccionada es aquella que estás atendiendo y puedes abrirla o pedir más información sobre ella.</text>
+		   <text type="OGG" character="pablo gris" sound="intro02_2">Pero también puedes mover tu selección a otra puerta. Por ejemplo:</text>
+		   <exec_ref>PG_ARRIBA_KEY</exec_ref>
+		</INI02>
+		<INI03_NO>
+		   <exec_ref>PG_AGAIN</exec_ref>
+		   <exec_ref>PG_ARRIBA_KEY</exec_ref>
+		</INI03_NO>
+		<INI03>
+		   <text type="OGG" character="pablo gris" sound="intro03_0" video_action="select_elevator_up">Muy bien, puedes mover tu selección a otras puertas presionando arriba, abajo, a la izquierda o a la derecha en el botón que se encuentra sobre tu mano izquierda.</text>
+		   <text type="OGG" character="pablo gris" sound="intro03_1">Ahora que tenemos el ascensor seleccionado para subir al piso número 2 del Club, abramos su puerta y entremos en él.</text>
+		   <exec_ref>PG_CONTINUAR_KEY</exec_ref>
+		</INI03>
+		<INI04_NO>
+		   <exec_ref>PG_AGAIN</exec_ref>
+		   <exec_ref>PG_CONTINUAR_KEY</exec_ref>
+		</INI04_NO>
+		<INI04>
+		   <text type="OGG" character="pablo gris" sound="intro04_0" video_action="go_to_second_floor">Ahora estamos en el segundo piso. Al igual que en el primer piso, aquí hay varias puertas que puedes abrir.</text>
+		   <exec_ref>PG_MAS_INFO3_KEY</exec_ref>
+		</INI04>
+		<INI05_NO>
+		   <exec_ref>PG_AGAIN</exec_ref>
+		   <exec_ref>PG_MAS_INFO_KEY</exec_ref>
+		</INI05_NO>
+		<INI05>
+		   <text type="OGG" character="pablo gris" sound="intro05_0" video_action="floor_more_info">Como pudiste comprobar, el Club de Othello está lleno de habitaciones con distintas actividades y oponentes.</text>
+		   <text type="OGG" character="pablo gris" sound="intro05_1">Tal vez no puedas entrar a algunos de estos lugares al principio. Pero conforme avances y vayas realizando más actividades, sus puertas se abrirán.</text>
+		   <text type="OGG" character="pablo gris" sound="intro05_2">Eso es todo por ahora, te dejo para que puedas dar un recorrido por el club a tu gusto y conocer su gente.</text>
+		   <text type="OGG" character="pablo gris" sound="intro05_3">Te esperaré abajo en el Salón de Clases cuando quieras empezar a aprender sobre el juego de Othello que se juega en este club.</text>
+		   <text type="OGG" character="pablo gris" sound="intro05_4">Recuerda que el botón 'Selección' y el botón que se encuentra sobre tu mano izquierda te ayudan a elegir una puerta, mientras que el botón 'Continuar' te sirve para abrirla. ¡Hasta Pronto!</text>
+		</INI05>
+	</WELLCOME>
+	<!-- F I N   E S T A D O   0 //-->
+
+	<!-- E S T A D O   1 //-->
+	<DC_MEET>
+	   <text type="OGG" character="don cano" sound="wellcome_0">Adelante por favor hijo. Déjame darte la bienvenida al Salón de Desafíos.</text>
+	   <text type="OGG" character="don cano" sound="wellcome_1">Yo soy probablemente el miembro más viejo y antiguo del club, por lo que todos aquí me llaman Don Cano.</text>
+	   <text type="OGG" character="don cano" sound="wellcome_2">En mi época fui Vocal y hasta Presidente del Club. En esos buenos tiempos jugábamos Othello con piedras blancas y negras y nos divertíamos muchísimo.</text>
+	   <text type="OGG" character="don cano" sound="wellcome_3">Pero cuando el club se modernizó con todas esas computadoras y puertas parlantes me dí cuenta de que la hora de retirarme había llegado.</text>
+	   <text type="OGG" character="don cano" sound="wellcome_4">Ahora me encargo de este salón, el Salón de Desafíos, en donde los miembros del Club pueden tomar una serie de ejercicios llamados desafíos.</text>
+	   <text type="OGG" character="don cano" sound="wellcome_5">La mayoría toma estos desafíos para entender mejor el juego Othello o bien por simple diversión.</text>
+	</DC_MEET>
+	<DC_HI>
+		<text type="OGG" character="don cano" sound="hi">¡Adelante! Pasa por favor joven aprendiz.</text>
+	</DC_HI>
+	<DC_GO_TUT1>
+	   <text type="OGG" character="don cano" sound="go_tut1_0">Parece que todavía no has tomado el curso de introducción con Pablito. Te aconsejo que vayas a su Salón de Clases en el piso de abajo para que te enseñe lo básico.</text>
+	   <text type="OGG" character="don cano" sound="go_tut1_1">Luego de eso te esperaré aquí para practicar lo que aprendiste. ¡Buena suerte hijo!</text>
+	</DC_GO_TUT1>
+	<DC_GO_TUT1_AGAIN>
+	   <text type="OGG" character="don cano" sound="go_tut1_again">¿Todavía no encuentras el Salón de Clases? Al salir de aquí toma el elevador hacia abajo, luego la puerta de la izquierda y llegarás ahí. ¡Buena suerte hijo!</text>
+	</DC_GO_TUT1_AGAIN>
+	<!--Primer encuentro con Pedro Madera-->
+	<PM_BLOCK_VOCALS_MEET>
+	   <text type="OGG" character="pedro madera" sound="block_vocals_meet_0">¡Un momento señor! Déjeme hablar con usted.</text>
+	   <text type="OGG" character="pedro madera" sound="block_vocals_meet_1">Mi nombre es Pedro Madera, Pedrito para los amigos, y tomar el elevador hacia arriba lo llevará a usted al Piso de los Vocales del club.</text>
+	</PM_BLOCK_VOCALS_MEET>
+	<PM_INTRO_VOCALS>
+	   <text type="OGG" character="pedro madera" sound="intro_vocals_0">Se preguntará usted quiénes son los Vocales. Pues déjeme contarle que los Vocales son jugadores muy hábiles del juego este Othello.</text>
+	   <text type="OGG" character="pedro madera" sound="intro_vocals_1">Por sus méritos en el club, los Vocales han ascendido a esta categoría por encima de los otros miembros como usted.</text>
+	   <text type="OGG" character="pedro madera" sound="intro_vocals_2">Desde la semana pasada yo mismo soy uno de ellos, si señor, el Vocal Pedro Madera me llaman.</text>
+	</PM_INTRO_VOCALS>
+	<PM_BLOCK_VOCALS_GO_TUT1>
+	   <text type="OGG" character="pedro madera" sound="go_tut1_0">Pero volviendo a usted. Yo creo debería tomar al menos una clase con Pablo Gris en su Salón de Clases que se encuentra abajo, en el primer piso mismo.</text>
+	   <text type="OGG" character="pedro madera" sound="go_tut1_1">Recién después de eso estará en condiciones de ir al piso de arriba.</text>
+	   <text type="OGG" character="pedro madera" sound="go_tut1_2">Espero haberlo ayudado. Que tenga un buen día y buena suerte señor.</text>
+	</PM_BLOCK_VOCALS_GO_TUT1>
+	<PM_BLOCK_VOCALS_GO_TUT1_AGAIN>
+   		<text type="OGG" character="pedro madera" sound="block_vocals_again">¿De vuelta señor? Le recuerdo que antes de poder pasar por aquí debe ir primero al Salón de Clases, que se encuentra en el primer piso, abajo de aquí.</text>
+	</PM_BLOCK_VOCALS_GO_TUT1_AGAIN>
+	<!--Tutorial1 de Othello-->
+	<TUT100>
+	   <text type="OGG" character="pablo gris" sound="tut100_0">¡Bienvenido! En esta corta clase aprenderemos todo lo necesario para jugar Othello.</text>
+	</TUT100>
+	<TUT101>
+	   <text type="OGG" character="pablo gris" sound="tut101_0">El Othello es un juego en el que 2 jugadores, uno blanco y otro negro, se turnan para poner fichas de su color en el tablero.</text>
+	   <text type="OGG" character="pablo gris" sound="tut101_1">Este tablero tiene varios lugares o espacios, uno al lado del otro, en donde pueden ponerse las fichas.</text>
+	   <text type="OGG" character="pablo gris" sound="tut101_2">Gana la partida el jugador quien, al llenarse los espacios del tablero, tiene más fichas de su color.</text>
+	   <text type="OGG" character="pablo gris" sound="tut101_3">Empecemos por el tablero de juego:</text>
+	</TUT101>
+	<TUT102>
+	   <text type="OGG" character="pablo gris" sound="tut102_0" video_action="show_board">El tablero que usaremos para esta lección tiene 4 filas y 4 columnas, lo que hace un total de 16 espacios para poner fichas.</text>
+	   <text type="OGG" character="pablo gris" sound="tut102_1">Aunque todos los espacios del tablero están ahora vacíos, cada uno de ellos tiene su propio número de columna y fila.</text>
+	   <text type="OGG" input="YES" character="pablo gris" sound="tut102_2" constant_key="807">El botón 'Selección' hace que la computadora diga estos números. Intenta presionarlo.</text>
+	</TUT102>
+	<TUT103_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_SELECCION_KEY</exec_ref>
+	</TUT103_NO>
+	<TUT103>
+	   <text type="OGG" character="pablo gris" sound="tut103_0" audio_action="cell_info">¡Bien! Al presionar el botón 'Selección' la computadora te da información sobre el espacio seleccionado.</text>
+	   <text type="OGG" character="pablo gris" sound="tut103_1">Como con las puertas del club, la selección te indica el espacio del tablero que estás atendiendo.</text>
+	   <text type="OGG" character="pablo gris" sound="tut103_2">También, al igual que con las puertas del club, puedes usar el botón sobre tu mano izquierda para moverte por los espacios del tablero.</text>
+	   <text type="OGG" join="YES" character="pablo gris" sound="tut103_3">Probemos movernos a la izquierda.</text>
+	   <exec_ref>PG_IZQUIERDA_KEY</exec_ref>
+	</TUT103>
+	<TUT104_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_IZQUIERDA_KEY</exec_ref>
+	</TUT104_NO>
+	<TUT104>
+	   <text type="OGG" character="pablo gris" sound="tut104_0" video_action="to_left_cell">¡Bien! Nota que al moverte el computador hace un sonido especial.</text>
+	   <text type="OGG" join="YES" character="pablo gris" sound="tut104_1">Averiguemos la columna y la fila de nuevo.</text>
+	   <exec_ref>PG_SELECCION_KEY</exec_ref>
+	</TUT104>
+	<TUT105_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_SELECCION_KEY</exec_ref>
+	</TUT105_NO>
+	<TUT105>
+	  <text type="OGG" character="pablo gris" sound="tut105_0" audio_action="cell_info">Fíjate que antes estábamos en la columna 2 pero después de movernos a la izquierda la columna ha disminuido a 1.</text>
+	  <text type="OGG" character="pablo gris" sound="tut105_1">Así cada vez que te muevas a la derecha o a la izquierda, el número de columna de tu selección cambiará.</text>
+	  <text type="OGG" join="YES" character="pablo gris" sound="tut105_2">Probemos ahora subir.</text>
+	  <exec_ref>PG_ARRIBA_KEY</exec_ref>
+	</TUT105>
+	<TUT106_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_ARRIBA_KEY</exec_ref>
+	</TUT106_NO>
+	<TUT106>
+		<text type="OGG" input="YES" character="pablo gris" sound="tut106_0" constant_key="807" video_action="to_up_cell">Usemos el botón 'Selección' de nuevo para saber qué ocurrió. Presiónalo por favor.</text>
+	</TUT106>
+	<TUT107_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_SELECCION_KEY</exec_ref>
+	</TUT107_NO>
+	<TUT107>
+	   <text type="OGG" character="pablo gris" sound="tut107_0" audio_action="cell_info">Bien, nota que esta vez el número de fila ha aumentado de 3 a 4. Entonces, cada vez que te muevas arriba o abajo será el número de fila el que cambiará.</text>
+	   <text type="OGG" join="YES" character="pablo gris" sound="tut107_1">Intentemos, movernos una vez más a la izquierda.</text>
+	   <exec_ref>PG_IZQUIERDA_KEY</exec_ref>
+	</TUT107>
+	<TUT108_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_IZQUIERDA_KEY</exec_ref>
+	</TUT108_NO>
+	<TUT108>
+		<text type="OGG" input="YES" character="pablo gris" sound="tut108_0" video_action="to_left_cell" constant_key="807">Sonido extraño ¿no?. Presiona el botón 'Selección' para saber que ocurrió.</text>
+	</TUT108>
+	<TUT109_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_SELECCION_KEY</exec_ref>
+	</TUT109_NO>
+	<TUT109>
+	   <text type="OGG" character="pablo gris" sound="tut109_0" audio_action="cell_info">Bien, aunque dimos la orden de movernos a la izquierda, la selección no se movió y continúa en la columna 1.</text>
+	   <text type="OGG" character="pablo gris" sound="tut109_1">¿Recuerdas el sonido extraño que escuchamos antes? Con él la computadora te indica que no pudo cumplir lo que le pediste.</text>
+	   <text type="OGG" character="pablo gris" sound="tut109_2">La selección no podía volver a moverse hacia la izquierda porque ya nos encontrábamos en la columna 1 y esto nos hubiera hecho salir del tablero.</text>
+	</TUT109>
+	<TUT110>
+	   <text type="OGG" character="pablo gris" sound="tut110_0">Ahora para repasar, utiliza los botones para moverte a la esquina derecha, de abajo del tablero.</text>
+	   <exec_ref>PG_MOV_POS_4_1</exec_ref>
+	</TUT110>
+	<TUT111_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_MOV_POS_4_1</exec_ref>
+	</TUT111_NO>
+	<TUT111>
+	   <text type="OGG" character="pablo gris" sound="tut111_0">¡Perfecto! Es hora de que tengamos un juego de práctica de Othello, y aprenderemos el resto por el camino.</text>
+	   <text type="OGG" character="pablo gris" sound="tut111_1">Yo tomaré las fichas negras y te dejo a ti las fichas blancas.</text>
+	</TUT111>
+	<TUT112>
+	  <text type="OGG" character="pablo gris" sound="tut112_0" video_action="show_pieces">Todas las partidas de Othello comienzan igual, con 2 fichas blancas y 2 fichas negras en el centro del tablero.</text>
+	  <text type="OGG" character="pablo gris" sound="tut112_1">Exploremos el tablero para averiguar en qué posición está cada una.</text>
+	  	<!-- MODIFIQUE!!, no existen movimientos directos en diagonal  //-->
+	  <exec_ref>PG_IZQUIERDA_KEY</exec_ref>
+	</TUT112>
+	<TUT113_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_IZQUIERDA_KEY</exec_ref>
+	</TUT113_NO>
+	<!-- AGREGUE!! un movimiento mas: hacia arriba //-->
+	<TUT113>
+		<text type="OGG" input="YES" character="pablo gris" sound="key_arriba" video_action="to_left_cell" constant_key="802">Presiona 'Arriba' en el botón que se encuentra sobre tu mano izquierda.</text>
+	</TUT113>
+	<TUT114_NO>
+		<exec_ref>PG_AGAIN</exec_ref>
+	   	<exec_ref>PG_ARRIBA_KEY</exec_ref>
+	</TUT114_NO>
+	<!-- FIN AGREGUE!!  //-->
+	<TUT114>
+	   <text type="OGG" input="YES" character="pablo gris" sound="tut114_0" video_action="to_up_cell" constant_key="807">Bien, ese sonido se escucha al moverse a un espacio que tiene una ficha blanca. Presiona el botón 'Selección' para volver a escucharlo.</text>
+	   <!-- <exec_ref>PG_SELECCION3_KEY</exec_ref> -->
+	</TUT114>
+	<TUT115_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_SELECCION_KEY</exec_ref>
+	</TUT115_NO>
+	<TUT115>
+	   <text type="OGG" input="YES" character="pablo gris" sound="tut115_0" constant_key="802" audio_action="cell_info">Ahora, presiona 'Arriba' en el botón que se encuentra sobre tu mano izquierda para seguir explorando el tablero.</text>
+	</TUT115>
+	<TUT116_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_ARRIBA_KEY</exec_ref>
+	</TUT116_NO>
+	<TUT116>
+	   <text type="OGG" input="YES" character="pablo gris" sound="tut116_0" constant_key="807" video_action="to_up_cell">Ese, es el sonido que se escucha al moverse a un espacio que tiene una ficha negra. Presiona el botón 'Selección' para volver a escucharlo.</text>
+	</TUT116>
+	<TUT117_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_SELECCION_KEY</exec_ref>
+	</TUT117_NO>
+	<TUT117>
+	   <text type="OGG" join="YES" character="pablo gris" sound="tut117_0" audio_action="cell_info">Subamos una vez más.</text>
+	   <exec_ref>PG_ARRIBA_KEY</exec_ref>
+	</TUT117>
+	<TUT118_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_ARRIBA_KEY</exec_ref>
+	</TUT118_NO>
+	<!-- Voy a cambiar para acortar el dialogo!  //-->
+	<TUT118>
+	   <text type="OGG" character="pablo gris" sound="tut118_0" video_action="to_up_cell">Ese es el sonido de una Jugada Posible. Las Jugadas Posibles no son fichas, pero se marcan en el tablero porque...</text>
+	   <text type="OGG" character="pablo gris" sound="tut118_1">...cuando un jugador selecciona y presiona el botón 'Continuar' en una de ellas, la computadora pone una ficha de su color en ese espacio.</text>
+	   <text type="OGG" character="pablo gris" sound="tut118_2">Como dijo el computador al principio, el jugador blanco siempre tiene la primera jugada por lo que es tu turno.</text>
+	   <text type="OGG" join="YES" character="pablo gris" sound="tut118_3">Recorre el resto del tablero y prueba hacer una jugada.</text>
+	   <exec_ref>PG_JUG_POS_4_3</exec_ref>
+	</TUT118>
+	<TUT119_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_JUG_POS_4_3</exec_ref>
+	</TUT119_NO>
+	<TUT119>
+	   <text type="OGG" input="YES" character="pablo gris" sound="tut119_0" constant_key="807">¡Bien! Al presionar el botón 'Continuar' sobre una Jugada Posible colocas una de tus fichas en ese espacio. Presiona el botón 'Selección' para comprobarlo.</text>
+	   <!-- <exec_ref>PG_SELECCION2_KEY</exec_ref> -->
+	</TUT119>
+	<TUT120_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_SELECCION_KEY</exec_ref>
+	</TUT120_NO>
+	<TUT120>
+	   <text type="OGG" input="YES" character="pablo gris" sound="tut120_0" audio_action="cell_info" constant_key="800">Pero además de eso, la ficha negra que está a la izquierda de aquí también se ha vuelto blanca. Mueve la selección a la izquierda para comprobarlo.</text>
+	   <!-- <exec_ref>PG_IZQUIERDA2_KEY</exec_ref> -->
+	</TUT120>
+	<TUT121_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_IZQUIERDA_KEY</exec_ref>
+	</TUT121_NO>
+	<TUT121>
+	   <text type="OGG" character="pablo gris" sound="tut121_0" video_action="to_left_cell">Esto que has comprobado se debe a la regla principal del Othello, que te diré a continuación:</text>
+	   <text type="OGG" character="pablo gris" sound="tut121_1">Cuando consigues formar una línea cuyo inicio y final corresponden a fichas de tu color, rodeando en el medio a una o más fichas del color del contrario...</text>
+	   <text type="OGG" character="pablo gris" sound="tut121_2">...todas estas fichas del medio también se convierten en fichas de tu color.</text>
+	   <text type="OGG" character="pablo gris" sound="tut121_3">Es eso lo que ocurrió con la ficha negra que se encontraba en este espacio, fue rodeada por fichas blancas. Entonces, ella también se convirtió en blanca.</text>
+	   <text type="OGG" character="pablo gris" sound="tut121_4">La computadora marca en el tablero los espacios que cumplen esta regla como Jugadas Posibles.</text>
+	   <text type="OGG" character="pablo gris" sound="tut121_5">Pero también puedes presionar el botón 'Más información' y la computadora te dirá la posición de todas las jugadas posibles que existan en el tablero.</text>
+	   <exec_ref>PG_MAS_INFO_KEY</exec_ref>
+	</TUT121>
+	<TUT122_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_MAS_INFO_KEY</exec_ref>
+	</TUT122_NO>
+	<TUT122>
+	   <text type="OGG" character="pablo gris" sound="tut122_0" audio_action="read_possible_moves">Cada vez que un jugador hace una jugada se pasa el turno al otro jugador, por lo que ahora es el turno del jugador negro.</text>
+	   <text type="OGG" character="pablo gris" sound="tut122_1">Como ahora es mi turno, jugaré poniendo una ficha negra en la jugada posible de la columna 4 fila 2.</text>
+	</TUT122>
+	<TUT123>
+	   <text type="OGG" character="pablo gris" sound="tut123_0" video_action="play_4_2">Ahora el tablero tiene 2 líneas de fichas: una blanca que hiciste durante tu turno y debajo una negra que yo acabo de hacer con mi jugada.</text>
+	   <text type="OGG" character="pablo gris" sound="tut123_1">Nota que la selección se movió a donde hice mi jugada, por lo que ahora está en la columna 4 fila 2.</text>
+	</TUT123>
+	<TUT124>
+	   <text type="OGG" character="pablo gris" sound="tut124_0">El Othello se trata entonces de elegir una de las jugadas posibles que te sirva para formar una línea y convertir las fichas de tu oponente en tuyas.</text>
+	   <text type="OGG" character="pablo gris" sound="tut124_1">Pero sería un error pensar que todas las jugadas son iguales. Algunas pueden ayudarte a aventajar a tu oponente y un buen jugador debe encontrarlas.</text>
+	   <text type="OGG" special_input="YES" character="pablo gris" sound="tut124_2" constant_key="804" id="jugada_2_1">Por ejemplo, ahora que es tu turno y existen 4 jugadas posibles en el tablero, elige la jugada posible de la columna 2 fila 1 y presiona el botón 'Continuar'.</text>
+	</TUT124>
+	<TUT125_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_JUG_POS_2_1</exec_ref>
+	</TUT125_NO>
+	<TUT125>
+	   <text type="OGG" character="pablo gris" sound="tut125_0">Haber hecho esa jugada en realidad formó 2 líneas y 2 fichas negras fueron convertidas a fichas blancas, en lugar de sólo una.</text>
+	   <text type="OGG" character="pablo gris" sound="tut125_1">Por esto la jugada posible que elegimos era mejor que las otras que sólo permitían convertir una ficha negra.</text>
+	   <text type="OGG" input="YES" character="pablo gris" sound="tut125_2" constant_key="809">Para saber la cantidad de fichas de cada jugador, prueba presionar al mismo tiempo los botones 'Más Información' y 'Selección'.</text>
+	   <!-- <exec_ref>PG_CONTAR_KEY</exec_ref> -->
+	</TUT125>
+	<TUT126_NO>
+	   <exec_ref>PG_AGAIN</exec_ref>
+	   <exec_ref>PG_CONTAR_KEY</exec_ref>
+	</TUT126_NO>
+	<TUT126>
+	   <text type="OGG" character="pablo gris" sound="tut126_0" audio_action="count_pieces">Bien, mediante el uso de estos botones podrás saber quién está ganando.</text>
+	   <text type="OGG" character="pablo gris" sound="tut126_1">¡Bueno! Eso es todo lo que necesitas para iniciarte en el club. Te aconsejo que practiques lo que aprendimos visitando a Don Cano, en el Salón de Desafíos.</text>
+	   <text type="OGG" character="pablo gris" sound="tut126_2">Por último, recuerda que cuando tengas alguna duda puedes volver aquí y repetiremos esta clase cuantas veces quieras. ¡Buena Suerte!</text>
+	</TUT126>
+	<!-- F I N   E S T A D O   1 -->
+
+	<!-- E S T A D O   2 -->
+	<TUT_RETAKE>
+   		<text type="OGG" character="pablo gris" sound="tut_retake_0" video_action="pg_show_selection_list">Para tomar alguna clase pasada presionando arriba y abajo en el botón que se encuentra sobre tu mano izquierda y presiona el botón 'Continuar'. Para volver afuera selecciona 'Salir'.</text>
+	</TUT_RETAKE>
+	<TUT_RETAKE1>
+   		<text type="OGG" character="pablo gris" sound="tut_retake1_0">No hay problema, retomaremos la lección. Empecemos...</text>
+	</TUT_RETAKE1>
+	<!-- Desafios 1 Don Cano -->
+	<DC_START_CHAL1>
+    	<text type="OGG" character="don cano" sound="start_chal1_0">Parece que estás listo para mi primer conjunto de desafíos. Probemos con estos 2 ejercicios básicos.</text>
+   		<text type="OGG" character="don cano" sound="start_chal1_1">No te preocupes porque yo te acompañaré para ayudarte en ellos, aquí vamos...</text>
+	</DC_START_CHAL1>
+	<DC_CHAL1_EXPLAIN_GOAL>
+   		<text type="OGG" character="don cano" sound="chal1_explain_goal_0">Al inicio de cada desafío el computador te dirá cual es el objetivo del desafío, que en este caso es encontrar la jugada posible que 'come' la mayor cantidad de fichas.</text>
+   		<text type="OGG" character="don cano" sound="chal1_explain_goal_1">A continuación la computadora presenta el tablero y da el mensaje de inicio del desafío.</text>
+	</DC_CHAL1_EXPLAIN_GOAL>
+	<DC_A1_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_a1" video_action="init_chal_a1" special_input="YES" constant_key="804" id="desafio_a1">Recuerda que también puedes comer fichas formando líneas diagonales.</text>
+   	</DC_A1_TIP>
+   	<DC_A2_TIP>
+  		<text type="OGG" character="don cano" sound="tip_chal_a2" video_action="init_chal_a2" special_input="YES" constant_key="804" id="desafio_a2">Recuerda que con una sola jugada puedes formar varias líneas y así comer más fichas.</text>
+	</DC_A2_TIP>
+   	<DC_WRONG_ANSWER_MAXIMIZE>
+   		<text type="OGG" character="don cano" sound="wrong_answer_chal_a1">Esa es una Jugada Posible, pero estoy seguro de que puedes encontrar otra con la que ganes más fichas.</text>
+		<exec_ref>DC_CHECK_ANSWER</exec_ref>
+   	</DC_WRONG_ANSWER_MAXIMIZE>
+   	<DC_CONTINUE_CHAL1>
+   		<text type="OGG" character="don cano" sound="continue_chal1">¡Muy bien! Intentemos ahora uno último, un poco más difícil que el anterior:</text>
+	</DC_CONTINUE_CHAL1>
+	<DC_FINALIZE_CHAL1>
+	   <text type="OGG" character="don cano" sound="finalize_chal1_0">¡Bien hecho hijo! Con esto terminamos nuestra primera sesión de desafíos.</text>
+	   <text type="OGG" character="don cano" sound="finalize_chal1_1">Tu habilidad en el Othello me parece suficientemente buena para que juegues con uno de los Vocales.</text>
+	   <text type="OGG" character="don cano" sound="finalize_chal1_2">En especial te aconsejo que juegues contra Pedrito que es el más nuevo de ellos.</text>
+	</DC_FINALIZE_CHAL1>
+	<DC_BYE>
+   		<text type="OGG" character="don cano" sound="bye">Vuelve cuando quieras hijo.</text>
+	</DC_BYE>
+	<!-- Fin Desafios 1 Don Cano -->
+	<PG_GO_CHAL1>
+   		<text type="OGG" character="pablo gris" sound="go_chal1_0">Hola de nuevo, ¿ya visitaste a Don Cano? Encontrarás su salón tomando el ascensor hasta el piso de arriba y entrando luego en la puerta de la izquierda.</text>
+	</PG_GO_CHAL1>
+	<PM_GO_CHAL1>
+   		<text type="OGG" character="pedro madera" sound="go_chal1_0">Me he enterado de que ya tomó las clases con el Sr. Pablo Gris. ¡Lo felicito!</text>
+   		<text type="OGG" character="pedro madera" sound="go_chal1_1">Aunque me gustaría mucho jugar con usté, y ganarle, realmente le aconsejo practique con el Sr. Cano abajo de aquí, en su Salón de Desafíos.</text>
+	</PM_GO_CHAL1>
+	<PM_GO_CHAL1_AGAIN>
+   		<text type="OGG" character="pedro madera" sound="go_chal1_again_0">El Sr. Cano lo está esperando en su Salón de Desafíos, que se encuentra en el piso de abajo, puerta de la izquierda.</text>
+   		<text type="OGG" character="pedro madera" sound="go_chal1_again_1">Después vuelva por aquí que estaré encantado de ganarle a usté señor.</text>
+	</PM_GO_CHAL1_AGAIN>
+	<!-- F I N   E S T A D O   2 -->
+
+	<!-- E S T A D O   3 -->
+   	<PG_GO_PM1>
+   		<text type="OGG" character="pablo gris" sound="go_pm1_0">¡Hola! Pedro Madera me comentó que estaba de humor para unas partidas, ¿por qué no lo visitas?</text>
+   		<text type="OGG" character="pablo gris" sound="go_pm1_1">Su habitación se encuentra en el piso número 3, 2 pisos arriba de aquí y a la izquierda.</text>
+	</PG_GO_PM1>
+	<DC_GO_PM1>
+   		<text type="OGG" character="don cano" sound="go_pm1">¿Encontraste la habitación de Pedrito? Al salir de aquí toma el ascensor hacia arriba y luego ve a la puerta de la izquierda. Salúdalo de mi parte cuando le encuentres.</text>
+	</DC_GO_PM1>
+	<!-- PEDRO MADERA -->
+	<PM_MEET_SHOW_ROOM>
+   		<text type="OGG" character="pedro madera" sound="meet_show_room">¡Bienvenido! Mi nombre es Pedro Madera, Pedrito para los amigos, y esta es mi habitación de Vocal.</text>
+	</PM_MEET_SHOW_ROOM>
+	<PM_SHOW_ROOM>
+   		<text type="OGG" character="pedro madera" sound="show_room">¡Bienvenido! Pase por favor. Esta es mi habitación de Vocal.</text>
+	</PM_SHOW_ROOM>
+	<PM_MATCH1_NMET>
+    	<text type="OGG" character="pedro madera" sound="match1_nmeet">Consultando sus datos en la maquinita esta, veo que ya está en condiciones de tener su primer juego de Othello contra un Vocal.</text>
+	</PM_MATCH1_NMET>
+	<PM_MATCH1_MET>
+    	<text type="OGG" character="pedro madera" sound="match1_meet">¡Por fin señor! El momento de su primer juego contra un Vocal de este club ha llegado.</text>
+	</PM_MATCH1_MET>
+	<PM_HI>
+   		<text type="OGG" character="pedro madera" sound="hi">Hola de nuevo señor, pase por favor.</text>
+	</PM_HI>
+	<PM_MATCH1>
+   		<text type="OGG" character="pedro madera" sound="match1_0">Permítame entonces que yo, Pedro Madera, le muestre de lo que los vocales de este club somos capaces.</text>
+   		<text type="OGG" character="pedro madera" sound="match1_1">¡Yo tomaré las fichas blancas y le dejo a usté las negras!</text>
+	</PM_MATCH1>
+	<PM_PREMATCH_PHRASE>
+   		<text type="OGG" character="pedro madera" sound="prematch_phrase">¡Pronto sabrá cuán rápido me llevaré todas sus fichas!</text>
+	</PM_PREMATCH_PHRASE>
+	<PM_MATCH1_LOSE>
+   		<text type="OGG" character="pedro madera" sound="match1_lose_0">¡Caramba! No pensé que me ganaría tan fácilmente. No importa, la próxima vez que juguemos estaré preparado.</text>
+   		<text type="OGG" character="pedro madera" sound="match1_lose_1">Así que prepárese también usté señor. Tome esta medalla de bronce, prueba de su primera victoria.</text>
+	</PM_MATCH1_LOSE>
+	<PM_MATCH_WIN>
+   		<text type="OGG" character="pedro madera" sound="match_win">No se preocupe usté señor principiante, los Vocales somos profesionales. Le aconsejo que retome algunas lecciones o desafíos y vuelva de nuevo a intentarlo.</text>
+	</PM_MATCH_WIN>
+	<PM_MATCH_DRAW>
+   		<text type="OGG" character="pedro madera" sound="match_draw">Le aseguro que fue un buen juego señor. Vuelva otra vez y romperemos el empate con otra partida.</text>
+	</PM_MATCH_DRAW>
+	<!-- FIN DEL E S T A D O   3 -->
+
+	<!-- E S T A D O   4 -->
+	<PG_GO_PM2>
+  		<text type="OGG" character="pablo gris" sound="go_pm2_0">¡Felicidades por tu primera victoria! Conociendo a Pedro Madera, ahora mismo debe estar ansioso por jugar de nuevo contigo. Visítalo cuando puedas.</text>
+	</PG_GO_PM2>
+	<DC_GO_PM2>
+  		<text type="OGG" character="don cano" sound="go_pm2_0">Pedrito acaba de pasar por aquí a pedirme unos consejos y me contó de tu victoria. ¡Felicidades hijo!</text>
+  		<text type="OGG" character="don cano" sound="go_pm2_1">Visítalo en su habitación de vocal, arriba de aquí, para darle la revancha.</text>
+	</DC_GO_PM2>
+	<PM_MATCH2>
+   		<text type="OGG" character="pedro madera" sound="match2_meet">Es hora de la revancha señor, le aseguro que esta vez no le será tan fácil ganarme.</text>
+	</PM_MATCH2>
+	<PM_MATCH2_LOSE>
+   		<text type="OGG" character="pedro madera" sound="match2_lose_0">Usté gana de nuevo señor. Me gustaría jugar una vez más en su contra con un tablero más grande.</text>
+   		<text type="OGG" character="pedro madera" sound="match2_lose_1">Pero mientras me preparo, visite el Salón de Desafíos en el piso de abajo, que Don Cano le explicará como usar el tablero grande.</text>
+   		<text type="OGG" character="pedro madera" sound="match2_lose_2">Como es la segunda vez que me gana, también llévese esta medalla de plata...</text>
+		<text type="OGG" character="pedro madera" sound="match2_silver_medal">...que reemplazará a su medalla anterior de bronce.</text>
+   	</PM_MATCH2_LOSE>
+	<!-- F I N  D E L  E S T A D O   4 -->
+
+	<!-- E S T A D O   5 -->
+	<PG_GO_CHAL2>
+   		<text type="OGG" character="pablo gris" sound="go_chal2_0">Hola, Don Cano está listo para enseñarte sobre el tablero grande. Visítalo en su salón de Desafíos que está arriba de aquí.</text>
+	</PG_GO_CHAL2>
+	<PM_GO_CHAL2>
+   		<text type="OGG" character="pedro madera" sound="go_chal2_0">Todavía no estoy listo para nuestra partida con el tablero grande. Visite a Don Cano en el piso 2 y vuelva luego por aquí para jugar conmigo señor.</text>
+	</PM_GO_CHAL2>
+	<DC_START_CHAL2>
+   		<text type="OGG" character="don cano" sound="start_chal2_0">Pedrito me contó que estás listo para tener partidas con el tablero grande. Pues bien, realmente no hay mucha diferencia con las partidas que jugaste hasta ahora.</text>
+   		<text type="OGG" character="don cano" sound="start_chal2_1">Lo único diferente es que el tablero tiene 6 filas y 6 columnas en lugar de las 4 filas y 4 columnas que tenía el tablero chico.</text>
+   		<text type="OGG" character="don cano" sound="start_chal2_2">Hagamos un par de desafíos en un tablero grande para prepararte para tu próxima partida. Empecemos.</text>
+	</DC_START_CHAL2>
+	<DC_CONTINUE_CHAL2>
+   		<text type="OGG" character="don cano" sound="continue_chal2">¡Bien! Hagamos un desafío más...</text>
+	</DC_CONTINUE_CHAL2>
+	<DC_A3_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_a3" video_action="init_chal_a3" special_input="YES" constant_key="804" id="desafio_a3">Cuando las fichas de tu oponente están dispersas, examina bien el tablero porque puede existir una jugada que coma más fichas que las otras.</text>
+	</DC_A3_TIP>
+	<DC_A4_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_a4" video_action="init_chal_a4" special_input="YES" constant_key="804" id="desafio_a4">Busca el lugar donde hay muchas fichas de tu oponente juntas. Cerca de ahí encontrarás las jugadas posibles que comen más fichas.</text>
+	</DC_A4_TIP>
+	<DC_FINALIZE_CHAL2>
+  		<text type="OGG" character="don cano" sound="finalize_chal2_0">¡Te felicito! Después de haber resuelto estos desafíos creo que estás listo para tu próxima partida con Pedrito en el piso de arriba.</text>
+	</DC_FINALIZE_CHAL2>
+	<!-- F I N  D E L  E S T A D O   5 -->
+
+	<!-- E S T A D O   6 -->
+	<PG_GO_PM3>
+  		<text type="OGG" character="pablo gris" sound="go_pm3_0">Pedro Madera ya ha terminado de preparar el tablero grande en su habitación. Visítalo cuando puedas.</text>
+	</PG_GO_PM3>
+	<DC_GO_PM3>
+  		<text type="OGG" character="don cano" sound="go_pm3_0">Pedrito te espera arriba, para tu partida en el tablero grande. Te deseo suerte y que obtengas tu tercera victoria.</text>
+	</DC_GO_PM3>
+	<PM_MATCH3>
+   		<text type="OGG" character="pedro madera" sound="match3_meet">Todo listo para nuestra partida en el tablero grande señor. Le deseo buena suerte porque va a necesitarla.</text>
+	</PM_MATCH3>
+	<PM_MATCH3_LOSE>
+	   <text type="OGG" character="pedro madera" sound="match3_lose_0">Este es el tercer partido que me gana. Reconozco que es un buen jugador y espero que me de la oportunidad de jugar de nuevo con usté.</text>
+	   <text type="OGG" character="pedro madera" sound="match3_lose_1">Le hago entrega de la mayor distinción que puedo darle, mi medalla de oro:</text>
+	</PM_MATCH3_LOSE>
+	<PM_MATCH3_GIVE_MEDAL>
+   		<text type="OGG" character="pedro madera" sound="match3_gold_medal">Hasta pronto señor.</text>
+	</PM_MATCH3_GIVE_MEDAL>
+	<!-- F I N  D E L  E S T A D O   6 -->
+
+	<!-- E S T A D O   7 -->
+	<SD_INTRO>
+   		<text type="OGG" character="sofia dulce" sound="intro_0">Tú debes ser el nuevo miembro del que todos hablan... Hola, mi nombre es Sofía Dulce y soy otro de los vocales del club, ¡encantada de conocerte!</text>
+   		<text type="OGG" character="sofia dulce" sound="intro_1">Perdón por no haber llegado antes, pero mi despertador no sonó esta mañana y me desperté más tarde de lo que debía.</text>
+   		<text type="OGG" character="sofia dulce" sound="intro_2">Ah... sí, Pablito me dijo que tenía lista una nueva lección para tí en su Salón de Clases. Él esta muy emocionado con tu progreso y espera que puedas vencer al Presidente.</text>
+   		<text type="OGG" character="sofia dulce" sound="intro_3">¿Eh? ...olvida eso último que dije. Visita a Pablito en su Salón de Clases 2 pisos abajo de aquí. Yo estaré en mi habitación de vocal poniendo unos nuevos adornos. ¡Chaucito!</text>
+	</SD_INTRO>
+	<!-- F I N  D E L  E S T A D O   7 -->
+
+	<!-- E S T A D O   8 -->
+	<PM_GO_TUT2>
+   		<text type="OGG" character="pedro madera" sound="go_tut2_0">¿Así que ha conocido a la bella señorita Dulce?</text>
+   		<text type="OGG" character="pedro madera" sound="go_tut2_1">Aunque realmente es muy amable conmigo su estilo de juego siempre me confunde; cuando como muchas de sus fichas ella siempre las recupera sin problemas.</text>
+   		<text type="OGG" character="pedro madera" sound="go_tut2_2">Le aconsejo que visite a Pablo Gris en su Salón de Clases para que no le pase algo parecido.</text>
+   	</PM_GO_TUT2>
+	<PM_PREREMATCH>
+		<text type="OGG" character="pedro madera" sound="rematch_0">Ya no tengo más medallas para darle señor, así que si usté se queda a jugar conmigo será sólo por la emoción y el honor de la partida.</text>
+	</PM_PREREMATCH>
+	<PM_REMATCH>
+   		<text type="OGG" character="pedro madera" sound="rematch_1" video_action="pm_show_selection_list">Seleccione con las teclas de arriba y abajo una de las opciones de la listita esa y presione la tecla 'Continuar' para confirmar.</text>
+	</PM_REMATCH>
+	<PM_REMATCH_LOSE>
+		<text type="OGG" character="pedro madera" sound="rematch_lose_0">Perdí de nuevo, pero no es de hombres el darse por vencido así que lo espero aquí cuando quiera jugar de nuevo señor.</text>
+	</PM_REMATCH_LOSE>
+	<PM_REMATCH_WIN>
+		<text type="OGG" character="pedro madera" sound="rematch_win_0">¿Gané? Bueno, después de todo por algo soy vocal. Regrese cuando quiera señor que estaré feliz de seguir practicando.</text>
+	</PM_REMATCH_WIN>
+	<DC_GO_TUT2>
+   		<text type="OGG" character="don cano" sound="go_tut2_0">Hola hijo, ahora mismo estoy preparando unos nuevos desafíos. ¿Por qué no visitas a Pablito para que te de una introducción y luego vienes a probarlos?</text>
+	</DC_GO_TUT2>
+	<SD_GO_TUT2>
+		<text type="OGG" character="sofia dulce" sound="go_tut2">Hola, estas cortinas son más difíciles de colgar de lo que pensaba. Visita a Pablito en su Salón de Clases y cuando vuelvas ya habré terminado. ¡Suerte!</text>
+	</SD_GO_TUT2>
+	<PG_TUT2_00>
+   		<text type="OGG" character="pablo gris" sound="tut2_00_0">Bienvenido de nuevo. Ahora que conociste a Sofía déjame contarte sobre su estrategia favorita para jugar Othello.</text>
+	</PG_TUT2_00>
+	<PG_TUT2_01>
+	   <text type="OGG" character="pablo gris" sound="tut2_01_0">Cuando Sofía juega realmente no intenta comer la máxima cantidad de fichas, como lo hace Pedro Madera.</text>
+	   <text type="OGG" character="pablo gris" sound="tut2_01_1">Lo que ella normalmente intenta es comer y poner sus fichas en los bordes y esquinas del tablero para obtener así lo que se llama 'ventaja de borde'.</text>
+	   <text type="OGG" character="pablo gris" sound="tut2_01_2">Te daré un ejemplo de esto con el siguiente tablero:</text>
+	</PG_TUT2_01>
+	<PG_TUT2_02>
+   		<text type="OGG" character="pablo gris" sound="tut2_02_0" special_input="YES" video_action="init_tut2" constant_key="804" id="recorrer_tablero">Aquí tienes 2 jugadas posibles. Si juegas en columna 4 fila 3 comerás 3 fichas y si lo haces en columna 1 fila 6 comerás 2 fichas. Compruébalo y luego presiona 'Continuar'.</text>
+	</PG_TUT2_02>
+	<PG_TUT2_03>
+   		<text type="OGG" character="pablo gris" sound="tut2_03_0">Te había dicho en lecciones anteriores que no siempre es mejor la jugada posible que te da más fichas, pero probémoslo ahora:</text>
+		<exec_ref>PG_JUG_POS_4_3</exec_ref>
+	</PG_TUT2_03>
+	<PG_TUT2_04_NO>
+   		<exec_ref>PG_AGAIN</exec_ref>
+	   	<exec_ref>PG_JUG_POS_4_3</exec_ref>
+	</PG_TUT2_04_NO>
+	<PG_TUT2_04>
+   		<text type="OGG" character="pablo gris" sound="tut2_04_0" special_input="YES" constant_key="804" id="recorrer_tablero">Bien, como dijimos, con esta jugada comimos 3 fichas negras. Compruébalo recorriendo el tablero y luego presiona 'Continuar' para dejar que el jugador negro haga su jugada.</text>
+	</PG_TUT2_04>
+	<PG_TUT2_05>
+   		<text type="OGG" character="pablo gris" sound="tut2_05_0" join="YES" video_action="play_3_1">Ahh, el jugador negro recuperó las 3 fichas que comimos el turno pasado.</text>
+	   	<exec_ref>PG_SUGGEST_CHECK</exec_ref>
+	</PG_TUT2_05>
+	<PG_TUT2_06>
+   		<text type="OGG" character="pablo gris" sound="tut2_06_0">Lo que pasó no es nada bueno. Así que retrocederemos al tablero inicial nuevamente, para probar poner la ficha en la otra jugada posible.</text>
+   		<exec_ref>PG_JUG_POS_1_6</exec_ref>
+	</PG_TUT2_06>
+	<PG_TUT2_07_NO>
+   		<exec_ref>PG_AGAIN</exec_ref>
+   		<exec_ref>PG_JUG_POS_1_6_R</exec_ref>
+	</PG_TUT2_07_NO>
+	<PG_TUT2_07>
+ 		<text type="OGG" character="pablo gris" sound="tut2_07_0">Aunque sólo comimos 2 fichas, esta vez pusimos nuestra ficha en una de las esquinas del tablero.</text>
+	   <text type="OGG" character="pablo gris" sound="tut2_07_1" special_input="YES" constant_key="804" id="recorrer_tablero">Examina cómo quedó y luego presiona 'Continuar' para que el jugador negro haga su jugada.</text>
+	</PG_TUT2_07>
+	<PG_TUT2_08>
+    	<text type="OGG" character="pablo gris" sound="tut2_08_0" video_action="play_5_4">Esta vez el jugador negro no pudo recuperar las fichas que comiste y, mejor aún, en las siguientes jugadas podrás comer más fichas.</text>
+	    <text type="OGG" character="pablo gris" sound="tut2_08_1">Esto se debe a que los espacios del tablero que se encuentran en los bordes y sobre todo en las esquinas tienen lo que se llama 'ventaja de borde'.</text>
+		<text type="OGG" character="pablo gris" sound="tut2_08_2">Una vez que consigas un espacio con ventaja del borde, le será muy difícil a tu oponente recuperar sus fichas en jugadas siguientes.</text>
+	    <text type="OGG" character="pablo gris" sound="tut2_08_3">Es gracias a esta ventaja que el jugador negro no pudo recuperar sus fichas cuando jugamos en la esquina, pero sí pudo hacerlo cuando jugamos en el medio del tablero.</text>
+	    <text type="OGG" character="pablo gris" sound="tut2_08_4" video_action="dissapear_game_elements">Bueno, te aconsejo que antes de enfrentarte a Sofía, nuestra experta en la ventaja del borde, visites a Don Cano para practicar con unos desafíos sobre este tema.</text>
+	    <text type="OGG" character="pablo gris" sound="tut2_08_5">Buena suerte y hasta pronto.</text>
+	</PG_TUT2_08>
+	<PG_SUGGEST_CHECK>
+   		<text type="OGG" special_input="YES" character="pablo gris" sound="suggest_check" constant_key="804" id="recorrer_tablero">Recorre el tablero para saber cómo ha quedado, y luego presiona 'Continuar'.</text>
+	</PG_SUGGEST_CHECK>
+	<!-- F I N  D E L  E S T A D O   8 -->
+
+	<!-- E S T A D O   9 -->
+	<PG_GO_CHAL3>
+   		<text type="OGG" character="pablo gris" sound="go_chal3_0">Don Cano tiene unos buenos desafíos sobre la ventaja del borde. Visítalo arriba para repasar lo que aprendimos.</text>
+	</PG_GO_CHAL3>
+	<PM_GO_CHAL3>
+   		<text type="OGG" character="pedro madera" sound="go_chal3_0">Don Cano estuvo por aquí intentando explicarme algo llamado ventaja del borde.</text>
+   		<text type="OGG" character="pedro madera" sound="go_chal3_1">Yo no lo entendí muy bien pero tal vez usté debería pasar por su Salón de Desafíos para que se lo enseñe.</text>
+	</PM_GO_CHAL3>
+	<PG_RETAKE_TUT2>
+   		<text type="OGG" character="pablo gris" sound="go_chal3_0">Bien, repasemos la estrategia favorita de Sofía para jugar Othello.</text>
+	</PG_RETAKE_TUT2>
+	<SD_GO_CHAL3>
+   		<text type="OGG" character="sofia dulce" sound="go_chal3_0">Hola de nuevo, ¿así que Pablito te contó sobre mi estrategia de Othello? Bueno, ahora que lo sabes, es mejor que te prepares para ella con algunos desafíos.</text>
+   		<text type="OGG" character="sofia dulce" sound="go_chal3_1">Visita a Don Cano en su Salón de Desafíos y cuando vuelvas tendremos nuestra primera partida. ¡Suerte!</text>
+	</SD_GO_CHAL3>
+	<DC_START_CHAL3>
+		<text type="OGG" character="don cano" sound="start_chal3_0">¿Con que ya conociste a la pequeña Sofía y tomaste el nuevo tutorial con Pablito? Entonces es mi turno de ayudarte con la ventaja del borde.</text>
+   		<text type="OGG" character="don cano" sound="start_chal3_1">Hagamos un nuevo tipo de desafío sobre este tema. En lugar de preocuparnos de comer fichas como lo haría Pedrito...</text>
+   		<text type="OGG" character="don cano" sound="start_chal3_2">...en este nuevo desafío debemos intentar que nuestro oponente coma la menor cantidad de fichas posible.</text>
+   		<text type="OGG" character="don cano" sound="start_chal3_3">Una de las formas de lograr esto es hacer nuestras jugadas en espacios que tengan ventaja del borde, o sea, jugando en las esquinas o bordes del tablero.</text>
+   		<text type="OGG" character="don cano" sound="start_chal3_4">Probemos el primer desafío de este tipo.</text>
+	</DC_START_CHAL3>
+	<DC_B1_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_b1" video_action="init_chal_b1" special_input="YES" constant_key="804" id="desafio_b1">Recuerda que entre un borde y una esquina a menudo será mejor hacer la jugada en la esquina.</text>
+	</DC_B1_TIP>
+	<DC_WRONG_ANSWER_BORDER>
+   		<text type="OGG" character="don cano" sound="wrong_answer_border" special_input="YES" constant_key="804" id="recorrer_tablero">Esa es una jugada posible, pero estoy seguro de que puedes encontrar otra con la que puedas poner tu ficha en los bordes e impidas que tu oponente coma más fichas.</text>
+	</DC_WRONG_ANSWER_BORDER>
+	<DC_GIVE_RETRO_MEDALS>
+   		<text type="OGG" character="don cano" sound="give_retro_medals_0">Bien hecho hijo, creo que estás listo para tomar los desafíos más difíciles y para empezar a recibir medallas por los desafíos solucionados.</text>
+		<text type="OGG" character="don cano" sound="give_retro_medals_1">Como ya resolvimos juntos 5 desafíos desde que empezaste en el club, te daré ahora 5 medallas de bronce.</text>
+	</DC_GIVE_RETRO_MEDALS>
+	<DC_EXPLAIN_MEDALS>
+   		<text type="OGG" character="don cano" sound="explain_medals_0">Ahora permíteme explicarte cómo ganar más medallas con los desafíos...</text>
+   		<text type="OGG" character="don cano" sound="explain_medals_1">Cada vez que vengas a este Salón yo te presentaré una lista de los desafíos que te tengo preparados para que tú elijas cuál tomar.</text>
+   		<text type="OGG" character="don cano" sound="explain_medals_2">Si resuelves el desafío sin fallar te daré una medalla de oro, si lo resuelves con una falla te daré una medalla de plata y si lo resuelves luego de 2 intentos te daré una de bronce.</text>
+   		<text type="OGG" character="don cano" sound="explain_medals_3">Te deseo suerte consiguiendo las medallas y recuerda el ejercicio que hicimos cuando juegues con la pequeña Sofía.</text>
+	</DC_EXPLAIN_MEDALS>
+	<!-- F I N  D E L  E S T A D O   9 -->
+
+	<!-- E S T A D O   10 -->
+	<PG_GO_SD>
+   		<text type="OGG" character="pablo gris" sound="go_sd_0">Te deseo suerte para tu primera partida con Sofía. Puedes encontrar su habitación 2 pisos arriba de aquí y luego a la derecha.</text>
+	</PG_GO_SD>
+	<PM_GO_SD>
+   		<text type="OGG" character="pedro madera" sound="go_sd_0">Parece listo para enfrentarse a la señorita Dulce señor. Buena suerte y dígale que Pedrito le manda sus saludos.</text>
+	</PM_GO_SD>
+	<SD_MATCH1>
+   		<text type="WAV" character="sofia dulce" sound="match1_0">Por fin tengo todo listo para nuestra primera partida. Empecemos:</text>
+	</SD_MATCH1>
+	<SD_PREMATCH_PHRASE>
+   		<text type="WAV" character="sofia dulce" sound="match_prematch_phrase">¡En los bordes está la ventaja que me ayudará a ganar!</text>
+	</SD_PREMATCH_PHRASE>
+	<SD_MATCH_WIN>
+   		<text type="WAV" character="sofia dulce" sound="match_win_0">Como lo esperaba he ganado... bueno, no te desilusiones y continúa practicando tus lecciones y desafíos.</text>
+   		<text type="WAV" character="sofia dulce" sound="match_win_1">Yo estaré esperándote cuando estés listo.</text>
+	</SD_MATCH_WIN>
+	<SD_MATCH_DRAW>
+   		<text type="WAV" character="sofia dulce" sound="match_draw_0">¿Empate? Bueno, no importa. Te espero cuando quieras para que tengamos otra partida.</text>
+	</SD_MATCH_DRAW>
+	<SD_MATCH1_LOSE>
+   		<text type="WAV" character="sofia dulce" sound="match1_lose_0">Hmm, no pude predecir que jugarías ahí... no importa, aquí tienes una medalla de bronce por tu primera victoria en mi contra.</text>
+	</SD_MATCH1_LOSE>
+	<SD_MATCH1_GIVE_MEDAL>
+   		<text type="WAV" character="sofia dulce" sound="match1_give_medal_0">Puedes volver cuando gustes si quieres ganar una de plata. También puedes intentar jugar con el Presidente, pero para eso tal vez tengas que conseguir más medallas.</text>
+	    <text type="WAV" character="sofia dulce" sound="match1_give_medal_1">La forma más fácil de obtener medallas es haciendo desafíos con Don Cano, así que te aconsejo que visites el Salón de Desafíos.</text>
+	</SD_MATCH1_GIVE_MEDAL>
+	<DC_GO_SD>
+   		<text type="WAV" character="don cano" sound="go_sd">Encontrarás la habitación de la pequeña Sofía en el piso de arriba y luego a la derecha. Buena suerte.</text>
+	</DC_GO_SD>
+	<DC_A5_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_a5" video_action="init_chal_a5" special_input="YES" constant_key="804" id="desafio_a5">Nunca te rindas aunque parezca que estés perdiendo. Cuantas más fichas tenga tu oponente más fichas podrás comer con 1 sola jugada.</text>
+	</DC_A5_TIP>
+	<DC_B2_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_b2" video_action="init_chal_b2" special_input="YES" constant_key="804" id="desafio_b2">Recuerda que la ventaja de jugar en los bordes es que esto hace que sea más difícil que tu oponente recupere sus fichas.</text>
+	</DC_B2_TIP>
+	<DC_B3_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_b3" video_action="init_chal_b3" special_input="YES" constant_key="804" id="desafio_b3">Recuerda que al poner una ficha en una esquina, esta nunca podrá ser recuperada por tu oponente.</text>
+	</DC_B3_TIP>
+	<DC_B4_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_b4" video_action="init_chal_b4" special_input="YES" constant_key="804" id="desafio_b4">Si encuentras 2 jugadas que parecen iguales, intenta pensar dónde jugará tu oponente después de ti para elegir la que no le permitirá recuperar sus fichas.</text>
+	</DC_B4_TIP>
+	<DC_B5_TIP>
+   		<text type="OGG" character="don cano" sound="tip_chal_b5" video_action="init_chal_b5" special_input="YES" constant_key="804" id="desafio_b5">Aún con un tablero lleno y con muchas jugadas posibles, recuerda siempre la importancia de las esquinas.</text>
+	</DC_B5_TIP>
+	<DC_GIVE_BRONZE>
+   		<text type="WAV" character="don cano" sound="give_bronze">Bien hecho hijo. Llévate esta medalla de bronce por haber solucionado el desafío.</text>
+	</DC_GIVE_BRONZE>
+	<DC_GIVE_SILVER>
+   		<text type="WAV" character="don cano" sound="give_silver">¡Casi perfecto! Como acertaste en tu segundo intento te entrego una medalla de plata:</text>
+	</DC_GIVE_SILVER>
+	<DC_GIVE_GOLD>
+   		<text type="WAV" character="don cano" sound="give_gold">¡Felicidades! Resolviste el desafío en tu primer intento. Te mereces esta medalla de oro:</text>
+	</DC_GIVE_GOLD>
+	<PT_INTRO>
+   		<text type="WAV" character="protasio" sound="intro_0">Por fin has llegado hasta aquí, te felicito por haberlo logrado. Yo soy el presidente de este club y todos aquí me llaman Señor Presidente.</text>
+   		<text type="WAV" character="protasio" sound="intro_1">Sin lugar a dudas soy el mejor jugador de por aquí ¡así que vete preparando para las partidas de tu vida!</text>
+	</PT_INTRO>
+	<PT_INFECTION>
+   		<text type="WAV" character="protasio" sound="infection">Bueno bueno... parece que al fin podré divertime contigo. Me han hablado mucho de ti, así que no puedo tomar riesgos...</text>
+   	</PT_INFECTION>
+	<PT_INFECTION2>
+   		<text type="WAV" character="protasio" sound="infection2_0" audio_action="virus">¡Así como escuchaste! Ahora mismo he introducido un virus en la computadora del club, para poder controlarla.</text>
+   		<text type="WAV" character="protasio" sound="infection2_1">Gracias a esto en todas las partidas que tengas conmigo la computadora no marcará las Jugadas Posibles y cada uno tendrá que encontrarlas por su cuenta.</text>
+   		<text type="WAV" character="protasio" sound="infection2_2">Me parece justo que jugadores tan buenos como nosotros no necesiten la ayuda de una tonta computadora para jugar.</text>
+   		<text type="WAV" character="protasio" sound="infection2_3">Pero como hasta ahora has usado esta ayuda en todas tus partidas, te daré tiempo para que te acostumbres a esto.</text>
+	</PT_INFECTION2>
+	<PT_GO_SD>
+   		<text type="WAV" character="protasio" sound="go_sd_0">¿Todavía no has ganado un juego contra Sofía? No me hagas perder el tiempo. Es imposible que juegues en mi contra si te falta ganarle a ella.</text>
+   		<text type="WAV" character="protasio" sound="go_sd_1">Vuelve cuando lo hayas conseguido.</text>
+	</PT_GO_SD>
+	<!-- F I N  D E L  E S T A D O   10 -->
+
+	<!-- E S T A D O   11 -->
+	<PG_GO_PT>
+   		<text type="OGG" character="pablo gris" sound="go_pt_0">Llegó la hora de que conozcas al Presidente. Consigue las medallas necesarias y visita su habitación que está 3 pisos arriba de aquí.</text>
+	</PG_GO_PT>
+	<PG_GO_CHAL4>
+		<text type="OGG" character="pablo gris" sound="go_chal4_0">El virus del Presidente borró todos los juegos que tenía en mi máquina. Para que puedas ganarle pronto pídele consejos a Don Cano que está en su salón, arriba de aquí.</text>
+	</PG_GO_CHAL4>
+	<PM_GO_PT>
+		<text type="OGG" character="pedro madera" sound="go_pt1_0">La señorita Dulce me contó que perdió contra usté señor, pero por alguna razón no parecía triste.</text>
+   		<text type="OGG" character="pedro madera" sound="go_pt1_1">Bueno, ahora sólo le queda conocer al Señor Presidente en el piso de arriba. No se preocupe si le parece un poco pesado al principio pero en realidá es cuate.</text>
+	</PM_GO_PT>
+	<PM_GO_CHAL4>
+   		<text type="OGG" character="pedro madera" sound="go_chal4_0">Todas las maquinitas empezaron a hacer ruidos extraños de repente. Ni modo...  suerte que me traje mi cocina a carbón para preparar la merienda.</text>
+   		<text type="OGG" character="pedro madera" sound="go_chal4_1">¿Tuvo problemas con el Presidente señor? Yo creo que con su experiencia Don Cano puede ayudarle. Visítelo en su Salón de Desafíos abajo de aquí.</text>
+	</PM_GO_CHAL4>
+	<DC_GO_PT>
+   		<text type="WAV" character="don cano" sound="go_pt">Como te fue tan bien contra Sofía puedes visitar al Presidente. El 4º piso entero es su habitación.</text>
+	</DC_GO_PT>
+	<DC_START_CHAL4>
+		<text type="WAV" character="don cano" sound="start_chal4_0">El club entero tiene problemas hace un rato. Parece que el malcriado del Presidente está haciendo de las suyas de nuevo.</text>
+   		<text type="WAV" character="don cano" sound="start_chal4_1">En realidad a esta edad ya nada me asombra, así que estuve preparando unos desafíos especiales para ayudarte contra el Presidente. Hagamos el primero juntos...</text>
+	</DC_START_CHAL4>
+	<DC_C1_TIP>
+   		<text type="WAV" character="don cano" sound="tip_chal_c1" video_action="init_chal_c1" special_input="YES" constant_key="804" id="desafio_c1">Busca la ficha de tu color e intenta rodear una ficha del color de tu oponente.</text>
+	</DC_C1_TIP>
+	<DC_CHALLENGE_C_NOT_PLAYABLE>
+   		<text type="WAV" character="don cano" sound="challenge_c_not_playable_0">Esa no es una jugada posible, recuerda:</text>
+   		<text type="WAV" character="don cano" sound="challenge_c_not_playable_1">Sólo se pueden hacer jugadas en los espacios vacíos que al poner una ficha de tu color en ellos encierran a una o más fichas de tu oponente con fichas de tu color.</text>
+	</DC_CHALLENGE_C_NOT_PLAYABLE>
+	<DC_FINALIZE_CHAL4>
+    	<text type="WAV" character="don cano" sound="finalize_chal4_0">Recuerda hijo que la clave de la victoria es usar con balance la estrategias de comer fichas de Pedrito y la de conseguir los bordes de la pequeña Sofía.</text>
+   		<text type="WAV" character="don cano" sound="finalize_chal4_1">Puedes volver cuando quieras a hacer más desafíos de encontrar las jugadas posibles. Espero que te ayuden contra las tonterías del Presidente...</text>
+	</DC_FINALIZE_CHAL4>
+	<SD_MATCH2>
+   		<text type="WAV" character="sofia dulce" sound="match2_0">Estaba ordenando la habitación, pero ya que estás aquí juguemos una partida más:</text>
+	</SD_MATCH2>
+	<SD_MATCH2_LOSE>
+   		<text type="WAV" character="sofia dulce" sound="match2_lose_0">¡No es justo, me faltaba poco para ganar! Parece que estás mejorando bastante... bueno, toma tu medalla de plata...</text>
+	</SD_MATCH2_LOSE>
+	<SD_MATCH2_GIVE_MEDAL>
+		<text type="WAV" character="sofia dulce" sound="match2_give_medal_0">...y prepárate para nuestra próxima partida por la medalla de oro.</text>
+	</SD_MATCH2_GIVE_MEDAL>
+	<SD_MATCH3>
+		<text type="WAV" character="sofia dulce" sound="match3_0">Estoy lista para la partida por la medalla de oro. Pondré todo mi empeño en ganarte... bueno, ¡que gane el mejor!</text>
+	</SD_MATCH3>
+	<SD_MATCH3_LOSE>
+   		<text type="WAV" character="sofia dulce" sound="match3_lose_0">La verdad ya me estoy acostumbrando a esto... bueno, te felicito por tu victoria y realmente te mereces esta medalla de oro.</text>
+	</SD_MATCH3_LOSE>
+	<SD_MATCH3_GIVE_MEDAL>
+   		<text type="WAV" character="sofia dulce" sound="match3_give_medal_0">Vuelve cuando quieras si deseas continuar practicando conmigo. Pero lo principal es que sigas consiguiendo medallas con los desafíos para poder jugar contra el Presidente.</text>
+	</SD_MATCH3_GIVE_MEDAL>
+	<SD_PREREMATCH>
+		<text type="WAV" character="sofia dulce" sound="rematch_0">Yo estoy lista para otra partida. Aunque ya no te puedo dar más medallas, sí podemos mejorar tu estrategia practicando.</text>
+	</SD_PREREMATCH>
+	<SD_REMATCH>
+	    <text type="WAV" character="sofia dulce" sound="rematch_1" video_action="sd_show_selection_list">Elige en la lista con las teclas 'Arriba' y 'Abajo' lo que deseas hacer y presiona la tecla 'Continuar' para confirmar.</text>
+	</SD_REMATCH>
+	<SD_REMATCH_LOSE>
+   		<text type="WAV" character="sofia dulce" sound="rematch_lose_0">Perdí, pero no te preocupes. No estoy enojada contigo. Con cada derrota aprendo a mejorar mis estrategias, así que vuelve cuando quieras.</text>
+	</SD_REMATCH_LOSE>
+	<SD_GO_CHAL4>
+   		<text type="WAV" character="sofia dulce" sound="go_chal4_0">¿Conociste al presidente? Ya nada funciona como antes ahora que él controla la computadora... bueno, visita a Don Cano. Tal vez él pueda ayudarte a vencerlo.</text>
+	</SD_GO_CHAL4>
+	<PT_GO_CHAL4>
+   		<text type="WAV" character="protasio" sound="go_chal4_0">Visita a Don Cano en su Salón de Desafíos. Estoy seguro de que él puede prepararte algunos desafíos que te ayuden.</text>
+	</PT_GO_CHAL4>
+	<!-- F I N  D E L  E S T A D O   11 -->
+
+	<!-- E S T A D O   12-->
+	<PG_GO_PT2>
+   		<text type="OGG" character="pablo gris" sound="go_pt2_0">Recuerda siempre la regla del Othello para formar líneas encerrando las fichas de tu oponente y no tendrás problemas en tu partida con el Presidente.</text>
+	    <text type="OGG" character="pablo gris" sound="go_pt2_1">Lo que aprendiste con Don Cano te ayudará a ganar al Presidente. Visita su habitación que está 3 pisos arriba de aquí.</text>
+	</PG_GO_PT2>
+	<PM_GO_PT2>
+		<text type="OGG" character="pedro madera" sound="go_pt2_0">No soy muy bueno sin las jugadas posibles marcadas pero si selecciona esa opción en la lista nuestra próxima partida será de esa manera.</text>
+   		<text type="OGG" character="pedro madera" sound="go_pt2_1">¡Buena suerte contra el Presidente señor!</text>
+	</PM_GO_PT2>
+	<DC_GO_PT2>
+   		<text type="WAV" character="don cano" sound="go_pt2">Hacer más desafíos del tipo C te ayudará a saber encontrar jugadas posibles. Puedes visitar al Presidente en el 4º piso cuando te sientas listo.</text>
+	</DC_GO_PT2>
+	<DC_C2_TIP>
+   		<text type="WAV" character="don cano" sound="tip_chal_c2" video_action="init_chal_c2" special_input="YES" constant_key="804" id="desafio_c2">Mientras formes una línea que comience y termine con fichas de tu color, no importa cuántas fichas de tu oponente estén en el medio.</text>
+	</DC_C2_TIP>
+	<DC_C3_TIP>
+   		<text type="WAV" character="don cano" sound="tip_chal_c3" video_action="init_chal_c3" special_input="YES" constant_key="804" id="desafio_c3">Recuerda que también puedes formar líneas diagonales para rodear fichas de tu oponente.</text>
+	</DC_C3_TIP>
+	<DC_C4_TIP>
+   		<text type="WAV" character="don cano" sound="tip_chal_c4" video_action="init_chal_c4" special_input="YES" constant_key="804" id="desafio_c4">Busca jugadas posibles donde tus fichas se encuentren al lado de las fichas de tu oponente.</text>
+	</DC_C4_TIP>
+	<DC_C5_TIP>
+   		<text type="WAV" character="don cano" sound="tip_chal_c5" video_action="init_chal_c5" special_input="YES" constant_key="804" id="desafio_c5">Cuando el tablero está tan lleno muchas veces es mejor fijarse en los espacios vacíos que están al lado de fichas tanto negras como blancas.</text>
+	</DC_C5_TIP>
+	<DC_CHALS_CLEAR>
+   		<text type="WAV" character="don cano" sound="chals_clear_0">Esa es la última medalla de oro que te faltaba conseguir con los desafíos. Felicidades hijo, has solucionado perfectamente todos ellos.</text>
+   		<text type="WAV" character="don cano" sound="chals_clear_1">Como prueba de esto te entrego el Trofeo de los Desafíos:</text>
+	</DC_CHALS_CLEAR>
+	<DC_CHALS_COMPLETED>
+   		<text type="WAV" character="don cano" sound="chals_clear_0">No recuerdo haber tenido un aprendiz tan bueno en mucho tiempo.</text>
+	    <text type="WAV" character="don cano" sound="chals_clear_1">Ya no tengo más medallas ni trofeos para darte pero si quieres repetir alguno de los desafíos siempre eres bienvenido.</text>
+	</DC_CHALS_COMPLETED>
+	<SD_GO_PT2>
+   		<text type="WAV" character="sofia dulce" sound="go_pt2_0">Recuerda que las jugadas posibles son los espacios vacíos que te permiten rodear las fichas de tu oponente. Eso te ayudará contra el Presidente.</text>
+   		<text type="WAV" character="sofia dulce" sound="go_pt2_1" video_action="sd_show_selection_list">Si quieres practicar encontrarlas conmigo, puedes elegir en la lista la opción 'Jugar sin jugadas posibles marcadas' y tendremos un partido de esa manera.</text>
+	</SD_GO_PT2>
+	<PT_MATCH1>
+   		<text type="WAV" character="protasio" sound="match1">Empecemos y recuerda que ahora que no hay Jugadas Posibles marcadas en el tablero debes hacer tus jugadas en los espacios vacíos que cumplan la regla del Othello.</text>
+	</PT_MATCH1>
+	<PT_PREMATCH_PHRASE>
+   		<text type="WAV" character="protasio" sound="prematch_phrase">¡Mi estrategia balanceada me dará la victoria!</text>
+	</PT_PREMATCH_PHRASE>
+	<PT_MATCH_WIN>
+   		<text type="WAV" character="protasio" sound="match_win">¡Ja! Todavía no eres rival. Practica más con los vocales o toma lecciones con Pablo y Don Cano. Regresa cuando estés listo para intentarlo de nuevo.</text>
+	</PT_MATCH_WIN>
+	<PT_MATCH_DRAW>
+   		<text type="WAV" character="protasio" sound="match_draw">Un honroso empate, ¿eh? Bueno, vuelve cuando quieras que no puedo esperar para vencerte y romper este empate.</text>
+	</PT_MATCH_DRAW>
+	<PT_MATCH1_LOSE>
+   		<text type="WAV" character="protasio" sound="match1_lose_0">¡Eso tuvo que haber sido suerte! Un partido ganado no significa nada para mi. Cuando consigas las medallas suficientes para desafiarme de nuevo, volveremos a jugar.</text>
+   		<text type="WAV" character="protasio" sound="match1_lose_1">Hasta entonces toma esta medalla de bronce... ¡yo no la necesito!</text>
+	</PT_MATCH1_LOSE>
+	<!-- F I N  D E L  E S T A D O   12 -->
+
+	<!-- E S T A D O   13-->
+	<PG_GET_MEDALS>
+		<text type="OGG" character="pablo gris" sound="get_medals">¡Hey!, escuché que le ganaste al Presidente. Espero que pronto consigas todas las medallas que necesites para vencerlo 3 veces y que todo vuelva a la normalidad.</text>
+	</PG_GET_MEDALS>
+	<DC_GET_MEDALS>
+   		<text type="WAV" character="don cano" sound="get_medals">Felicidades por tu victoria contra el Presidente hijo. Si quieres volver a jugar con él necesitarás medallas, las cuales puedes conseguir aquí o con Sofía.</text>
+	</DC_GET_MEDALS>
+	<PM_GET_MEDALS>
+   		<text type="OGG" character="pedro madera" sound="get_medals_0">Me causó mucha impresión el enterarme de que le había ganado partidas al Señor Presidente.</text>
+   		<text type="OGG" character="pedro madera" sound="get_medals_1">¿Que ahora se niega a volver a jugar con usté? No se preocupe, seguro que sólo tiene que conseguir más medallas para que acepte.</text>
+	</PM_GET_MEDALS>
+	<SD_GET_MEDALS>
+   		<text type="WAV" character="sofia dulce" sound="get_medals_0">Hola. ¿Cómo van esas medallas? Recuerda que las únicas medallas que te faltan son las del Salón de Desafíos y las del Presidente.</text>
+	</SD_GET_MEDALS>
+	<PT_MATCH2_MORE_MEDALS>
+   		<text type="WAV" character="protasio" sound="match2_more_medals_0">Para jugar el segundo partido conmigo necesitas tener al menos 12 medallas, y por lo menos 2 de ellas deben ser de oro.</text>
+   		<text type="WAV" character="protasio" sound="match2_more_medals_1">Consigue las medallas que te faltan con Don Cano y Sofía. Hasta entonces estaré practicand... eee... esperando mi victoria.</text>
+	</PT_MATCH2_MORE_MEDALS>
+	<PT_MATCH2>
+   		<text type="WAV" character="protasio" sound="match2">Tuviste suerte la vez anterior, pero esta vez dejaré bien en claro por qué este es MI Club de Othello.</text>
+	</PT_MATCH2>
+	<PT_MATCH2_LOSE>
+   		<text type="WAV" character="protasio" sound="match2_lose_0">¿Ya se acabó? ¡Pero si estaba a punto de ganar! Bueno supongo que podemos descartar las suerte después de esto.</text>
+   		<text type="WAV" character="protasio" sound="match2_lose_1">Pero todavía pienso que te falta mucho para alcanzarme, así que consigue las medallas necesarias y tengamos una partida definitiva.</text>
+   		<text type="WAV" character="protasio" sound="match2_lose_2">¡Ah, sí... toma esta medalla de plata que tenía por aquí!</text>
+	</PT_MATCH2_LOSE>
+	<!-- F I N  D E L  E S T A D O   13 -->
+
+	<!-- E S T A D O   14 -->
+	<PT_MATCH3_MORE_MEDALS>
+   		<text type="WAV" character="protasio" sound="match3_more_medals_0">Para jugar el tercer partido conmigo necesitas al menos 18 medallas, y por lo menos 4 de ellas deben ser de oro.</text>
+   		<text type="WAV" character="protasio" sound="match3_more_medals_1">Así que visita a los vocales y vence los desafíos que te falten y vuelve por aquí luego.</text>
+	</PT_MATCH3_MORE_MEDALS>
+	<PT_MATCH3_GO_SD>
+   		<text type="WAV" character="protasio" sound="match3_go_sd">Bienvenido, enemigo mío. Me gustaría empezar con nuestra partida final, pero no aceptaré jugar contigo hasta que no hayas vencido 3 veces a Sofía.</text>
+	</PT_MATCH3_GO_SD>
+	<PT_MATCH3>
+   		<text type="WAV" character="protasio" sound="match3">Estoy confiado en que ya no podrás ganarme. Es más, si lo logras admitiré que eres un mejor jugador que yo. Empecemos:</text>
+	</PT_MATCH3>
+	<PT_MATCH3_LOSE>
+   		<text type="WAV" character="protasio" sound="match3_lose">¡Imposible! ¿Realmente me ganaste? Bueno, como te prometí, admito que eres un buen jugador de Othello y esta medalla de oro es la prueba de ello...</text>
+	</PT_MATCH3_LOSE>
+	<PT_MATCH3_GIVE_TROPHY>
+   		<text type="WAV" character="protasio" sound="give_trophy">Pero eso no es todo. Como has vencido a todos los oponentes del club permíteme también entregarte este trofeo...</text>
+	</PT_MATCH3_GIVE_TROPHY>
+	<PT_MATCH3_LOSE_CONT>
+   		<text type="WAV" character="protasio" sound="match3_lose_cont_0">Esta es la prueba de que eres el mejor jugador del club... bueno... sólo un poquito mejor que yo.</text>
+   		<text type="WAV" character="protasio" sound="match3_lose_cont_1">Estaré aquí cuando desees volver a jugar conmigo.</text>
+	</PT_MATCH3_LOSE_CONT>
+	<!-- F I N  D E L  E S T A D O   14 -->
+
+	<!-- E S T A D O   15 -->
+	<PG_PT_DEFEATED>
+		<text type="OGG" character="pablo gris" sound="pt_defeated">Por fin alguien puso en su lugar al pesado del Presidente. Ahora las cosas estarán más tranquilas por aquí gracias a tu ayuda. Suerte con las últimas medallas que te faltan.</text>
+	</PG_PT_DEFEATED>
+	<PM_PT_DEFEATED>
+   		<text type="OGG" character="pedro madera" sound="pt_defeated_0">¡Caramba! Realmente ganó su tercer partido contra el Señor Presidente.</text>
+   		<text type="OGG" character="pedro madera" sound="pt_defeated_1">Lo felicito señor y espero que, ahora que todo volvió a la normalidad en el club, pueda conseguir todas las medallas de oro que le faltan del Salón de Desafíos.</text>
+	</PM_PT_DEFEATED>
+	<SD_PT_DEFEATED>
+   		<text type="WAV" character="sofia dulce" sound="pt_defeated_0">Gracias al cielo que venciste al presidente... ahora por fin podré usar el secador. Bueno, ahora sólo te faltan las medallas del Salón de Desafíos para tener todas las medallas.</text>
+	</SD_PT_DEFEATED>
+	<DC_PT_DEFEATED>
+   		<text type="WAV" character="don cano" sound="pt_defeated">Felicidades por tu victoria contra el Presidente hijo. Puedes volver cuando quieras a hacer más desafíos.</text>
+	</DC_PT_DEFEATED>
+	<PT_PREREMATCH>
+		<text type="WAV" character="protasio" sound="rematch_0">He estado entrenando y pienso que estoy listo para la revancha. No te será tan fácil vencerme esta vez...</text>
+	</PT_PREREMATCH>
+	<PT_REMATCH>
+   		<text type="WAV" character="protasio" sound="rematch_1" video_action="pt_show_selection_list">Selecciona una opción en la lista con las teclas de arriba y abajo y presiona la tecla 'Continuar' cuando te decidas por una.</text>
+	</PT_REMATCH>
+	<PT_REMATCH_LOSE>
+   		<text type="WAV" character="protasio" sound="rematch_lose">Cada derrota sólo me hace más fuerte y acerca más el momento en que obtendré mi revancha. Esperaré ansioso nuestra próxima partida.</text>
+	</PT_REMATCH_LOSE>
+	<PT_PT_DEFEATED>
+   		<text type="WAV" character="protasio" sound="pt_defeated">No te sientas tan confiado por haberme vencido. Sigo siendo el presidente del club y lo seguiré siendo hasta que consigas todas las medallas de oro en los desafíos.</text>
+	</PT_PT_DEFEATED>
+	<!-- F I N  D E L  E S T A D O   15 -->
+
+	<!-- E S T A D O   16 -->
+	<PG_ALL_CLEAR>
+   		<text type="OGG" character="pablo gris" sound="all_clear">¡Hola!, parece que fue hace poco que tomabas tu primera lección conmigo y ahora eres el nuevo Presidente. Tal vez te rete a una partida alguna vez.</text>
+	</PG_ALL_CLEAR>
+	<PM_ALL_CLEAR>
+   		<text type="OGG" character="pedro madera" sound="all_clear">¿De vuelta para una partida señor?</text>
+	</PM_ALL_CLEAR>
+	<DC_ALL_CLEAR>
+   		<text type="WAV" character="don cano" sound="all_clear">¡Qué gusto que me visites de nuevo hijo!</text>
+	</DC_ALL_CLEAR>
+	<SD_ALL_CLEAR>
+   		<text type="WAV" character="sofia dulce" sound="all_clear">¿De vuelta nuevo señor presidente?</text>
+	</SD_ALL_CLEAR>
+	<PT_ALL_CLEAR>
+   		<text type="WAV" character="protasio" sound="all_clear">Extraño la época en que me llamaban Señor Presidente. Ahora que todos me llaman Protacio siento que me respetan menos.</text>
+	</PT_ALL_CLEAR>
+	<!-- F I N  D E L  E S T A D O   16 -->
+
+	<!-- FINAL DEL JUEGO -->
+	<PT_END1>
+   		<text type="WAV" character="protasio" sound="end1_0">¡Alto ahí!</text>
+   		<text type="WAV" character="protasio" sound="end1_1">Todos insistieron en que nos reunamos aquí en el pasillo de club para darte una noticia...</text>
+	</PT_END1>
+	<PG_END1>
+   		<text type="OGG" character="pablo gris" sound="end1">¡Felicidades!, Desde el principio sabía que podías conseguirlo...</text>
+	</PG_END1>
+	<DC_END1>
+	    <text type="WAV" character="don cano" sound="end1_0">Bien hecho hijo. Desde hoy eres el nuevo presidente del Club de Othello.</text>
+   		<text type="WAV" character="don cano" sound="end1_1">Debo admitir que en todos mis años, es la primera vez que alguien pasa tan pronto de principiante a Presidente.</text>
+	</DC_END1>
+	<PM_END1>
+   		<text type="OGG" character="pedro madera" sound="end1">Quiero que sepa que yo siempre lo estuve apoyando señor y realmente creo que usté será un buen presidente...</text>
+	</PM_END1>
+	<SD_END1>
+   		<text type="WAV" character="sofia dulce" sound="end1">Bien dicho Pedrito, pero no te preocupes, nuevo señor presidente. Las cosas no cambiarán mucho por aquí ya que puedes seguir jugando con nosotros cuando quieras.</text>
+	</SD_END1>
+	<PT_END2>
+   		<text type="WAV" character="protasio" sound="end2_0">Bueno, basta de palabrerías. Todos queremos entregarte el trofeo del presidente del Club.</text>
+   		<text type="WAV" character="protasio" sound="end2_1" video_action="show_gold_trophy">Supongo que ahora que eres el presidente del club tendré que usar mi verdadero nombre... desde ahora llámenme Protacio.</text>
+	</PT_END2>
+	<PG_END2>
+   		<text type="WAV" character="pablo gris" sound="end2">Espero que te hayas divertido jugando con nosotros tanto como nosotros nos divertimos...</text>
+	</PG_END2>
+	<DC_END2>
+   		<text type="WAV" character="don cano" sound="end2">Esperamos que nos visites pronto de nuevo hijo...</text>
+	</DC_END2>
+	<PM_END2>
+   		<text type="WAV" character="pedro madera" sound="end2">¡Gracias por jugar con nosotros señor!</text>
+	</PM_END2>
+	<SD_END2>
+   		<text type="WAV" character="sofia dulce" sound="end2">Bueno chicos, volvamos a nuestras habitaciones. Gracias por todo nuevo señor presidente.</text>
+	</SD_END2>
+</dialog_data>

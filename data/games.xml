@@ -1,0 +1,429 @@
+<?xml version="1.0"?>
+
+<games>
+	<game_tutorial1>
+		<features oponent="pablo gris" board="4" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+		</initial_board_configuration>
+	</game_tutorial1>
+	<game_tutorial2>
+		<features oponent="pablo gris" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="0" pos_c="4"></piece>
+			<piece color="black" pos_f="1" pos_c="0"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="black" pos_f="1" pos_c="3"></piece>
+			<piece color="white" pos_f="1" pos_c="4"></piece>
+			<piece color="black" pos_f="2" pos_c="0"></piece>
+			<piece color="black" pos_f="2" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="0"></piece>
+			<piece color="white" pos_f="3" pos_c="1"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="4" pos_c="0"></piece>
+			<piece color="black" pos_f="4" pos_c="2"></piece>
+			<piece color="white" pos_f="5" pos_c="1"></piece>
+			<piece color="black" pos_f="5" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_tutorial2>
+	<game_desafio_a1>
+		<features oponent = "don cano" board="4" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="0"></piece>
+		</initial_board_configuration>
+	</game_desafio_a1>
+	<game_desafio_a2>
+		<features oponent = "don cano" board="4" white="pc" black="user" medal="" initiator="black"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="0" pos_c="0"></piece>
+			<piece color="black" pos_f="0" pos_c="1"></piece>
+			<piece color="black" pos_f="0" pos_c="2"></piece>
+			<piece color="black" pos_f="0" pos_c="3"></piece>
+			<piece color="black" pos_f="1" pos_c="0"></piece>
+			<piece color="black" pos_f="2" pos_c="0"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="1" pos_c="2"></piece>
+		</initial_board_configuration>
+	</game_desafio_a2>
+	<game_desafio_a3>
+		<features oponent = "don cano" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="0" pos_c="0"></piece>
+			<piece color="black" pos_f="0" pos_c="1"></piece>
+			<piece color="black" pos_f="0" pos_c="4"></piece>
+			<piece color="white" pos_f="0" pos_c="5"></piece>
+			<piece color="black" pos_f="1" pos_c="0"></piece>
+			<piece color="black" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="1" pos_c="4"></piece>
+			<piece color="black" pos_f="1" pos_c="5"></piece>
+			<piece color="black" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="5"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="black" pos_f="3" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="4"></piece>
+			<piece color="black" pos_f="3" pos_c="5"></piece>
+			<piece color="black" pos_f="4" pos_c="0"></piece>
+			<piece color="black" pos_f="4" pos_c="1"></piece>
+			<piece color="black" pos_f="4" pos_c="4"></piece>
+			<piece color="black" pos_f="4" pos_c="5"></piece>
+			<piece color="white" pos_f="5" pos_c="0"></piece>
+			<piece color="black" pos_f="5" pos_c="1"></piece>
+			<piece color="black" pos_f="5" pos_c="2"></piece>
+			<piece color="black" pos_f="5" pos_c="3"></piece>
+			<piece color="black" pos_f="5" pos_c="4"></piece>
+		</initial_board_configuration>
+	</game_desafio_a3>
+	<game_desafio_a4>
+		<features oponent = "don cano" board="6" white="pc" black="user" medal="" initiator="black"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="0" pos_c="2"></piece>
+			<piece color="white" pos_f="0" pos_c="3"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="white" pos_f="1" pos_c="2"></piece>
+			<piece color="black" pos_f="1" pos_c="3"></piece>
+			<piece color="black" pos_f="1" pos_c="4"></piece>
+			<piece color="black" pos_f="2" pos_c="0"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="white" pos_f="2" pos_c="5"></piece>
+			<piece color="white" pos_f="3" pos_c="0"></piece>
+			<piece color="white" pos_f="3" pos_c="2"></piece>
+			<piece color="black" pos_f="3" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="5"></piece>
+			<piece color="black" pos_f="4" pos_c="1"></piece>
+			<piece color="white" pos_f="4" pos_c="4"></piece>
+			<piece color="white" pos_f="5" pos_c="2"></piece>
+			<piece color="black" pos_f="5" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_desafio_a4>
+	<game_desafio_a5>
+		<features oponent = "don cano" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="0" pos_c="0"></piece>
+			<piece color="black" pos_f="0" pos_c="2"></piece>
+			<piece color="white" pos_f="0" pos_c="3"></piece>
+			<piece color="black" pos_f="0" pos_c="4"></piece>
+			<piece color="black" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="black" pos_f="1" pos_c="3"></piece>
+			<piece color="white" pos_f="1" pos_c="5"></piece>
+			<piece color="black" pos_f="2" pos_c="0"></piece>
+			<piece color="black" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="2" pos_c="4"></piece>
+			<piece color="white" pos_f="2" pos_c="5"></piece>
+			<piece color="white" pos_f="3" pos_c="0"></piece>
+			<piece color="black" pos_f="3" pos_c="1"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="black" pos_f="3" pos_c="4"></piece>
+			<piece color="white" pos_f="3" pos_c="5"></piece>
+			<piece color="black" pos_f="4" pos_c="0"></piece>
+			<piece color="white" pos_f="4" pos_c="1"></piece>
+			<piece color="black" pos_f="4" pos_c="2"></piece>
+			<piece color="black" pos_f="4" pos_c="3"></piece>
+			<piece color="black" pos_f="4" pos_c="4"></piece>
+			<piece color="white" pos_f="5" pos_c="1"></piece>
+			<piece color="black" pos_f="5" pos_c="2"></piece>
+			<piece color="white" pos_f="5" pos_c="3"></piece>
+			<piece color="white" pos_f="5" pos_c="4"></piece>
+			<piece color="white" pos_f="5" pos_c="5"></piece>
+		</initial_board_configuration>
+	</game_desafio_a5>
+	<game_desafio_b1>
+		<features oponent = "don cano" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+			<piece color="white" pos_f="3" pos_c="4"></piece>
+			<piece color="white" pos_f="3" pos_c="5"></piece>
+			<piece color="black" pos_f="4" pos_c="3"></piece>
+			<piece color="black" pos_f="4" pos_c="4"></piece>
+			<piece color="black" pos_f="4" pos_c="5"></piece>
+		</initial_board_configuration>
+	</game_desafio_b1>
+	<game_desafio_b2>
+		<features oponent = "don cano" board="6" white="pc" black="user" medal="" initiator="black"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="white" pos_f="2" pos_c="3"></piece>
+			<piece color="white" pos_f="3" pos_c="1"></piece>
+			<piece color="white" pos_f="3" pos_c="2"></piece>
+			<piece color="black" pos_f="3" pos_c="3"></piece>
+			<piece color="white" pos_f="4" pos_c="2"></piece>
+		</initial_board_configuration>
+	</game_desafio_b2>
+	<game_desafio_b3>
+		<features oponent = "don cano" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="0" pos_c="2"></piece>
+			<piece color="black" pos_f="0" pos_c="4"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="black" pos_f="1" pos_c="3"></piece>
+			<piece color="black" pos_f="1" pos_c="4"></piece>
+			<piece color="white" pos_f="2" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_desafio_b3>
+	<game_desafio_b4>
+		<features oponent = "don cano" board="6" white="pc" black="user" medal="" initiator="black"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="0" pos_c="0"></piece>
+			<piece color="white" pos_f="1" pos_c="0"></piece>
+			<piece color="white" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="white" pos_f="2" pos_c="3"></piece>
+			<piece color="white" pos_f="2" pos_c="4"></piece>
+			<piece color="black" pos_f="2" pos_c="5"></piece>
+			<piece color="black" pos_f="3" pos_c="1"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="black" pos_f="3" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="4"></piece>
+			<piece color="white" pos_f="3" pos_c="5"></piece>
+			<piece color="white" pos_f="4" pos_c="0"></piece>
+			<piece color="black" pos_f="5" pos_c="0"></piece>
+		</initial_board_configuration>
+	</game_desafio_b4>
+	<game_desafio_b5>
+		<features oponent = "don cano" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="black" pos_f="1" pos_c="3"></piece>
+			<piece color="black" pos_f="1" pos_c="4"></piece>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="black" pos_f="2" pos_c="2"></piece>
+			<piece color="white" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="2" pos_c="4"></piece>
+			<piece color="black" pos_f="3" pos_c="1"></piece>
+			<piece color="white" pos_f="3" pos_c="2"></piece>
+			<piece color="black" pos_f="3" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="4"></piece>
+			<piece color="black" pos_f="4" pos_c="0"></piece>
+			<piece color="black" pos_f="4" pos_c="1"></piece>
+			<piece color="black" pos_f="4" pos_c="2"></piece>
+			<piece color="black" pos_f="4" pos_c="3"></piece>
+			<piece color="black" pos_f="4" pos_c="4"></piece>
+			<piece color="black" pos_f="5" pos_c="1"></piece>
+		</initial_board_configuration>
+	</game_desafio_b5>
+	<game_desafio_c1>
+		<features oponent = "don cano" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="1"></piece>
+			<piece color="black" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="1" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_desafio_c1>
+	<game_desafio_c2>
+		<features oponent = "don cano" board="6" white="pc" black="user" medal="" initiator="black"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="0" pos_c="3"></piece>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="white" pos_f="1" pos_c="3"></piece>
+			<piece color="black" pos_f="1" pos_c="4"></piece>
+			<piece color="black" pos_f="2" pos_c="2"></piece>
+			<piece color="white" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="2" pos_c="4"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="4"></piece>
+		</initial_board_configuration>
+	</game_desafio_c2>
+	<game_desafio_c3>
+		<features oponent = "don cano" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="0"></piece>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="1"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+			<piece color="white" pos_f="4" pos_c="1"></piece>
+			<piece color="white" pos_f="4" pos_c="2"></piece>
+			<piece color="black" pos_f="4" pos_c="3"></piece>
+			<piece color="white" pos_f="4" pos_c="4"></piece>
+			<piece color="white" pos_f="5" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_desafio_c3>
+	<game_desafio_c4>
+		<features oponent = "don cano" board="6" white="pc" black="user" medal="" initiator="black"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="0" pos_c="1"></piece>
+			<piece color="black" pos_f="0" pos_c="3"></piece>
+			<piece color="white" pos_f="1" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="2" pos_c="5"></piece>
+			<piece color="white" pos_f="3" pos_c="0"></piece>
+			<piece color="white" pos_f="3" pos_c="1"></piece>
+			<piece color="white" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+			<piece color="white" pos_f="3" pos_c="4"></piece>
+			<piece color="white" pos_f="4" pos_c="2"></piece>
+			<piece color="black" pos_f="4" pos_c="3"></piece>
+			<piece color="black" pos_f="4" pos_c="5"></piece>
+			<piece color="white" pos_f="5" pos_c="2"></piece>
+		</initial_board_configuration>
+	</game_desafio_c4>
+	<game_desafio_c5>
+		<features oponent = "don cano" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="0" pos_c="0"></piece>
+			<piece color="white" pos_f="0" pos_c="2"></piece>
+			<piece color="black" pos_f="0" pos_c="3"></piece>
+			<piece color="white" pos_f="0" pos_c="4"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="1" pos_c="3"></piece>
+			<piece color="black" pos_f="1" pos_c="4"></piece>
+			<piece color="black" pos_f="1" pos_c="5"></piece>
+			<piece color="white" pos_f="2" pos_c="0"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="white" pos_f="2" pos_c="4"></piece>
+			<piece color="black" pos_f="2" pos_c="5"></piece>
+			<piece color="black" pos_f="3" pos_c="0"></piece>
+			<piece color="white" pos_f="3" pos_c="1"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+			<piece color="white" pos_f="3" pos_c="5"></piece>
+			<piece color="black" pos_f="4" pos_c="0"></piece>
+			<piece color="black" pos_f="4" pos_c="1"></piece>
+			<piece color="black" pos_f="4" pos_c="2"></piece>
+			<piece color="white" pos_f="4" pos_c="4"></piece>
+			<piece color="white" pos_f="5" pos_c="0"></piece>
+			<piece color="white" pos_f="5" pos_c="1"></piece>
+			<piece color="black" pos_f="5" pos_c="2"></piece>
+			<piece color="white" pos_f="5" pos_c="3"></piece>
+			<piece color="white" pos_f="5" pos_c="5"></piece>
+		</initial_board_configuration>
+	</game_desafio_c5>
+	<game_partida1_pm>
+		<features oponent="pedro madera" board="4" white="pc" black="user" medal="bronce" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+		</initial_board_configuration>
+	</game_partida1_pm>
+	<game_partida2_pm>
+		<features oponent="pedro madera" board="4" white="pc" black="user" medal="silver" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+		</initial_board_configuration>
+	</game_partida2_pm>
+	<game_partida3_pm>
+		<features oponent="pedro madera" board="6" white="pc" black="user" medal="gold" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_partida3_pm>
+	<game_revancha_pm>
+		<features oponent="pedro madera" board="6" white="pc" black="user" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_revancha_pm>
+	<game_partida1_sd>
+		<features oponent="sofia" board="6" white="user" black="pc" medal="bronce" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_partida1_sd>
+	<game_partida2_sd>
+		<features oponent="sofia" board="6" white="user" black="pc" medal="silver" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_partida2_sd>
+	<game_partida3_sd>
+		<features oponent="sofia" board="6" white="user" black="pc" medal="gold" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_partida3_sd>
+	<game_revancha_sd>
+		<features oponent="sofia" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_revancha_sd>
+	<game_partida1_pt>
+		<features oponent="protasio" board="6" white="user" black="pc" medal="bronce" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_partida1_pt>
+	<game_partida2_pt>
+		<features oponent="protasio" board="6" white="user" black="pc" medal="silver" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_partida2_pt>
+	<game_partida3_pt>
+		<features oponent="protasio" board="6" white="user" black="pc" medal="gold" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_partida3_pt>
+	<game_revancha_pt>
+		<features oponent="protasio" board="6" white="user" black="pc" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+			<piece color="black" pos_f="2" pos_c="3"></piece>
+			<piece color="black" pos_f="3" pos_c="2"></piece>
+			<piece color="white" pos_f="3" pos_c="3"></piece>
+		</initial_board_configuration>
+	</game_revancha_pt>
+	<game_mesh>
+		<features oponent="virtual" board="4" white="user" black="virtual" medal="" initiator="white"></features>
+		<initial_board_configuration>
+			<piece color="black" pos_f="1" pos_c="2"></piece>
+			<piece color="white" pos_f="1" pos_c="1"></piece>
+			<piece color="black" pos_f="2" pos_c="1"></piece>
+			<piece color="white" pos_f="2" pos_c="2"></piece>
+		</initial_board_configuration>
+	</game_mesh>
+</games>

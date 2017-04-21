@@ -1,0 +1,7 @@
+[Activity]
+name = ClubOthello 
+activity_version = 1
+host_version = 1
+service_name = org.laptop.community.ClubOthello
+icon = activity
+exec = sugar-activity ClubOthelloActivity.ClubOthelloActivity

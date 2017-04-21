@@ -1,0 +1,103 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?> //-->
+
+<keys>
+	<configuration>
+		<key id="k0" name="continuar" constant="804"></key>
+		<key id="k1" name="mas info" constant="805"></key>
+		<key id="k2" name="seleccion" constant="807"></key>
+		<key id="k3" name="atras" constant="808"></key>
+		<key id="k4" name="izquierda" constant="800"></key>
+		<key id="k5" name="derecha" constant="801"></key>
+		<key id="k6" name="arriba" constant="802"></key>
+		<key id="k7" name="abajo" constant="803"></key>
+		<key id="k8" name="salir" constant="806"></key>
+		<key id="k9" name="contar_fichas" constant="809"></key>
+		<key id="k10" name="atajo_ganar_juego" constant="811"></key>
+		<key id="k11" name="atajo_perder_juego" constant="812"></key>
+		<key id="k12" name="atajo_empatar_juego" constant="813"></key>
+		<key id="k13" name="atajo_pasar_tutorial" constant="814"></key>
+	</configuration>
+	<contexts>
+		<context_700 name="nave">
+			<key id = "k0" enable = "yes"></key>
+			<key id = "k1" enable = "yes"></key>
+			<key id = "k2" enable = "yes"></key>
+			<key id = "k3" enable = "yes"></key>
+			<key id = "k4" enable = "yes"></key>
+			<key id = "k5" enable = "yes"></key>
+			<key id = "k6" enable = "yes"></key>
+			<key id = "k7" enable = "yes"></key>
+			<key id = "k8" enable = "yes"></key>
+			<key id = "k9" enable = "no"></key>
+			<key id = "k10" enable = "no"></key>
+			<key id = "k11" enable = "no"></key>
+			<key id = "k12" enable = "no"></key>
+			<key id = "k13" enable = "no"></key>
+		</context_700>
+		<context_701 name="dial">
+			<key id = "k0" enable = "yes"></key>
+			<key id = "k1" enable = "no"></key>
+			<key id = "k2" enable = "no"></key>
+			<key id = "k3" enable = "yes"></key>
+			<key id = "k4" enable = "no"></key>
+			<key id = "k5" enable = "no"></key>
+			<key id = "k6" enable = "no"></key>
+			<key id = "k7" enable = "no"></key>
+			<key id = "k8" enable = "yes"></key>
+			<key id = "k9" enable = "no"></key>
+			<key id = "k10" enable = "no"></key>
+			<key id = "k11" enable = "no"></key>
+			<key id = "k12" enable = "no"></key>
+			<key id = "k13" enable = "yes"></key>
+		</context_701>
+		<context_702 name="play">
+			<key id = "k0" enable = "yes"></key>
+			<key id = "k1" enable = "yes"></key>
+			<key id = "k2" enable = "yes"></key>
+			<key id = "k3" enable = "yes"></key>
+			<key id = "k4" enable = "yes"></key>
+			<key id = "k5" enable = "yes"></key>
+			<key id = "k6" enable = "yes"></key>
+			<key id = "k7" enable = "yes"></key>
+			<key id = "k8" enable = "yes"></key>
+			<key id = "k9" enable = "yes"></key>
+			<key id = "k10" enable = "yes"></key>
+			<key id = "k11" enable = "yes"></key>
+			<key id = "k12" enable = "yes"></key>
+			<key id = "k13" enable = "no"></key>
+		</context_702>
+		<context_703 name="list">
+			<key id = "k0" enable = "yes"></key>
+			<key id = "k1" enable = "yes"></key>
+			<key id = "k2" enable = "yes"></key>
+			<key id = "k3" enable = "yes"></key>
+			<key id = "k4" enable = "no"></key>
+			<key id = "k5" enable = "no"></key>
+			<key id = "k6" enable = "yes"></key>
+			<key id = "k7" enable = "yes"></key>
+			<key id = "k8" enable = "yes"></key>
+			<key id = "k9" enable = "no"></key>
+			<key id = "k10" enable = "no"></key>
+			<key id = "k11" enable = "no"></key>
+			<key id = "k12" enable = "no"></key>
+			<key id = "k13" enable = "no"></key>
+		</context_703>
+		<!-- Contexto al iniciar el club (entrada)  //-->
+		<context_704 name="entr">
+			<key id = "k0" enable = "yes"></key>
+			<key id = "k1" enable = "no"></key>
+			<key id = "k2" enable = "no"></key>
+			<key id = "k3" enable = "no"></key>
+			<key id = "k4" enable = "no"></key>
+			<key id = "k5" enable = "no"></key>
+			<key id = "k6" enable = "no"></key>
+			<key id = "k7" enable = "no"></key>
+			<key id = "k8" enable = "yes"></key>
+			<key id = "k9" enable = "no"></key>
+			<key id = "k10" enable = "no"></key>
+			<key id = "k11" enable = "no"></key>
+			<key id = "k12" enable = "no"></key>
+			<key id = "k13" enable = "no"></key>
+		</context_704>
+	</contexts>
+</keys>
